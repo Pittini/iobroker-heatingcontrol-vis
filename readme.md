@@ -1,6 +1,8 @@
 
 
-# View zum Adapter HeatingControl und Anleitung. Am Ende sollte das ganze so aussehen:
+# View zum Adapter HeatingControl und Anleitung. 
+
+### Am Ende sollte das ganze so aussehen:
 
 ![preview.png](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/admin/preview.png) 
 
@@ -50,13 +52,12 @@ Nachdem Dein erster View jetzt aussehen sollte wie auf obigem Screenshot, kannst
 
 # Changelog
 
-* Update 1.1.20 - Update der Mehrprofilversion. 
+* ### Update 1.1.20 - Update der Mehrprofilversion. 
 > Hizugefügt: "Aktiv" im Statusfenster, zeigt an welche Heizperiode gerade aktiviert ist.   
 > Hinzugefügt: "Minimaltemperatur" bei den Profilparametern, korrespondierend zur neuen Einstellmöglichkeit im Adapteradmin (löschen wenn unbenutzt).  
 > Hinzugefügt: Grüner Balken unter den Zeit/Temp Einstellungen zur Anzeige der gerade aktiven Periode  
 > Hinzugefügt: Anzeige des aktiven Profils in allen relevanten Blöcken "(P1...)  
-* Update 22.12.19 - Bugfix im 2 Profile Vis 
-* Update: 20.12.19 - Optionale Erweiterung auf 2 Profile, dafür Wegfall der automatischen Umschaltung bei Änderung relative/absolute Absenkung.
-* Update: 2. 12.19 - kleinere Bugfixxes
-* Release 1.12.19 im Adapter Test Bereich
-> Edit: Kosmetik  
+* ### Update 22.12.19 - Bugfix im 2 Profile Vis 
+* ### Update: 20.12.19 - Optionale Erweiterung auf 2 Profile, dafür Wegfall der automatischen Umschaltung bei Änderung relative/absolute Absenkung.
+* ### Update: 2. 12.19 - kleinere Bugfixxes
+* ### Release 1.12.19 im Adapter Test Bereich
