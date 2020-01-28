@@ -8,7 +8,7 @@ Hizugefügt: "Aktiv" im Statusfenster, zeigt an welche Heizperiode gerade aktivi
 Hinzugefügt: "Minimaltemperatur" bei den Profilparametern, korrespondierend zur neuen Einstellmöglichkeit im Adapteradmin (löschen wenn unbenutzt).
 Hinzugefügt: Grüner Balken unter den Zeit/Temp Einstellungen zur Anzeige der gerade aktiven Periode
 Hinzugefügt: Anzeige des aktiven Profils in allen relevanten Blöcken "(P1...)
-Edit: Kosmetik
+Edit: Kosmetikz
 
 
 
