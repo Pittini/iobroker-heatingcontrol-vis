@@ -1,7 +1,7 @@
 
 
 So, versprochen ist versprochen, hier der View zum Adapter und ne kleine Anleitung dazu. Am Ende sollte das ganze so aussehen:
-![2020-01-01 17_25_19-vis.png](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/admin/preview.png) 
+![preview.png](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/admin/preview.png) 
 
 **Voraussetzungen um den View ohne Änderungen verwenden zu können sind:**
 1. Du verwendest 1 oder 2 Profile
@@ -10,7 +10,8 @@ So, versprochen ist versprochen, hier der View zum Adapter und ne kleine Anleitu
 
 **1. Wie installier ich den Kram?**
 **a.)** Zuerst sollte das MaterialDesign installiert werden, hierzu das Skript und Css in die entsprechenden Felder kopieren, siehe Bild, (roter Kringel rechte Seite).
-![Inked2019-12-01 12_27_46-Window_LI.jpg](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/admin/watchout1.jpg) 
+
+![watchout1.jpg](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/admin/watchout1.jpg) 
 
 **Skript:**
 [MaterialUiScript.txt](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/MaterialUiScript.txt) 
@@ -25,11 +26,11 @@ So, versprochen ist versprochen, hier der View zum Adapter und ne kleine Anleitu
 
 Hier bitte einen leeren View anlegen mit Zimmerbezeichnung Wohnzimmer und via **Widgets importieren** die Daten reinholen. Die **txt Dateien** bitte **NICHT im Browser öffnen** und dann den Text kopieren, sondern direkt (recht Maustaste > Link speichern unter) abspeichern!
 
-**View cardHzngWohnzimmer:** [cardhzngwohnzimmer.txt](/assets/uploads/files/1579098762124-cardhzngwohnzimmer.txt) - **Für 1 Profil** mit automatischer Erkennung ob relative/absolute Absenkung gewählt.
+**View cardHzngWohnzimmer:** [cardhzngwohnzimmer1Profil.txt](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/cardHzngWohnzimmer1Profil.txt) - **Für 1 Profil** mit automatischer Erkennung ob relative/absolute Absenkung gewählt.
 
 **ODER**
 
-**View cardHzngWohnzimmer:** [cardHzngWohnzimmer.txt](/assets/uploads/files/1577897111235-cardhzngwohnzimmer.txt)    - **Für 2 Profile**, OHNE automatische Erkennung ob relative/absolute Absenkung gewählt, dafür mit automatischer Profilumschaltung. Hier bitte den ungenutzten Block (relative oder absolute Absenkung) löschen und nötigenfalls den übriggebliebenen Block neu positionieren.
+**View cardHzngWohnzimmer:** [cardHzngWohnzimmer.txt](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/cardHzngWohnzimmer.txt)    - **Für 2 Profile**, OHNE automatische Erkennung ob relative/absolute Absenkung gewählt, dafür mit automatischer Profilumschaltung. Hier bitte den ungenutzten Block (relative oder absolute Absenkung) löschen und nötigenfalls den übriggebliebenen Block neu positionieren.
 
 
 **2. Warum schaut das bei mir so scheisse aus und gar nicht wie auf dem Screenshot?**
@@ -48,13 +49,13 @@ Nachdem Dein erster View jetzt aussehen sollte wie auf obigem Screenshot, kannst
 
 # Changelog
 
-* Release 1.12.19 im Adapter Test Bereich
-* Update: 2. 12.19 - kleinere Bugfixxes
-* Update: 20.12.19 - Optionale Erweiterung auf 2 Profile, dafür Wegfall der automatischen Umschaltung bei Änderung relative/absolute Absenkung.
-* Update 22.12.19 - Bugfix im 2 Profile Vis 
 * Update 1.1.20 - Update der Mehrprofilversion. 
-> Hizugefügt: "Aktiv" im Statusfenster, zeigt an welche Heizperiode gerade aktiviert ist. 
-> Hinzugefügt: "Minimaltemperatur" bei den Profilparametern, korrespondierend zur neuen Einstellmöglichkeit im Adapteradmin (löschen wenn unbenutzt).
-> Hinzugefügt: Grüner Balken unter den Zeit/Temp Einstellungen zur Anzeige der gerade aktiven Periode
-> Hinzugefügt: Anzeige des aktiven Profils in allen relevanten Blöcken "(P1...)
-> Edit: Kosmetikz
+> Hizugefügt: "Aktiv" im Statusfenster, zeigt an welche Heizperiode gerade aktiviert ist.   
+> Hinzugefügt: "Minimaltemperatur" bei den Profilparametern, korrespondierend zur neuen Einstellmöglichkeit im Adapteradmin (löschen wenn unbenutzt).  
+> Hinzugefügt: Grüner Balken unter den Zeit/Temp Einstellungen zur Anzeige der gerade aktiven Periode  
+> Hinzugefügt: Anzeige des aktiven Profils in allen relevanten Blöcken "(P1...)  
+* Update 22.12.19 - Bugfix im 2 Profile Vis 
+* Update: 20.12.19 - Optionale Erweiterung auf 2 Profile, dafür Wegfall der automatischen Umschaltung bei Änderung relative/absolute Absenkung.
+* Update: 2. 12.19 - kleinere Bugfixxes
+* Release 1.12.19 im Adapter Test Bereich
+> Edit: Kosmetik  
