@@ -1,6 +1,7 @@
 
 
-So, versprochen ist versprochen, hier der View zum Adapter und ne kleine Anleitung dazu. Am Ende sollte das ganze so aussehen:
+# View zum Adapter HeatingControl und Anleitung. Am Ende sollte das ganze so aussehen:
+
 ![preview.png](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/admin/preview.png) 
 
 **Voraussetzungen um den View ohne Änderungen verwenden zu können sind:**
