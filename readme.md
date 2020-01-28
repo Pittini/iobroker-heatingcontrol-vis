@@ -4,7 +4,7 @@
 
 ### Am Ende sollte das ganze so aussehen:
 
-![preview.png](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/admin/preview.png) 
+![preview.png](/admin/preview.png) 
 
 **Voraussetzungen um den View ohne Änderungen verwenden zu können sind:**
 1. Du verwendest 1 oder 2 Profile
@@ -44,7 +44,9 @@ Die Anzeigen haben ein gewisses "Eigenleben", d.h. sie reagieren auf Statusände
 
 **4. Woher kommen die Daten des Blockes "Status"?**
 Von Deinen Gerätedatenpunkten. Hier mußt Du selber die Datenpunkte zuweisen. "Ist Temp Thermostat" steht für die Temp des Thermostatfühlers, "Ist Temp Sensor" ist optional und zeigt den Wert eventuell vorhanden Raumtempfühler, "Soll Temp Raum" ist die vom Adapter am Thermostaten eingestellte Temp, "Ventilstellung" dürfte selbsterklärend sein, ist ein Datenpunkt des Heizkörperthermostaten, "Modus" zeigt an ob das Thermostat auf manuell oder automatik steht, mit "Boost" wird bei HM Thermostaten ein 5min. Boost aktiviert, Fenster" zeigt an ob ein dem Raum zugeordnetes Fenster geöffnet/geschlossen ist, greift auf den Datenpunkt des Adapters zu und braucht üblicherweise nicht angepasst zu werden. Mit Override wird Dauer und Temp für TemperaturOverride eingestellt.
-**4a.** Eine Besonderheit, welche dem Material Design gechuldet ist, ist dass Du an einem Punkt pro Statusseite ein Änderung einfügen mußt weil sonst der Schalter für den Boost nicht funktioniert. Wähle den Schalter und passe den Wert im Feld "HTML anhängen" entsprechend der widgetnummer an (siehe Bild). **Sicherheitshalber solltest Du auch alle Schalter vom View *cardHzngGlobals* überprüfen!!!**
+**4a.** Eine Besonderheit, welche dem Material Design gechuldet ist, ist dass Du an einem Punkt pro Statusseite ein Änderung einfügen mußt weil sonst der Schalter für den Boost nicht funktioniert. Wähle den Schalter und passe den Wert im Feld "HTML anhängen" entsprechend der widgetnummer an (siehe Bild). 
+**Sicherheitshalber solltest Du auch alle Schalter vom View *cardHzngGlobals* überprüfen!!!**
+
 ![watchout2.jpg](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/admin/watchout2.jpg) 
 
 **5. Fertig**
