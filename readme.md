@@ -14,26 +14,26 @@
 **1. Wie installier ich den Kram?**
 **a.)** Zuerst sollte das MaterialDesign installiert werden, hierzu das Skript und Css in die entsprechenden Felder kopieren, siehe Bild, (roter Kringel rechte Seite).
 
-![watchout1.jpg](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/admin/watchout1.jpg) 
+![watchout1.jpg](/admin/watchout1.jpg) 
 
 **Skript:**
-[MaterialUiScript.txt](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/MaterialUiScript.txt) 
+[MaterialUiScript.txt](MaterialUiScript.txt) 
 
 **CSS:**
-[MaterialUiCss.txt](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/MaterialUiCss.txt) 
+[MaterialUiCss.txt](MaterialUiCss.txt) 
 
 
 **b.)** Der "Kram" besteht aus zwei Views. Im einen View sind die Einstellungen der globalen Parameter drin, dieser wird später in jedem View angezeigt. Diesen View solltest Du "cardHzngGlobals" nennen (siehe Bild, rote Kringel linke Seite), also einen **leeren View** mit diesem Namen anlegen und dann via **Widgets importieren** ein lesen. Der zweite View beinhaltet alle Elemente eines Raums. Ich hab exemplarisch das Wohnzimmer genommen. Wenn Du das Skript für mehrere Räume verwendest, brauchst Du natürlich auch nen View für jeden Raum. Anstatt manuell die ganzen Widgets anzupassen, solltest Du in einem Texteditor Deiner Wahl mit "suchen und ersetzen" arbeiten. Lass nach "Wohnzimmer" suchen und diesen Begriff z.B. mit "Bad" ersetzen, et voila schon haste den kompletten View fürs Bad fertig (naja fast, siehe .4). Diesen Vorgang wiederholst Du für jeden Raum.
 
-**View cardHzngGlobals:** [cardHzngGlobals.txt](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/cardHzngGlobals.txt) 
+**View cardHzngGlobals:** [cardHzngGlobals.txt](cardHzngGlobals.txt) 
 
 Hier bitte einen leeren View anlegen mit Zimmerbezeichnung Wohnzimmer und via **Widgets importieren** die Daten reinholen. Die **txt Dateien** bitte **NICHT im Browser öffnen** und dann den Text kopieren, sondern direkt (recht Maustaste > Link speichern unter) abspeichern!
 
-**View cardHzngWohnzimmer:** [cardhzngwohnzimmer1Profil.txt](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/cardHzngWohnzimmer1Profil.txt) - **Für 1 Profil** mit automatischer Erkennung ob relative/absolute Absenkung gewählt.
+**View cardHzngWohnzimmer:** [cardhzngwohnzimmer1Profil.txt](cardHzngWohnzimmer1Profil.txt) - **Für 1 Profil** mit automatischer Erkennung ob relative/absolute Absenkung gewählt.
 
 **ODER**
 
-**View cardHzngWohnzimmer:** [cardHzngWohnzimmer.txt](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/cardHzngWohnzimmer.txt)    - **Für 2 Profile**, OHNE automatische Erkennung ob relative/absolute Absenkung gewählt, dafür mit automatischer Profilumschaltung. Hier bitte den ungenutzten Block (relative oder absolute Absenkung) löschen und nötigenfalls den übriggebliebenen Block neu positionieren.
+**View cardHzngWohnzimmer:** [cardHzngWohnzimmer.txt](cardHzngWohnzimmer.txt)    - **Für 2 Profile**, OHNE automatische Erkennung ob relative/absolute Absenkung gewählt, dafür mit automatischer Profilumschaltung. Hier bitte den ungenutzten Block (relative oder absolute Absenkung) löschen und nötigenfalls den übriggebliebenen Block neu positionieren.
 
 
 **2. Warum schaut das bei mir so scheisse aus und gar nicht wie auf dem Screenshot?**
@@ -47,7 +47,7 @@ Von Deinen Gerätedatenpunkten. Hier mußt Du selber die Datenpunkte zuweisen. "
 **4a.** Eine Besonderheit, welche dem Material Design gechuldet ist, ist dass Du an einem Punkt pro Statusseite ein Änderung einfügen mußt weil sonst der Schalter für den Boost nicht funktioniert. Wähle den Schalter und passe den Wert im Feld "HTML anhängen" entsprechend der widgetnummer an (siehe Bild). 
 **Sicherheitshalber solltest Du auch alle Schalter vom View *cardHzngGlobals* überprüfen!!!**
 
-![watchout2.jpg](https://github.com/Pittini/iobroker-heatingcontrol-vis/blob/master/admin/watchout2.jpg) 
+![watchout2.jpg](/admin/watchout2.jpg) 
 
 **5. Fertig**
 Nachdem Dein erster View jetzt aussehen sollte wie auf obigem Screenshot, kannst Du wie in 1. beschrieben, die Views für die anderen Räume anlegen. Script und Css ist projektweit, muß also nur einmalig eingetragen werden. Viel Spaß.
