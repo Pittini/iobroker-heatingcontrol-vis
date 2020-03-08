@@ -4,7 +4,7 @@
 
 ### coming soon:
 
-![preview.png](/admin/preview.png) 
+![prview.png](/admin/prview.png) 
 
 **Voraussetzungen um den View ohne Änderungen verwenden zu können sind:**
 1. Du verwendest eine einigermaßen aktuelle Version des HeatingControl Adapters und hast diesen funktionsfähig konfiguriert
