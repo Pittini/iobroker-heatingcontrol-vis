@@ -92,7 +92,7 @@ Folgendes Verhalten ist vorgesehen:
 * Titel zeigt immer aktuell gewählten Raum  .
 * Untertitel zeigt aktuell gewähltes Profil und Absenkmethode (relativ/absolute).  
 * Bezeichnungstexte färben sich rot wenn der entsprechende Parameter aktiviert wurde.
-* Bezeichnungstexte werden komplett ausgetauscht bei Änderung Absenkmethode relativ/absolute - Beispiel: bei relative "Gäste Absenkung", bei absolute "Gäste Temperatur".
+* Bezeichnungstexte werden komplett ausgetauscht bei Änderung Absenkmethode relativ/absolute - Beispiel: bei relative "Gäste Absenkung", bei absolute "Gäste Temperatur". Ebenso ändern sich die Vorgaben ValueLists.
 
 **Card Fensterstatus:**  
 * Kann mit Pfeil rechts oben zusammengeklappt werden.  
@@ -146,6 +146,11 @@ Hast Du alle Seiten angelegt, gehst Du sie wieder reihum durch und passt die Obj
 * Ändere die ObjekID bei "Temperatur am Sensor" auf den Datenpunkt Deines eventuell vorhandenen 2ten Raumtempsensors (Vergleichswert). Hast Du so etwas nicht oder nicht in jedem Raum, das Widget einfach löschen.
 
 Diese Schritte wiederholst Du für jeden Raum. Klingt aufwendiger als es ist, etliches kann man sich mit copy&paste sowie mit einem Editor "suchen und ersetzen" vereinfachen.  
+
+* Nachdem Du nun alle Cards angelegt hast, musst Du diese noch in die Seite integrieren. Dies geschieht über die Seite "contHzng". Dies ist die zentrale Seite welche festlegt welche Card in welcher Größe und Reihenfolge angezeigt werden, verwendet werden hierfür View in Widget Eidgets. Du suchst Dir nun das widget welchen die Raumvorlagecard anzeigt, markierst und kopierst diese (Strg-C). Nun fügst Du via Strg-V diese Kopie ein und änderst an zwei Stellen; Bei "Viewname" wählst Du den ersten Deiner selbst gemachten Raumviews aus. Bei "CSS-Klasse" änderst Du den Teil "mdui-order-30" auf "mdui-order-35". Beim nächsten View dann 40 und so weiter. Du legst damit die Anzeigereihenfolge fest. Die 5er Schritte machen es leichter noch etwas einzufügen oder umzusortieren, Du kannst hier jede gewünschte Schrittweite verwenden.
+
+* ![V2preview-9.jpg](/admin/V2preview-9.jpg)
+
 
 **Farbeinstellungen**  
 * Die Seite baut auf dem Material Design 2.x von @Uhula auf, dieses bietet die Möglichkeit Farbeinstellungen im Betrieb zu treffen/verändern. Hierzu rufst Du den Einstelldialog durch Klick auf das Zahnrad in der Titelleiste auf.
