@@ -1,5 +1,5 @@
 //Mapping Skript zum Adapter HeatingControl V 0.3.17 oder höher
-// Skriptversion 1.0.0 - https://github.com/Pittini/iobroker-heatingcontrol-vis
+// Skriptversion 1.0.1 - https://github.com/Pittini/iobroker-heatingcontrol-vis
 
 
 const praefix = "javascript.0.vis.HeatingControl."; //Grundpfad für Script DPs
@@ -126,6 +126,8 @@ y++;
 states[y] = { id: praefix + "RoomValues." + "TemperaturOverrideTime", initial: "00:00", forceCreation: false, common: { read: true, write: true, name: "TemperaturOverrideTime", type: "string", def: "00:00" } }; // 
 y++;
 states[y] = { id: praefix + "RoomValues." + "WindowIsOpen", initial: false, forceCreation: false, common: { read: true, write: true, name: "Fenster geöffnet?", type: "boolean", def: false } }; // 
+y++;
+states[y] = { id: praefix + "RoomValues." + "CurrentTimePeriod", initial: 0, forceCreation: false, common: { read: true, write: true, name: "Aktiver Zeit Slot", type: "number", def: 0 } }; // 
 y++;
 
 //Hilfs Datenpunkte
@@ -305,6 +307,7 @@ function SetVis() { // Vis Daten durch Adapterdaten ersetzen bei Umschaltung Rau
     setState(praefix + "RoomValues." + "TemperaturOverride", getState(hcpraefix + "Rooms." + ChoosenRoom + "." + "TemperaturOverride").val);
     setState(praefix + "RoomValues." + "TemperaturOverrideTime", getState(hcpraefix + "Rooms." + ChoosenRoom + "." + "TemperaturOverrideTime").val);
     setState(praefix + "RoomValues." + "WindowIsOpen", getState(hcpraefix + "Rooms." + ChoosenRoom + "." + "WindowIsOpen").val);
+    setState(praefix + "RoomValues." + "CurrentTimePeriod", getState(hcpraefix + "Rooms." + ChoosenRoom + "." + "CurrentTimePeriod").val);
 
 
     setTimeout(function () { // Timeout setzt refresh status wieder zurück
@@ -349,7 +352,14 @@ function SetProfileValueList() { //Einträge für Vis Profil Valuelist erstellen
     if (logging) log(ProfileValueListValue + " / " + ProfileValueListText)
 };
 
+function CreateCurrentTimePeriodTrigger(OldRoom) {
+    log(OldRoom);
+    unsubscribe(hcpraefix + "Rooms." + OldRoom + "CurrentTimePeriod"); //Trigger auf vorherigen Raum löschen
+    on(hcpraefix + "Rooms." + "CurrentTimePeriod", function (dp) { //Neuen Trigger setzen
+        if (RefreshingVis == false) setState(praefix + "RoomValues." + "CurrentTimePeriod", dp.state.val);//Wenn Änderung des akuellen Zeitslots im aktuell gewählten Raum
+    });
 
+};
 
 function SetTrigger() {
     //Trigger für HC Info Daten aus Admin
@@ -381,6 +391,7 @@ function SetTrigger() {
     on(praefix + "ChoosenRoom", function (dp) { //Wenn Änderung des Raums
         ChoosenRoom = dp.state.val;
         SetVis();
+        CreateCurrentTimePeriodTrigger(dp.oldState.val); //Sonderfall - Um die aktuelle Periode anzeigen zu können muss ein wechselnder Trigger auf den aktuellen Raum im HC Rooms Zweig gesetzt und bei wechsel wieder gelöscht werden
     });
 
     //Trigger für RaumDPs
