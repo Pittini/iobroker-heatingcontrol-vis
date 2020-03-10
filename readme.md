@@ -1,6 +1,6 @@
 
 
-# View/Vis-Projekt Version 2.0.1 zum Adapter HeatingControl und Anleitung. 
+# View/Vis-Projekt Version 2.0.2 zum Adapter HeatingControl und Anleitung. 
 
 ## Beta Version!
 
@@ -173,6 +173,7 @@ Diese Schritte wiederholst Du für jeden Raum. Klingt aufwendiger als es ist, et
 
 # Changelog
 
+* ### Version 2.0.2 - Bugfix im Vis, nicht verwendete Perioden werden jetzt korrekt ausgeblendet.
 * ### Version 2.0.1 - Bugfix bei Anzeige der aktuellen Periode, Bugfix in der Card bei "jeder Tag separat". Anpassung des Skripts.
 * ### Version 2.0.0 - Init 
 
