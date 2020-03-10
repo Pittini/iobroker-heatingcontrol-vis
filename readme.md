@@ -7,7 +7,7 @@
 ![V2preview-2.png](/admin/V2preview-2.png)
 
 **Voraussetzungen um das Vis Projekt ohne Änderungen verwenden zu können sind:**
-1. Du verwendest **Version 0.3.17 oder höher** des HeatingControl Adapters und hast diesen funktionsfähig konfiguriert.
+1. Du verwendest **Version 0.3.18 oder höher** des HeatingControl Adapters und hast diesen funktionsfähig konfiguriert.
 2. Du verwendest keinen MaterialDesign Adapter!
 3. Du hast den "Skript Engine"- aka "JavaSkript"-Adapter installiert
 
