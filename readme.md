@@ -4,6 +4,12 @@
 
 ## Beta Version!
 
+## ZusatzView:
+### Vis-Simple-HeatingControl.txt enthält alle relevanten Elemente um die Funktionalität in eigene Projekte integrieren zu können. Es entfällt dadurch jedoch Responsive Design, Farbeinstellungen, klappbare Cards, etc. 
+Die einzelnen Element-Blöcke sind gruppiert und haben die gleiche Funktionalität wie das große Projekt, es wurden jedoch alle Verweise auf MaterialDesign und relativen Größenangaben entfernt. **Um die Optik müßt Ihr Euch hier selber kümmern.** Die Textdatei ist via "Widgets Importieren" einzufügen. Wer das große Projekt verwendet braucht diese Datei NICHT.
+
+##  Ab hier nun die Infos zum Projekt:
+
 ![V2preview-2.png](/admin/V2preview-2.png)
 
 **Voraussetzungen um das Vis Projekt ohne Änderungen verwenden zu können sind:**
