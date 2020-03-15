@@ -2,7 +2,7 @@
 
 # View/Vis-Projekt Version 2.0.3 zum Adapter HeatingControl und Anleitung. 
 
-## Beta Version!
+## Beta RC1 Version!
 
 ## ZusatzView:
 ### Vis-Simple-HeatingControl.txt enthält alle relevanten Elemente um die Funktionalität in eigene Projekte integrieren zu können. Es entfällt dadurch jedoch Responsive Design, Farbeinstellungen, klappbare Cards, etc. 
@@ -13,8 +13,8 @@ Die einzelnen Element-Blöcke sind gruppiert und haben die gleiche Funktionalit�
 ![V2preview-2.png](/admin/V2preview-2.png)
 
 **Voraussetzungen um das Vis Projekt ohne Änderungen verwenden zu können sind:**
-1. Du verwendest **Version 0.3.18 oder höher** des HeatingControl Adapters und hast diesen funktionsfähig konfiguriert.
-2. Du verwendest keinen MaterialDesign Adapter!
+1. Du verwendest **Version 0.3.19 oder höher** des HeatingControl Adapters und hast diesen funktionsfähig konfiguriert.
+2. **Du verwendest keinen MaterialDesign Adapter!**
 3. Du hast den "Skript Engine"- aka "JavaSkript"-Adapter installiert
 
 
@@ -179,7 +179,7 @@ Diese Schritte wiederholst Du für jeden Raum. Klingt aufwendiger als es ist, et
 
 # Changelog
 
-* ### Version 2.0.3 - Bugfix im Vis, Raumname wird jetzt auch bei Profiltyp alle Tage separat angezeigt / Skript (1.0.2) Warnmeldung bei leerer MinimumTemperature vermieden
+* ### Version 2.0.3 - Bugfix im Vis, Raumname wird jetzt auch bei Profiltyp alle Tage separat angezeigt / Skript (1.0.2) Warnmeldung bei leerer MinimumTemperature vermieden (HC < 0.3.19)
 * ### Version 2.0.2 - Bugfix im Vis, nicht verwendete Perioden werden jetzt korrekt ausgeblendet.
 * ### Version 2.0.1 - Bugfix bei Anzeige der aktuellen Periode, Bugfix in der Card bei "jeder Tag separat". Anpassung des Skripts.
 * ### Version 2.0.0 - Init 
