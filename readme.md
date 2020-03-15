@@ -5,8 +5,8 @@
 ## Beta RC1 Version!
 
 ## ZusatzView:
-### Vis-Simple-HeatingControl.txt enthält alle relevanten Elemente um die Funktionalität in eigene Projekte integrieren zu können. Es entfällt dadurch jedoch Responsive Design, Farbeinstellungen, klappbare Cards, etc. 
-Die einzelnen Element-Blöcke sind gruppiert und haben die gleiche Funktionalität wie das große Projekt, es wurden jedoch alle Verweise auf MaterialDesign und relativen Größenangaben entfernt. **Um die Optik müßt Ihr Euch hier selber kümmern.** Die Textdatei ist via "Widgets Importieren" einzufügen. Wer das große Projekt verwendet braucht diese Datei NICHT.
+### Vis-Simple-HeatingControl.txt enthält alle relevanten Elemente, um die Funktionalität in eigene Projekte integrieren zu können. Es entfällt dadurch jedoch Responsive Design, Farbeinstellungen, klappbare Cards, etc. 
+Die einzelnen Element-Blöcke sind gruppiert und haben die gleiche Funktionalität wie das große Projekt, es wurden jedoch alle Verweise auf MaterialDesign und relative Größenangaben entfernt. **Um die Optik müßt Ihr Euch hier selber kümmern.** Die Textdatei ist via "Widgets Importieren" einzufügen. Wer das große Projekt verwendet, braucht diese Datei NICHT.
 
 ##  Ab hier nun die Infos zum Projekt:
 
@@ -15,26 +15,26 @@ Die einzelnen Element-Blöcke sind gruppiert und haben die gleiche Funktionalit�
 **Voraussetzungen um das Vis Projekt ohne Änderungen verwenden zu können sind:**
 1. Du verwendest **Version 0.3.19 oder höher** des HeatingControl Adapters und hast diesen funktionsfähig konfiguriert.
 2. **Du verwendest keinen MaterialDesign Adapter!**
-3. Du hast den "Skript Engine"- aka "JavaSkript"-Adapter installiert
+3. Du hast den "Skript Engine"- aka "JavaSkript"-Adapter installiert.
 
 
 **Features:**
 1. Nur noch eine Vis-Seite nötig, für beliebig viele Räume und Profile
-2. Logische Aufteilung in verschiedene "Cards" um Responive Design zu ermöglichen
-3. Keine übereinanderliegenden Widgets mehr
-4. Farben (Schrift/Hintergrund/etc) via Dialog einstellbar
-5. Selbsständige Anpassung des Vis bei Änderungen der Adapter Konfiguration (Profilzahl, DecreaseMode, Profiltyp, Perioden)
-6. Zusätzliche Card mit Übersicht des Fensterstatus jedes Raumes
-7. Responsive Design
-8. Zusammenklappbare Elemente um Platz zu sparen
-9. Leichtere Installation auch für Einsteiger da komplettes eigenständiges Vis Projekt, auch geeignet als Grundlage/Beispiel für eigenes Gesamtprojekt.
-10. Zusätzliche Beispielseite für Raumstati für eigene Erweiterungen der Grundfunktionen
+2. Logische Aufteilung in verschiedene "Cards" um Responive Design zu ermöglichen.
+3. Keine übereinanderliegenden Widgets mehr.
+4. Farben (Schrift,Hintergrund etc.) via Dialog einstellbar.
+5. Selbständige Anpassung des Vis bei Änderungen der Adapter Konfiguration (Profilzahl, DecreaseMode, Profiltyp, Perioden).
+6. Zusätzliche Card mit Übersicht des Fensterstatus jeden Raumes.
+7. Responsive Design.
+8. Zusammenklappbare Elemente um Platz zu sparen.
+9. Leichtere Installation auch für Einsteiger, da komplettes eigenständiges Vis Projekt, auch geeignet als Grundlage/Beispiel für eigenes Gesamtprojekt.
+10. Zusätzliche Beispielseite für Raumstati für eigene Erweiterungen der Grundfunktionen.
 
 
 **1. Wie installier ich den Kram?**  
 Der "Kram" besteht aus zwei Teilen, einem JS Skript und einem kompletten Vis Projekt.  
-Das Skript legt eigene Datenpunkte an, worauf sich das Vis Projekt bezieht und "übersetzt" die Eingaben im Vis. Diese Daten werden aufbereitet und es wird dynamisch der Pfad zum entsprechenden Datenpunkt des Adapters anhand der Auswahl von Profil und Raum erstellt. 
-Dadurch entfällt die bisherige Notwendigkeit für jeden Raum eine eigene Seite zu erstellen in der nochmal die verschiedenen Profile übereinandergelegt und via Sichtbarkeit gesteuert werden mussten.
+Das Skript legt eigene Datenpunkte an, worauf sich das Vis Projekt bezieht, und "übersetzt" die Eingaben im Vis. Diese Daten werden aufbereitet und es wird dynamisch der Pfad zum entsprechenden Datenpunkt des Adapters anhand der Auswahl von Profil und Raum erstellt. 
+Dadurch entfällt die bisherige Notwendigkeit, für jeden Raum eine eigene Seite zu erstellen, in der nochmal die verschiedenen Profile übereinandergelegt und via Sichtbarkeit gesteuert werden mussten.
 
 **a.) Skript installieren**  
 Am besten installierst Du zuerst das JavaSript Script und startest es - (wenn Du weißt wie das geht, direkt weiter zu Punkt b.)
@@ -49,7 +49,7 @@ Die **HeatingControlMapper.js Datei** bitte **NICHT im Browser öffnen** und dan
 
 ![V2JsInstall-2.jpg](/admin/V2JsInstall-2.jpg)
 
-### Einen sinnvollen Namen vergeben und sicherstellen dass das Skript im Common Bereich angelegt wird:
+### Einen sinnvollen Namen vergeben und sicherstellen, dass das Skript im Common Bereich angelegt wird:
 
 ![V2JsInstall-3.jpg](/admin/V2JsInstall-3.jpg)
 
@@ -60,10 +60,10 @@ Die **HeatingControlMapper.js Datei** bitte **NICHT im Browser öffnen** und dan
 Damit ist der Skriptteil abgeschlossen, es sind im Normalfall keinerlei Anpassungen nötig. 
 
 **b.) Vis Projekt installieren**  
-Nun importierst Du die Zip Datei als Projekt in Dein Vis. Das Zip dazu **NICHT** auspacken! Als Projektname vergibtst Du den Namen **HeatingControl** in genau dieser Schreibweise!  
-**Jeder andere Name, bzw. Schreibweise wird dazu führen dass die verwendeten Icons nicht mehr gefunden werden**, da der Projektname von Iob. auch als Pfadnamen verwedet wird und dieser im Projekt bei den Icons fest vorgegeben ist.
+Nun importierst Du die Zip Datei als Projekt in Dein Vis. Das Zip dazu **NICHT** auspacken! Als Projektname vergibst Du den Namen **HeatingControl** in genau dieser Schreibweise!  
+**Jeder andere Name bzw. Schreibweise wird dazu führen, dass die verwendeten Icons nicht mehr gefunden werden**, da der Projektname von Iob. auch als Pfadnamen verwedet wird und dieser im Projekt bei den Icons fest vorgegeben ist.
 
-Wenn Du weist wie ein Projekt importiert wird, bist Du hier fertig, ansonsten weiterlesen.
+Wenn Du weißt wie ein Projekt importiert wird, bist Du hier fertig, ansonsten weiterlesen.
 
 ### Um das Vis Projekt zu importieren rufst Du den Vis Editor auf und wählst aus dem Register die Option "Setup", dort den Menüpunkt "Projekt-Export/import" und den Untermenüpunkt "Import". 
 
@@ -95,14 +95,14 @@ Folgendes Verhalten ist vorgesehen:
 
 **Card Profilparameter:**  
 * Kann mit Pfeil rechts oben zusammengeklappt werden.  
-* Titel zeigt immer aktuell gewählten Raum  .
+* Titel zeigt immer aktuell gewählten Raum.  
 * Untertitel zeigt aktuell gewähltes Profil und Absenkmethode (relativ/absolute).  
 * Bezeichnungstexte färben sich rot wenn der entsprechende Parameter aktiviert wurde.
-* Bezeichnungstexte werden komplett ausgetauscht bei Änderung Absenkmethode relativ/absolute - Beispiel: bei relative "Gäste Absenkung", bei absolute "Gäste Temperatur". Ebenso ändern sich die Vorgaben ValueLists.
+* Bezeichnungstexte werden komplett ausgetauscht bei Änderung Absenkmethode relativ/absolute - Beispiel: bei relative "Gäste Absenkung", bei absolute "Gäste Temperatur". Ebenso ändern sich die Vorgaben der ValueLists.
 
 **Card Fensterstatus:**  
 * Kann mit Pfeil rechts oben zusammengeklappt werden.  
-* Untertitel zeigt (auch im zusammengeklappten Zustand), die Anzahl der Räume mit geöffneten Fenstern, ist mindestens ein Fenster geöffnet wird dies durch rotes Blinken signalisiert.  
+* Untertitel zeigt (auch im zusammengeklappten Zustand) die Anzahl der Räume mit geöffneten Fenstern; ist mindestens ein Fenster geöffnet, wird dies durch rotes Blinken signalisiert.  
 * In der Liste werden die Zeilen der Räume mit geöffneten Fenstern rot dargestellt. 
 * Unter dem Raumnamen seht Ihr den Zeitstempel der letzten öffnung/schliessung.
 
@@ -116,7 +116,7 @@ Folgendes Verhalten ist vorgesehen:
 * Untertitel zeigt immer aktuell gewähltes Profil. 
 * Grüner Balken zeigt die aktuell aktive Periode.  
 * Es werden max. 5 Perioden unterstützt, jedoch eine unbegrenzte Anzahl an * Räumen und Profilen.
-* Gesamte Card wird automatisch bei Änderung des Profiltyps (im Adapteradmin) ausgetauscht um die nötige Anzahl von Eingabefeldern bereitzustellen, folgende Varianten sind vorgesehen:  
+* Gesamte Card wird automatisch bei Änderung des Profiltyps (im Adapteradmin) ausgetauscht, um die nötige Anzahl von Eingabefeldern bereitzustellen; folgende Varianten sind vorgesehen:  
 
 Bei Profiltyp "Alle Tage zusammen"  
 
@@ -133,7 +133,7 @@ Bei Profiltyp "jeder Tag getrennt"
   
 
 **Card Räume Kopiervorlage**  
-* Dient als Layout Vorlage falls Du für jeden Raum die Basis Werte anzeigen möchtest. Muss komplett von Dir konfiguriert werden. Am besten gehtst Du folgendermaßen vor:
+* Dient als Layout Vorlage falls Du für jeden Raum die Basis Werte anzeigen möchtest. Muss komplett von Dir konfiguriert werden. Am besten gehst Du folgendermaßen vor:
 Markiere alle Widgets mit Strg-A, klicke auf Widgets exportieren und kopiere den angezeigten Code in die Zwischenablage (Strg-A / Strg-C).
 Nun legst Du einen neuen View an und nennst diesen z.B. cardHzngWohnzimmer. Du hast nun eine leere Seite, hier wählst Du Widgets importieren und fügst den Code aus der Zwischenablage via Strg-V ein. Nun hat diese Seite alle Elemente der Vorlagenseite. Diesen Vorgang wiederholst Du für jeden Raum.
 Hast Du alle Seiten angelegt, gehst Du sie wieder reihum durch und passt die ObjektIDs der Widgets an. Nachfolgend erkläre ich Dir was wofür vorgesehen ist:  
@@ -146,14 +146,14 @@ Hast Du alle Seiten angelegt, gehst Du sie wieder reihum durch und passt die Obj
 * Ändere die ObjekID beim Wifi-Symbol auf den Datenpunkt Deines Thermostats (oder CCU) welcher den Connetion Status anzeigt.
 * Ändere die ObjekID beim Empfangsbalken auf den Datenpunkt welcher die Empfangsstärke (RSSI) des Thermostats anzeigt. 
 * Ändere die ObjekID bei der Batterieanzeig auf den Datenpunkt Deines Thermostats welcher die Batteriespannung anzeigt.
-* Ändere die ObjekID bei "vor ... Minuten" auf den Datenpunkt Deines Thermostates welcher die gesetzte Temperatur anzeigt. (DAmit hast Du einen Überblick ob die Regelung auch regelt).
+* Ändere die ObjekID bei "vor ... Minuten" auf den Datenpunkt Deines Thermostates welcher die gesetzte Temperatur anzeigt. (Damit hast Du einen Überblick ob die Regelung auch regelt).
 * Ändere die ObjekID bei "Temperatur am Regler" auf den Datenpunkt Deines Thermostates welcher die Ist Temperatur anzeigt.
 * Ändere die ObjekID bei "Ventilstellung" auf den Datenpunkt Deines Thermostates welcher die Ventilstellung anzeigt.
 * Ändere die ObjekID bei "Temperatur am Sensor" auf den Datenpunkt Deines eventuell vorhandenen 2ten Raumtempsensors (Vergleichswert). Hast Du so etwas nicht oder nicht in jedem Raum, das Widget einfach löschen.
 
-Diese Schritte wiederholst Du für jeden Raum. Klingt aufwendiger als es ist, etliches kann man sich mit copy&paste sowie mit einem Editor "suchen und ersetzen" vereinfachen.  
+Diese Schritte wiederholst Du für jeden Raum. Klingt aufwendiger als es ist, etliches kann man sich mit copy&paste sowie mit einem Editor via "suchen und ersetzen" vereinfachen.  
 
-* Nachdem Du nun alle Cards angelegt hast, musst Du diese noch in die Seite integrieren. Dies geschieht über die Seite "contHzng". Dies ist die zentrale Seite welche festlegt welche Card in welcher Größe und Reihenfolge angezeigt werden, verwendet werden hierfür View in Widget Eidgets. Du suchst Dir nun das widget welchen die Raumvorlagecard anzeigt, markierst und kopierst diese (Strg-C). Nun fügst Du via Strg-V diese Kopie ein und änderst an zwei Stellen; Bei "Viewname" wählst Du den ersten Deiner selbst gemachten Raumviews aus. Bei "CSS-Klasse" änderst Du den Teil "mdui-order-30" auf "mdui-order-35". Beim nächsten View dann 40 und so weiter. Du legst damit die Anzeigereihenfolge fest. Die 5er Schritte machen es leichter noch etwas einzufügen oder umzusortieren, Du kannst hier jede gewünschte Schrittweite verwenden.
+* Nachdem Du nun alle Cards angelegt hast, musst Du diese noch in die Seite integrieren. Dies geschieht über die Seite "contHzng". Dies ist die zentrale Seite, welche festlegt, welche Card in welcher Größe und Reihenfolge angezeigt wird; verwendet werden hierfür "View in Widget" Widgets. Du suchst Dir nun das Widget welches die Raumvorlagecard anzeigt, markierst und kopierst dieses (Strg-C). Nun fügst Du via Strg-V diese Kopie ein und änderst an zwei Stellen; Bei "Viewname" wählst Du den ersten Deiner selbst gemachten Raumviews aus. Bei "CSS-Klasse" änderst Du den Teil "mdui-order-30" auf "mdui-order-35". Beim nächsten View dann 40 und so weiter. Du legst damit die Anzeigereihenfolge fest. Die 5er Schritte machen es leichter noch etwas einzufügen oder umzusortieren, Du kannst hier jede gewünschte Schrittweite verwenden.
 
 * ![V2preview-9.jpg](/admin/V2preview-9.jpg)
 
@@ -166,10 +166,10 @@ Diese Schritte wiederholst Du für jeden Raum. Klingt aufwendiger als es ist, et
 * Stell Dir die Farben nach Wunsch ein, die Änderungen werden sofort live angezeigt.
 
 **Site Menüs**
-* Es gibt, durch klick auf die Symbole ganz rechts und links in der Titelleiste, ausklappbare Sidemenüs. Im rechten hab ich Dir Links zu den Projekten und Anleitungen von Vis, MaterialDesign und HeatingControl hinterlegt. Das linke Menü is an sich unbenutzt, kann aber von Dir verwendet werden falls Du die Seite erweitern möchtest.
+* Es gibt, durch Klick auf die Symbole ganz rechts und links in der Titelleiste, ausklappbare Sidemenüs. Im rechten hab ich Dir Links zu den Projekten und Anleitungen von Vis, MaterialDesign und HeatingControl hinterlegt. Das linke Menü ist an sich unbenutzt, kann aber von Dir verwendet werden falls Du die Seite erweitern möchtest.
 
 **Responsive Design**
-* Der Seitenauf bau ermöglicht Responsive Design, d.h. verkleinerst Du das Fenster, werden sich die einzelnen Cards neu anordnen, hast Du die Cards zusätzlich zusammengeklappt sollte auch auf kleineren Bildschirmen noch eine Bedienung möglich sein.
+* Der Seitenaufbau ermöglicht Responsive Design, d.h. verkleinerst Du das Fenster, werden sich die einzelnen Cards neu anordnen. Hast Du die Cards zusätzlich zusammengeklappt, sollte auch auf kleineren Bildschirmen noch eine Bedienung möglich sein.
 
 * ![V2preview-8.png](/admin/V2preview-8.png)
 
