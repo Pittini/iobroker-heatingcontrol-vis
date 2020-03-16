@@ -1,7 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable indent */
-//Mapping Skript zum Adapter HeatingControl V 0.3.18 oder höher
-// Skriptversion 1.0.3 - https://github.com/Pittini/iobroker-heatingcontrol-vis
+//Mapping Skript zum Adapter HeatingControl V 0.3.19 oder höher
+// Skriptversion 1.0.4 - https://github.com/Pittini/iobroker-heatingcontrol-vis
 
 
 const praefix = "javascript.0.vis.HeatingControl."; //Grundpfad für Script DPs
@@ -378,10 +378,10 @@ function SetTrigger() {
         ProfileType = dp.state.val;
     });
     on(hcpraefix + "info.TemperatureDecreaseMode", function (dp) { //Wenn Änderung des DecreaseModes
-        TemperatureDecreaseMode = dp.state.val;
+        //TemperatureDecreaseMode = dp.state.val;
     });
     on(hcpraefix + "info.PublicHolidayLikeSunday", function (dp) { //Wenn 
-        PublicHolidayLikeSunday = dp.state.val;
+        //PublicHolidayLikeSunday = dp.state.val;
     });
 
     //Trigger HC Main Root
