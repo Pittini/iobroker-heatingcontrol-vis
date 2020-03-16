@@ -1,5 +1,7 @@
+/* eslint-disable no-undef */
+/* eslint-disable indent */
 //Mapping Skript zum Adapter HeatingControl V 0.3.18 oder höher
-// Skriptversion 1.0.2 - https://github.com/Pittini/iobroker-heatingcontrol-vis
+// Skriptversion 1.0.3 - https://github.com/Pittini/iobroker-heatingcontrol-vis
 
 
 const praefix = "javascript.0.vis.HeatingControl."; //Grundpfad für Script DPs
@@ -8,12 +10,12 @@ const logging = true; //Logmeldungen an/ab schalten
 const WindowClosedImg = "/vis.0/HeatingControl/images/fts_window_1w.svg";
 const WindowOpenImg = "/vis.0/HeatingControl/images/fts_window_1w_open.svg";
 
-let AbsTempValueListValue = "0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25";
-let AbsTempValueListText = "inaktiv;1°C;2°C;3°C;4°C;5°C;6°C;7°C;8°C;9°C;10°C;11°C;12°C;13°C;14°C;15°C;16°C;17°C;18°C;19°C;20°C;21°C;22°C;23°C;24°C;25°C";
+const AbsTempValueListValue = "0;1;2;3;4;5;6;7;8;9;10;11;12;13;14;15;16;17;18;19;20;21;22;23;24;25";
+const AbsTempValueListText = "inaktiv;1°C;2°C;3°C;4°C;5°C;6°C;7°C;8°C;9°C;10°C;11°C;12°C;13°C;14°C;15°C;16°C;17°C;18°C;19°C;20°C;21°C;22°C;23°C;24°C;25°C";
 
-let RelTempValueListValue = "0;1;2;3;4;5;6;7;8;9;10";
-let RelTempDivValueListText = "inaktiv;-1°C;-2°C;-3°C;-4°C;-5°C;-6°C;-7°C;-8°C;-9°C;-10°C";
-let RelTempAddValueListText = "inaktiv;+1°C;+2°C;+3°C;+4°C;+5°C;+6°C;+7°C;+8°C;+9°C;+10°C";
+const RelTempValueListValue = "0;1;2;3;4;5;6;7;8;9;10";
+const RelTempDivValueListText = "inaktiv;-1°C;-2°C;-3°C;-4°C;-5°C;-6°C;-7°C;-8°C;-9°C;-10°C";
+const RelTempAddValueListText = "inaktiv;+1°C;+2°C;+3°C;+4°C;+5°C;+6°C;+7°C;+8°C;+9°C;+10°C";
 
 //Ab hier nichts mehr ändern
 let RefreshingVis = false;
@@ -22,24 +24,28 @@ let ChoosenRoom = "";
 //HeatingControl Werte einlesen bei Scriptstart
 //Infobereich
 let NumberOfProfiles = getState(hcpraefix + "info.NumberOfProfiles").val;
-let UsedRooms = getState(hcpraefix + "info.UsedRooms").val;
+const UsedRooms = getState(hcpraefix + "info.UsedRooms").val;
 let NumberOfPeriods = getState(hcpraefix + "info.NumberOfPeriods").val;
 let ProfileType = getState(hcpraefix + "info.ProfileType").val;
-let TempDecreaseMode = getState(hcpraefix + "info.TemperatureDecreaseMode").val;
-let TemperatureDecreaseMode = getState(hcpraefix + "info.TemperatureDecreaseMode").val;
-let PublicHolidayLikeSunday = getState(hcpraefix + "info.PublicHolidayLikeSunday").val;
+const TempDecreaseMode = getState(hcpraefix + "info.TemperatureDecreaseMode").val;
+
+// Currently not in use, disabled
+// const TemperatureDecreaseMode = getState(hcpraefix + "info.TemperatureDecreaseMode").val;
+// const PublicHolidayLikeSunday = getState(hcpraefix + "info.PublicHolidayLikeSunday").val;
 
 // Main Root Bereich
 let CurrentProfile = getState(hcpraefix + "CurrentProfile").val - 1;
 
 //RoomsBereich
-let Rooms = UsedRooms.split(";"); //Raumliste in Array wandeln für Fensterüberwachung
-let WindowState = []; //Fensterstatus pro Raum, Index korreliert mit Rooms[]
-let WindowStateTimeStamp = [];
+const Rooms = UsedRooms.split(";"); //Raumliste in Array wandeln für Fensterüberwachung
+const WindowState = []; //Fensterstatus pro Raum, Index korreliert mit Rooms[]
+const WindowStateTimeStamp = [];
 let OpenWindowRoomCount = 0;
+
 // Einmalig beim Programmstart alle States erzeugen, sofern nicht schon geschehen
-let states = [];
+const states = [];
 let y = 0;
+
 //States für Zeit/Temp Einstellung
 switch (ProfileType) {
     //Dps erzeugen für alle ProfilType Varianten
@@ -51,7 +57,7 @@ switch (ProfileType) {
             y++;
             states[y] = { id: praefix + "ProfileTypes.Mo-Su.Periods." + x + ".time", initial: "00:00", forceCreation: false, common: { read: true, write: true, name: "period from", type: "string", def: "00:00" } };
             y++;
-        };
+        }
         break;
 
     //V2 Mo-Fr / Sa-So
@@ -66,7 +72,7 @@ switch (ProfileType) {
             y++;
             states[y] = { id: praefix + "ProfileTypes.Sa-So.Periods." + x + ".time", initial: "00:00", forceCreation: false, common: { read: true, write: true, name: "period from", type: "string", def: "00:00" } };
             y++;
-        };
+        }
         break;
 
     //V3 Jeder Tag getrennt
@@ -101,10 +107,9 @@ switch (ProfileType) {
             y++;
             states[y] = { id: praefix + "ProfileTypes.Sun.Periods." + x + ".time", initial: "00:00", forceCreation: false, common: { read: true, write: true, name: "period from", type: "string", def: "00:00" } }; // 
             y++;
-        };
+        }
         break;
-};
-
+}
 
 //States für Profileinstellungen
 states[y] = { id: praefix + "TempDecreaseValues." + "AbsentDecrease", initial: 0, forceCreation: false, common: { read: true, write: true, name: "AbsentDecrease", type: "number", def: 0 } }; // 
@@ -147,7 +152,6 @@ states[y] = { id: praefix + "WindowStatesHtmlTable", initial: "", forceCreation:
 y++;
 states[y] = { id: praefix + "OpenWindowRoomCount", initial: 0, forceCreation: false, common: { read: true, write: true, name: "In wievielen Räumen sind Fenster geöffnet", type: "number", def: 0 } }; //
 
-
 //Alle States anlegen, Main aufrufen wenn fertig
 let numStates = states.length;
 states.forEach(function (state) {
@@ -156,7 +160,7 @@ states.forEach(function (state) {
         if (numStates === 0) {
             if (logging) log("CreateStates fertig!");
             main();
-        };
+        }
     });
 });
 
@@ -170,29 +174,29 @@ function main() {
 
     SetTrigger();    //Trigger erzeugen
     SetVis(); // Vis initialisieren
-};
+}
 
 function InitRoom() { //Gewählten Raum einlesen, bei Erststart default= erster in der Raumliste setzen
     ChoosenRoom = getState(praefix + "ChoosenRoom").val;
     if (ChoosenRoom == "") { //Wenn bei erstem Start noch kein Raum vorhanden (nach anlegen der States), verwende ersten Raum aus der Raumliste
-        let dummy = getState("heatingcontrol.0.info.UsedRooms").val;
+        const dummy = getState("heatingcontrol.0.info.UsedRooms").val;
         if (dummy.includes(";")) { //Wenn ein semikolon in der Raumliste vorhanden ist, sind auch mehrere Räume vorhanden, davon nachfolgend den ersten extrahieren
-            ChoosenRoom = dummy.substring(0, dummy.indexOf(";")) //In Raumliste nach dem Semikolon suchen und alles links davon extrahieren
+            ChoosenRoom = dummy.substring(0, dummy.indexOf(";")); //In Raumliste nach dem Semikolon suchen und alles links davon extrahieren
             if (logging) log("ChoosenRoom=" + ChoosenRoom);
         }
         else {
             ChoosenRoom = dummy; //Wenn nur ein Raum in Raumliste, diesen verwenden
-        };
+        }
         setState(praefix + "ChoosenRoom", ChoosenRoom); //Bei Erststart ChoosenRoom auf default= erster in der Raumliste setzen
-    };
-};
+    }
+}
 
 function InitWindowStates() { //Bei Programmstart alle Raum/Fensterstati einlesen
     for (let x = 0; x <= Rooms.length - 1; x++) { //Alle Räume durchlaufen
         WindowState[x] = getState(hcpraefix + "Rooms." + Rooms[x] + ".WindowIsOpen").val;
-        WindowStateTimeStamp[x] = formatDate(getState(hcpraefix + "Rooms." + Rooms[x] + ".WindowIsOpen").lc, "TT.MM.JJJJ SS:mm:ss")
-    };
-};
+        WindowStateTimeStamp[x] = formatDate(getState(hcpraefix + "Rooms." + Rooms[x] + ".WindowIsOpen").lc, "TT.MM.JJJJ SS:mm:ss");
+    }
+}
 /*
 Einfache html Table
 function CreateWindowStatesTable() {
@@ -206,25 +210,23 @@ function CreateWindowStatesTable() {
 };
 */
 
-
 function CreateWindowStatesTable() { // Erzeugt List mit Räumen und Fensterstatus
     let HtmlTable = "";
     OpenWindowRoomCount = 0;
     for (let x = 0; x <= Rooms.length - 1; x++) {
         if (WindowState[x] == true) {
             HtmlTable = HtmlTable + '<div class="mdui-listitem mdui-center-v mdui-red-bg" style="height:48px;"> <img height=40px src="' + WindowOpenImg + '"&nbsp</img> ';
-            OpenWindowRoomCount++
+            OpenWindowRoomCount++;
         }
         else {
             HtmlTable = HtmlTable + '<div class="mdui-listitem mdui-center-v" style="height:48px;"> <img height=40px src="' + WindowClosedImg + '"&nbsp</img> ';
-        };
+        }
         HtmlTable = HtmlTable + '<div class="mdui-label">' + Rooms[x] + '<div class="mdui-subtitle">seit ' + WindowStateTimeStamp[x] + '</div></div></div>';
-    };
+    }
     setState(praefix + "WindowStatesHtmlTable", HtmlTable);
     setState(praefix + "OpenWindowRoomCount", OpenWindowRoomCount);
-    if (logging) log(HtmlTable)
-};
-
+    if (logging) log(HtmlTable);
+}
 
 function SetTimeTempValue(ProfileDays, What, ScriptDpVal, Period) { //Werte vom Vis, Bereich Zeit/Temperatur, in AdapterDPs schreiben
     if (RefreshingVis == false) {
@@ -233,8 +235,8 @@ function SetTimeTempValue(ProfileDays, What, ScriptDpVal, Period) { //Werte vom 
         if (logging) log("SetTimeTempValue: " + hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + ProfileDays + ".Periods." + Period + "." + What + " set to " + ScriptDpVal);
         //if (What == "time") log(Date.parse(ScriptDpVal));
         setState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + ProfileDays + ".Periods." + Period + "." + What, ScriptDpVal);
-    };
-};
+    }
+}
 
 function SetDecreaseValue(What, ScriptDpVal) {//Werte vom Vis, Bereich Absenkungen, in AdapterDPs schreiben
     if (RefreshingVis == false) {
@@ -243,22 +245,21 @@ function SetDecreaseValue(What, ScriptDpVal) {//Werte vom Vis, Bereich Absenkung
         if (logging) log("Reaching SetDecreaseValue");
         if (logging) log("SetDecreasValue: " + hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + TempDecreaseMode + "." + What + " set to " + ScriptDpVal);
         setState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + TempDecreaseMode + "." + What, ScriptDpVal);
-    };
-};
+    }
+}
 
 function SetRoomValue(What, ScriptDpVal) {
     if (RefreshingVis == false) {
         if (logging) log("Reaching SetDecreaseValue");
         if (logging) log("SetRoomValue: " + hcpraefix + "Rooms." + ChoosenRoom + "." + What + " set to " + ScriptDpVal);
         setState(hcpraefix + "Rooms." + ChoosenRoom + "." + What, ScriptDpVal);
-    };
-
-};
+    }
+}
 
 function SetWindowState() { //Fenster offenstatus für einzelnen Raum/Fenster festlegen
     if (logging) log("Reaching SetWindowState");
     setState(praefix + "RoomValues." + "WindowIsOpen", getState(hcpraefix + "Rooms." + ChoosenRoom + "." + "WindowIsOpen").val);
-};
+}
 
 function SetVis() { // Vis Daten durch Adapterdaten ersetzen bei Umschaltung Raum oder Profil
     if (logging) log("Reaching SetVis");
@@ -268,7 +269,7 @@ function SetVis() { // Vis Daten durch Adapterdaten ersetzen bei Umschaltung Rau
             for (let x = 0; x <= NumberOfPeriods - 1; x++) {
                 setState(praefix + "ProfileTypes.Mo-Su.Periods." + x + ".Temperature", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Mo-Su.Periods." + x + ".Temperature").val);
                 setState(praefix + "ProfileTypes.Mo-Su.Periods." + x + ".time", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Mo-Su.Periods." + x + ".time").val);
-            };
+            }
             break;
         case "Mo - Fr / Sa - Su":
             for (let x = 0; x <= NumberOfPeriods - 1; x++) {
@@ -276,7 +277,7 @@ function SetVis() { // Vis Daten durch Adapterdaten ersetzen bei Umschaltung Rau
                 setState(praefix + "ProfileTypes.Mo-Fr.Periods." + x + ".time", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Mo-Fr.Periods." + x + ".time").val);
                 setState(praefix + "ProfileTypes.Sa-So.Periods." + x + ".Temperature", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Sa-So.Periods." + x + ".Temperature").val);
                 setState(praefix + "ProfileTypes.Sa-So.Periods." + x + ".time", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Sa-So.Periods." + x + ".time").val);
-            };
+            }
             break;
         case "every Day":
             for (let x = 0; x <= NumberOfPeriods - 1; x++) {
@@ -294,9 +295,9 @@ function SetVis() { // Vis Daten durch Adapterdaten ersetzen bei Umschaltung Rau
                 setState(praefix + "ProfileTypes.Sat.Periods." + x + ".time", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Sat.Periods." + x + ".time").val);
                 setState(praefix + "ProfileTypes.Sun.Periods." + x + ".Temperature", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Sun.Periods." + x + ".Temperature").val);
                 setState(praefix + "ProfileTypes.Sun.Periods." + x + ".time", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Sun.Periods." + x + ".time").val);
-            };
+            }
             break;
-    };
+    }
     //DecreaseMode Werte setzen
     setState(praefix + "TempDecreaseValues." + "AbsentDecrease", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + TempDecreaseMode + "." + "AbsentDecrease").val);
     setState(praefix + "TempDecreaseValues." + "GuestIncrease", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + TempDecreaseMode + "." + "GuestIncrease").val);
@@ -311,21 +312,17 @@ function SetVis() { // Vis Daten durch Adapterdaten ersetzen bei Umschaltung Rau
     else {
         setState(praefix + "RoomValues." + "MinimumTemperature", 0);
         log("MinimumTemp=Null, skipping entry and showing 0");
-    };
+    }
 
     setState(praefix + "RoomValues." + "TemperaturOverride", getState(hcpraefix + "Rooms." + ChoosenRoom + "." + "TemperaturOverride").val);
     setState(praefix + "RoomValues." + "TemperaturOverrideTime", getState(hcpraefix + "Rooms." + ChoosenRoom + "." + "TemperaturOverrideTime").val);
     setState(praefix + "RoomValues." + "WindowIsOpen", getState(hcpraefix + "Rooms." + ChoosenRoom + "." + "WindowIsOpen").val);
     setState(praefix + "RoomValues." + "CurrentTimePeriod", getState(hcpraefix + "Rooms." + ChoosenRoom + "." + "CurrentTimePeriod").val);
 
-
     setTimeout(function () { // Timeout setzt refresh status wieder zurück
         RefreshingVis = false;
     }, 250);
-
-};
-
-
+}
 
 function SetTempDecreaseModeValueLists() { //Setzt die Vorgabewerte der Valuelists je nach gewähltem DecreaseMode
     switch (TempDecreaseMode) {
@@ -339,9 +336,8 @@ function SetTempDecreaseModeValueLists() { //Setzt die Vorgabewerte der Valuelis
             setState(praefix + "TempAddValueListText", AbsTempValueListText);
             setState(praefix + "TempDivValueListText", AbsTempValueListText);
             break;
-    };
-};
-
+    }
+}
 
 function SetProfileValueList() { //Einträge für Vis Profil Valuelist erstellen
     let ProfileValueListValue = "";
@@ -350,24 +346,24 @@ function SetProfileValueList() { //Einträge für Vis Profil Valuelist erstellen
     for (let x = 1; x <= NumberOfProfiles; x++) {
         ProfileValueListValue = ProfileValueListValue + ";" + x;
         ProfileValueListText = ProfileValueListText + ";" + x;
-    };
+    }
     ProfileValueListValue = ProfileValueListValue.slice(1);
     ProfileValueListText = ProfileValueListText.slice(1);
 
     setState("javascript.0.vis.HeatingControl.ProfileValueListValue", ProfileValueListValue);
     setState("javascript.0.vis.HeatingControl.ProfileValueListText", ProfileValueListText);
-};
+}
 
 function CreateCurrentTimePeriodTrigger(OldRoom) {
     log("reaching CreateCurrentTimePeriodTrigger - Oldroom= " + OldRoom);
     if (unsubscribe(hcpraefix + "Rooms." + OldRoom + "CurrentTimePeriod")) { //Trigger auf vorherigen Raum löschen
         if (logging) log("Trigger für Raum " + OldRoom + " gelöscht, und für Raum " + ChoosenRoom + " gesetzt.");
-    };
+    }
 
     on(hcpraefix + "Rooms." + ChoosenRoom + "CurrentTimePeriod", function (dp) { //Neuen Trigger setzen
         if (RefreshingVis == false) setState(praefix + "RoomValues." + "CurrentTimePeriod", dp.state.val);//Wenn Änderung des akuellen Zeitslots im aktuell gewählten Raum
     });
-};
+}
 
 function SetTrigger() {
     //Trigger für HC Info Daten aus Admin
@@ -418,12 +414,12 @@ function SetTrigger() {
         if (logging) log(x + " " + Rooms[x]);
         on(hcpraefix + "Rooms." + Rooms[x] + ".WindowIsOpen", function (dp) { //Wenn Fensterstatus sich ändert
             WindowState[x] = dp.state.val;
-            WindowStateTimeStamp[x] = formatDate(dp.state.lc, "TT.MM.JJJJ SS:mm:ss")
+            WindowStateTimeStamp[x] = formatDate(dp.state.lc, "TT.MM.JJJJ SS:mm:ss");
             SetWindowState();
             CreateWindowStatesTable();
-            if (logging) log(WindowState[x])
+            if (logging) log(WindowState[x]);
         });
-    };
+    }
 
     //Trigger für DecreaseModes
     on(praefix + "TempDecreaseValues." + "AbsentDecrease", function (dp) { //Wenn 
@@ -451,7 +447,7 @@ function SetTrigger() {
                 on(praefix + "ProfileTypes.Mo-Su.Periods." + x + ".time", function (dp) { //Wenn 
                     if (RefreshingVis == false) SetTimeTempValue("Mo-Su", "time", dp.state.val, x);
                 });
-            };
+            }
             break;
         case "Mo - Fr / Sa - Su": //Version2
             for (let x = 0; x <= NumberOfPeriods - 1; x++) {
@@ -467,7 +463,7 @@ function SetTrigger() {
                 on(praefix + "ProfileTypes.Sa-So.Periods." + x + ".time", function (dp) { //Wenn 
                     if (RefreshingVis == false) SetTimeTempValue("Sa-So", "time", dp.state.val, x);
                 });
-            };
+            }
             break;
         case "every Day": //Version3
             for (let x = 0; x <= NumberOfPeriods - 1; x++) {
@@ -513,14 +509,7 @@ function SetTrigger() {
                 on(praefix + "ProfileTypes.Sun.Periods." + x + ".time", function (dp) { //Wenn 
                     if (RefreshingVis == false) SetTimeTempValue("Sun", "time", dp.state.val, x);
                 });
-            };
+            }
             break;
-    };
-};
-
-
-
-
-
-
-
+    }
+}
