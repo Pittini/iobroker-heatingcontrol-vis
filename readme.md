@@ -1,11 +1,11 @@
 
 
-# View/Vis-Projekt Version 2.0.3 zum Adapter HeatingControl und Anleitung. 
+# View/Vis-Projekt Version 2.0.4 zum Adapter HeatingControl und Anleitung. 
 
-## Beta RC1 Version!
+## Beta RC2 Version!
 
 ## ZusatzView:
-### Vis-Simple-HeatingControl.txt enthält alle relevanten Elemente, um die Funktionalität in eigene Projekte integrieren zu können. Es entfällt dadurch jedoch Responsive Design, Farbeinstellungen, klappbare Cards, etc. 
+### Vis-Simple-HeatingControl.txt (Stand 21.3.2020) enthält alle relevanten Elemente, um die Funktionalität in eigene Projekte integrieren zu können. Es entfällt dadurch jedoch Responsive Design, Farbeinstellungen, klappbare Cards, etc. 
 Die einzelnen Element-Blöcke sind gruppiert und haben die gleiche Funktionalität wie das große Projekt, es wurden jedoch alle Verweise auf MaterialDesign und relative Größenangaben entfernt. **Um die Optik müßt Ihr Euch hier selber kümmern.** Die Textdatei ist via "Widgets Importieren" einzufügen. Wer das große Projekt verwendet, braucht diese Datei NICHT.
 
 ##  Ab hier nun die Infos zum Projekt:
@@ -178,7 +178,8 @@ Diese Schritte wiederholst Du für jeden Raum. Klingt aufwendiger als es ist, et
 * Viel Spaß.
 
 # Changelog
-
+* ### Simple Vis updated > made prettyer
+* ### Skriptupdate > Version 1.0.4 - Bugfix beim erstellen des Triggers für aktuelle Zeitperiode / corrected Syntax for TempDecreaseMode Trigger
 * ### Version 2.0.3 - Bugfix im Vis, Raumname wird jetzt auch bei Profiltyp alle Tage separat angezeigt / Skript (1.0.2) Warnmeldung bei leerer MinimumTemperature vermieden (HC < 0.3.19)
 * ### Version 2.0.2 - Bugfix im Vis, nicht verwendete Perioden werden jetzt korrekt ausgeblendet.
 * ### Version 2.0.1 - Bugfix bei Anzeige der aktuellen Periode, Bugfix in der Card bei "jeder Tag separat". Anpassung des Skripts.

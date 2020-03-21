@@ -1,5 +1,3 @@
-/* eslint-disable no-undef */
-/* eslint-disable indent */
 //Mapping Skript zum Adapter HeatingControl V 0.3.19 oder höher
 // Skriptversion 1.0.4 - https://github.com/Pittini/iobroker-heatingcontrol-vis
 
@@ -24,10 +22,10 @@ let ChoosenRoom = "";
 //HeatingControl Werte einlesen bei Scriptstart
 //Infobereich
 let NumberOfProfiles = getState(hcpraefix + "info.NumberOfProfiles").val;
-const UsedRooms = getState(hcpraefix + "info.UsedRooms").val;
+let UsedRooms = getState(hcpraefix + "info.UsedRooms").val;
 let NumberOfPeriods = getState(hcpraefix + "info.NumberOfPeriods").val;
 let ProfileType = getState(hcpraefix + "info.ProfileType").val;
-const TempDecreaseMode = getState(hcpraefix + "info.TemperatureDecreaseMode").val;
+let TempDecreaseMode = getState(hcpraefix + "info.TemperatureDecreaseMode").val;
 
 // Currently not in use, disabled
 // const TemperatureDecreaseMode = getState(hcpraefix + "info.TemperatureDecreaseMode").val;
@@ -171,7 +169,7 @@ function main() {
     //ValueList Vorgabewerte anhand Profileinstellungen erzeugen
     SetProfileValueList(); //ValueList Vorgaben für Profile erzeugen
     SetTempDecreaseModeValueLists();//ValueList Vorgaben (Werte und Texte) für Decreasemodes erzeugen
-
+    CreateCurrentTimePeriodTrigger("none"); //TimeperiodTrigger für aktuellen Raum wählen
     SetTrigger();    //Trigger erzeugen
     SetVis(); // Vis initialisieren
 }
@@ -198,18 +196,27 @@ function InitWindowStates() { //Bei Programmstart alle Raum/Fensterstati einlese
     }
 }
 /*
-Einfache html Table
+//Einfache html Table
 function CreateWindowStatesTable() {
-    let HtmlTable = '<table width="100%" border="0">'
-    for (let x = 0; x <= Rooms.length - 2; x++) {
-        HtmlTable = HtmlTable + "<tr><td>" + Rooms[x] + "</td><td>" + WindowState[x] + "</tr>"
+    let HtmlTable = '<div><table width="260px" border="0">'
+    OpenWindowRoomCount = 0;
+    for (let x = 0; x <= Rooms.length - 1; x++) {
+        if (WindowState[x] == true) {
+            HtmlTable = HtmlTable + "<tr bgcolor='#ff0000'><td>" + '<img height=40px src="' + WindowOpenImg + '"&nbsp</img>' + "</td><td height=40px>" + Rooms[x] + "</td><td height=40px>" + "auf" + "</td></tr>"
+            OpenWindowRoomCount++;
+        }
+        else {
+            HtmlTable = HtmlTable + "<tr><td height=40px>" + '<img height=40px src="' + WindowClosedImg + '"&nbsp</img>' + "</td><td height=40px>" + Rooms[x] + "</td><td height=40px>" + "zu" + "</td></tr>"
+        };
     };
-    HtmlTable = HtmlTable + "</table>"
-    setState(praefix+"WindowStatesHtmlTable",HtmlTable)
+    HtmlTable = HtmlTable + "</table></div>"
     log(HtmlTable)
-};
-*/
 
+    setState(praefix + "OpenWindowRoomCount", OpenWindowRoomCount);
+    setState(praefix + "WindowStatesHtmlTable", HtmlTable)
+
+}
+*/
 function CreateWindowStatesTable() { // Erzeugt List mit Räumen und Fensterstatus
     let HtmlTable = "";
     OpenWindowRoomCount = 0;
@@ -228,20 +235,18 @@ function CreateWindowStatesTable() { // Erzeugt List mit Räumen und Fensterstat
     if (logging) log(HtmlTable);
 }
 
+
 function SetTimeTempValue(ProfileDays, What, ScriptDpVal, Period) { //Werte vom Vis, Bereich Zeit/Temperatur, in AdapterDPs schreiben
     if (RefreshingVis == false) {
         log(typeof (ScriptDpVal));
         if (logging) log("Reaching SetTimeTempValue");
         if (logging) log("SetTimeTempValue: " + hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + ProfileDays + ".Periods." + Period + "." + What + " set to " + ScriptDpVal);
-        //if (What == "time") log(Date.parse(ScriptDpVal));
         setState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + ProfileDays + ".Periods." + Period + "." + What, ScriptDpVal);
     }
 }
 
 function SetDecreaseValue(What, ScriptDpVal) {//Werte vom Vis, Bereich Absenkungen, in AdapterDPs schreiben
     if (RefreshingVis == false) {
-        ScriptDpVal = toFloat(ScriptDpVal); //Number in Float umwandeln da dies vom HC Adapter gefordert wird
-        //log(ScriptDpVal+" ist vom Typ "+ typeof(ScriptDpVal))
         if (logging) log("Reaching SetDecreaseValue");
         if (logging) log("SetDecreasValue: " + hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + TempDecreaseMode + "." + What + " set to " + ScriptDpVal);
         setState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + TempDecreaseMode + "." + What, ScriptDpVal);
@@ -312,12 +317,12 @@ function SetVis() { // Vis Daten durch Adapterdaten ersetzen bei Umschaltung Rau
     else {
         setState(praefix + "RoomValues." + "MinimumTemperature", 0);
         log("MinimumTemp=Null, skipping entry and showing 0");
-    }
+    };
 
     setState(praefix + "RoomValues." + "TemperaturOverride", getState(hcpraefix + "Rooms." + ChoosenRoom + "." + "TemperaturOverride").val);
     setState(praefix + "RoomValues." + "TemperaturOverrideTime", getState(hcpraefix + "Rooms." + ChoosenRoom + "." + "TemperaturOverrideTime").val);
     setState(praefix + "RoomValues." + "WindowIsOpen", getState(hcpraefix + "Rooms." + ChoosenRoom + "." + "WindowIsOpen").val);
-    setState(praefix + "RoomValues." + "CurrentTimePeriod", getState(hcpraefix + "Rooms." + ChoosenRoom + "." + "CurrentTimePeriod").val);
+    setState(praefix + "RoomValues." + "CurrentTimePeriod", getState(hcpraefix + "Rooms." + ChoosenRoom + "." + "ActiveTimeSlot").val);
 
     setTimeout(function () { // Timeout setzt refresh status wieder zurück
         RefreshingVis = false;
@@ -346,7 +351,7 @@ function SetProfileValueList() { //Einträge für Vis Profil Valuelist erstellen
     for (let x = 1; x <= NumberOfProfiles; x++) {
         ProfileValueListValue = ProfileValueListValue + ";" + x;
         ProfileValueListText = ProfileValueListText + ";" + x;
-    }
+    };
     ProfileValueListValue = ProfileValueListValue.slice(1);
     ProfileValueListText = ProfileValueListText.slice(1);
 
@@ -355,12 +360,13 @@ function SetProfileValueList() { //Einträge für Vis Profil Valuelist erstellen
 }
 
 function CreateCurrentTimePeriodTrigger(OldRoom) {
-    log("reaching CreateCurrentTimePeriodTrigger - Oldroom= " + OldRoom);
-    if (unsubscribe(hcpraefix + "Rooms." + OldRoom + "CurrentTimePeriod")) { //Trigger auf vorherigen Raum löschen
-        if (logging) log("Trigger für Raum " + OldRoom + " gelöscht, und für Raum " + ChoosenRoom + " gesetzt.");
-    }
-
-    on(hcpraefix + "Rooms." + ChoosenRoom + "CurrentTimePeriod", function (dp) { //Neuen Trigger setzen
+    if (logging) log("reaching CreateCurrentTimePeriodTrigger - Oldroom= " + OldRoom + " ChoosenRoom= " + ChoosenRoom);
+    if (OldRoom != "none") { //Wenn kein Oldroom angegeben kein unsubscribe machen
+        if (unsubscribe(hcpraefix + "Rooms." + OldRoom + ".ActiveTimeSlot")) { //Trigger auf vorherigen Raum löschen
+            if (logging) log("Trigger für Raum " + OldRoom + " gelöscht, und für Raum " + ChoosenRoom + " gesetzt.");
+        };
+    };
+    on(hcpraefix + "Rooms." + ChoosenRoom + ".ActiveTimeSlot", function (dp) { //Neuen Trigger setzen
         if (RefreshingVis == false) setState(praefix + "RoomValues." + "CurrentTimePeriod", dp.state.val);//Wenn Änderung des akuellen Zeitslots im aktuell gewählten Raum
     });
 }
@@ -374,15 +380,22 @@ function SetTrigger() {
     on(hcpraefix + "info.NumberOfPeriods", function (dp) { //Wenn Anzahl der Perioden im Admin geändert
         NumberOfPeriods = dp.state.val - 1;
     });
-    on(hcpraefix + "info.ProfileType", function (dp) { //Wenn Änderung Profiltyp
+    on(hcpraefix + "info.ProfileType", function (dp) { //Wenn Änderung Profiltyp im Admin
         ProfileType = dp.state.val;
     });
-    on(hcpraefix + "info.TemperatureDecreaseMode", function (dp) { //Wenn Änderung des DecreaseModes
-        //TemperatureDecreaseMode = dp.state.val;
+    on(hcpraefix + "info.TemperatureDecreaseMode", function (dp) { //Wenn Änderung des DecreaseModes im Admin
+        TempDecreaseMode = dp.state.val;
     });
+    on(hcpraefix + "info.UsedRooms", function (dp) { //Wenn Änderung der UsedRooms im Admin
+        UsedRooms = dp.state.val;
+    });
+
+    // Currently not in use, disabled
+    /*
     on(hcpraefix + "info.PublicHolidayLikeSunday", function (dp) { //Wenn 
-        //PublicHolidayLikeSunday = dp.state.val;
+        PublicHolidayLikeSunday = dp.state.val;
     });
+    */
 
     //Trigger HC Main Root
     on(hcpraefix + "CurrentProfile", function (dp) { //Wenn Änderung des Profils
