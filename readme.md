@@ -178,6 +178,7 @@ Diese Schritte wiederholst Du für jeden Raum. Klingt aufwendiger als es ist, et
 * Viel Spaß.
 
 # Changelog
+* ### Scriptupdate > Version 1.0.5 - Bugfix bei "jeder Tag separat" Do und Fr wurden nicht gefunden
 * ### Simple Vis updated > made prettyer
 * ### Skriptupdate > Version 1.0.4 - Bugfix beim erstellen des Triggers für aktuelle Zeitperiode / corrected Syntax for TempDecreaseMode Trigger
 * ### Version 2.0.3 - Bugfix im Vis, Raumname wird jetzt auch bei Profiltyp alle Tage separat angezeigt / Skript (1.0.2) Warnmeldung bei leerer MinimumTemperature vermieden (HC < 0.3.19)

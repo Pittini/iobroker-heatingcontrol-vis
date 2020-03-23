@@ -1,5 +1,5 @@
 //Mapping Skript zum Adapter HeatingControl V 0.3.19 oder höher
-// Skriptversion 1.0.4 - https://github.com/Pittini/iobroker-heatingcontrol-vis
+// Skriptversion 1.0.5 Stand 23.3.2020 - https://github.com/Pittini/iobroker-heatingcontrol-vis
 
 
 const praefix = "javascript.0.vis.HeatingControl."; //Grundpfad für Script DPs
@@ -197,6 +197,7 @@ function InitWindowStates() { //Bei Programmstart alle Raum/Fensterstati einlese
 }
 /*
 //Einfache html Table
+[{"Title": "first", "Value": 1, "_Description": "Value1"}, {"Title": "second", "Value": 2, "_Description": "Value2"}]
 function CreateWindowStatesTable() {
     let HtmlTable = '<div><table width="260px" border="0">'
     OpenWindowRoomCount = 0;
@@ -293,9 +294,9 @@ function SetVis() { // Vis Daten durch Adapterdaten ersetzen bei Umschaltung Rau
                 setState(praefix + "ProfileTypes.Wed.Periods." + x + ".Temperature", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Wed.Periods." + x + ".Temperature").val);
                 setState(praefix + "ProfileTypes.Wed.Periods." + x + ".time", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Wed.Periods." + x + ".time").val);
                 setState(praefix + "ProfileTypes.Thu.Periods." + x + ".Temperature", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Thu.Periods." + x + ".Temperature").val);
-                setState(praefix + "ProfileTypes.Thu.Periods." + x + ".time", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Thu." + x + ".time").val);
+                setState(praefix + "ProfileTypes.Thu.Periods." + x + ".time", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Thu.Periods." + x + ".time").val);
                 setState(praefix + "ProfileTypes.Fri.Periods." + x + ".Temperature", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Fri.Periods." + x + ".Temperature").val);
-                setState(praefix + "ProfileTypes.Fri.Periods." + x + ".time", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Fri." + x + ".time").val);
+                setState(praefix + "ProfileTypes.Fri.Periods." + x + ".time", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Fri.Periods." + x + ".time").val);
                 setState(praefix + "ProfileTypes.Sat.Periods." + x + ".Temperature", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Sat.Periods." + x + ".Temperature").val);
                 setState(praefix + "ProfileTypes.Sat.Periods." + x + ".time", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Sat.Periods." + x + ".time").val);
                 setState(praefix + "ProfileTypes.Sun.Periods." + x + ".Temperature", getState(hcpraefix + "Profiles." + CurrentProfile + "." + ChoosenRoom + "." + "Sun.Periods." + x + ".Temperature").val);
