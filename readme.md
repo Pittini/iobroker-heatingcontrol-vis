@@ -39,7 +39,7 @@ Dadurch entfällt die bisherige Notwendigkeit, für jeden Raum eine eigene Seite
 **a.) Skript installieren**  
 Am besten installierst Du zuerst das JavaSript Script und startest es - (wenn Du weißt wie das geht, direkt weiter zu Punkt b.)
 
-Die **HeatingControlMapper.js Datei** bitte **NICHT im Browser öffnen** und dann den Text kopieren, sondern direkt (rechte Maustaste > Link speichern unter) abspeichern! Nun öffnest Du die Datei mit dem Editor Deines Vertrauens und kopierst die komplette Datei in die Zwischenablage (Strg A / Strg C).
+  Du klickst im Browserfenster auf die Skriptdatei (Endung .js). Dann wird das Skript angezeigt, drüber rechts gibt es einen Button "Raw", da drauf klicken. Jetzt wird das Skript blanko im Browser angezeigt. Mit Strg A alles markieren, dann mit Strg C in die Zwischenablagen kopieren. 
 
 ### Im Iobroker nun die Scriptseite aufrufen:
 
