@@ -1,20 +1,11 @@
 
 
-# View/Vis-Projekt Version 3.0 zum Adapter HeatingControl und Anleitung. 
+# View/Vis-Projekt Version 2.0.4 zum Adapter HeatingControl und Anleitung. 
 
-## V3 Version ab HeatingControl 0.4.x benötigt KEIN separates Skript mehr, dieses wurde in den Adapter integriert!
-
-## Update von Version 2.x auf die neue 3.x
-Wer bereits Version 2.x verwendet und evtl. viele Anpassungen gemacht hat, bzw. seine ganzen Thermostate mit der Kopiervorlage visualisiert, sollte nicht einfach diese neue Version "drüberbügeln" da dadurch alle bisherigen Änderungen verloren gehen würden. Im Vis selber gibt es zwar bisher keinerlei funktionale Änderungen (was aber durch die fortschreitende Adapterentwicklung absehbar ist), allerdings haben sich durch die Skriptintegration in den Adapter alle Pfade zu den Datenpunkten geändert. Um Euer schon bestehendes Projekt auf diesen Stand zu bringen, empfehle ich folgende Vorgehensweise:
-
-1. Du exportierst Dein gesamtes Projekt als zip Datei. Hierzu im Vis Editor Menüpunkt "Setup > Projekt-Export/import > Exportieren (normal)" auswählen. Nun wurde eine Zip Datei erstellt welche Dein ganzes Projekt beinhaltet.
-2. In dieser Zip-Datei findet sich eine Textdatei namens "vis-views.json". Diese öffnest Du mit dem Editor Deines Vertrauens, welcher eine "suchen & ersetzen" Funktionalität besitzen muß.
-3. Du läßt nach der Zeichenfolge "javascript.0.vis.HeatingControl" suchen, und ersetzt diese mit der Zeichenfolge "heatingcontrol.0.vis".
-4. Mit dieser Änderung aktualisierst Du nun die Zip Datei. (Am besten die geänderte vis-views.json irgendwohin speichern, dann das original aus der zip Datei mit dieser ersetzen.)
-5. 
+## Beta RC2 Version!
 
 ## ZusatzView:
-### Vis-Simple-HeatingControl.txt (Stand 19.4.2020) enthält alle relevanten Elemente, um die Funktionalität in eigene Projekte integrieren zu können. Es entfällt dadurch jedoch Responsive Design, Farbeinstellungen, klappbare Cards, etc. 
+### Vis-Simple-HeatingControl.txt (Stand 21.3.2020) enthält alle relevanten Elemente, um die Funktionalität in eigene Projekte integrieren zu können. Es entfällt dadurch jedoch Responsive Design, Farbeinstellungen, klappbare Cards, etc. 
 Die einzelnen Element-Blöcke sind gruppiert und haben die gleiche Funktionalität wie das große Projekt, es wurden jedoch alle Verweise auf MaterialDesign und relative Größenangaben entfernt. **Um die Optik müßt Ihr Euch hier selber kümmern.** Die Textdatei ist via "Widgets Importieren" einzufügen. Wer das große Projekt verwendet, braucht diese Datei NICHT.
 
 ##  Ab hier nun die Infos zum Projekt:
@@ -22,12 +13,13 @@ Die einzelnen Element-Blöcke sind gruppiert und haben die gleiche Funktionalit�
 ![V2preview-2.png](/admin/V2preview-2.png)
 
 **Voraussetzungen um das Vis Projekt ohne Änderungen verwenden zu können sind:**
-1. Du verwendest **Version 0.4.x oder höher** des HeatingControl Adapters und hast diesen funktionsfähig konfiguriert.
+1. Du verwendest **Version 0.3.19 oder höher** des HeatingControl Adapters und hast diesen funktionsfähig konfiguriert.
 2. **Du verwendest keinen MaterialDesign Adapter!**
+3. Du hast den "Skript Engine"- aka "JavaSkript"-Adapter installiert.
 
 
 **Features:**
-1. Nur eine Vis-Seite nötig, für beliebig viele Räume und Profile
+1. Nur noch eine Vis-Seite nötig, für beliebig viele Räume und Profile
 2. Logische Aufteilung in verschiedene "Cards" um Responive Design zu ermöglichen.
 3. Keine übereinanderliegenden Widgets mehr.
 4. Farben (Schrift,Hintergrund etc.) via Dialog einstellbar.
@@ -40,11 +32,36 @@ Die einzelnen Element-Blöcke sind gruppiert und haben die gleiche Funktionalit�
 
 
 **1. Wie installier ich den Kram?**  
-Der "Kram" besteht aus einem kompletten Vis Projekt. Das bisherige Skript zum Projekt wurde ab Version 0.4.0 des HeatingControl Adapters in diesen integriert. 
+Der "Kram" besteht aus zwei Teilen, einem JS Skript und einem kompletten Vis Projekt.  
+Das Skript legt eigene Datenpunkte an, worauf sich das Vis Projekt bezieht, und "übersetzt" die Eingaben im Vis. Diese Daten werden aufbereitet und es wird dynamisch der Pfad zum entsprechenden Datenpunkt des Adapters anhand der Auswahl von Profil und Raum erstellt. 
+Dadurch entfällt die bisherige Notwendigkeit, für jeden Raum eine eigene Seite zu erstellen, in der nochmal die verschiedenen Profile übereinandergelegt und via Sichtbarkeit gesteuert werden mussten.
+
+**a.) Skript installieren**  
+Am besten installierst Du zuerst das JavaSript Script und startest es - (wenn Du weißt wie das geht, direkt weiter zu Punkt b.)
+
+  Du klickst im Browserfenster auf die Skriptdatei (Endung .js). Dann wird das Skript angezeigt, drüber rechts gibt es einen Button "Raw", da drauf klicken. Jetzt wird das Skript blanko im Browser angezeigt. Mit Strg A alles markieren, dann mit Strg C in die Zwischenablagen kopieren. 
+
+### Im Iobroker nun die Scriptseite aufrufen:
+
+![V2JsInstall-1.jpg](/admin/V2JsInstall-1.jpg)
+
+### Nun ein neues JS Projekt anlegen:
+
+![V2JsInstall-2.jpg](/admin/V2JsInstall-2.jpg)
+
+### Einen sinnvollen Namen vergeben und sicherstellen, dass das Skript im Common Bereich angelegt wird:
+
+![V2JsInstall-3.jpg](/admin/V2JsInstall-3.jpg)
+
+### Ins leere Skriptfenster nun das Skript aus der Zwischenablage reinkopieren (Strg V), und starten.
+
+![V2JsInstall-4.jpg](/admin/V2JsInstall-4.jpg)
+
+Damit ist der Skriptteil abgeschlossen, es sind im Normalfall keinerlei Anpassungen nötig. 
 
 **b.) Vis Projekt installieren**  
-Du importierst die Zip Datei als Projekt in Dein Vis. Das Zip dazu **NICHT** auspacken! Als Projektname vergibst Du den Namen **HeatingControl** in genau dieser Schreibweise!  
-**Jeder andere Name bzw. Schreibweise wird dazu führen, dass die verwendeten Icons nicht mehr gefunden werden**, da der Projektname von Iob. auch als Pfadnamen verwendet wird und dieser im Projekt bei den Icons fest vorgegeben ist. Weiterhin wird die Funktionalität eingeschränkt sein, da auch in den mdui Klassen auf den Projektnamen Bezug genommen wird. Wer es trotzdem tun möchte, sollte Projektweit mit "suchen & ersetzen" vorgehen.
+Nun importierst Du die Zip Datei als Projekt in Dein Vis. Das Zip dazu **NICHT** auspacken! Als Projektname vergibst Du den Namen **HeatingControl** in genau dieser Schreibweise!  
+**Jeder andere Name bzw. Schreibweise wird dazu führen, dass die verwendeten Icons nicht mehr gefunden werden**, da der Projektname von Iob. auch als Pfadnamen verwedet wird und dieser im Projekt bei den Icons fest vorgegeben ist.
 
 Wenn Du weißt wie ein Projekt importiert wird, bist Du hier fertig, ansonsten weiterlesen.
 
@@ -66,7 +83,7 @@ Diese kann beispielsweise so aussehen, möglicherweise aber auch etwas anders, d
 ![V2preview-2.png](/admin/V2preview-2.png)
 
 **2. Warum schaut das bei mir so scheisse aus und gar nicht wie auf dem Screenshot?**
-Das Projekt verwendet das MaterialDesign Script und CSS 2.x von @Uhula, hast Du zusätzlich einen MaterialDesign Adapter installiert, kriegen die beiden sich in die Haare und keines von beiden wird mehr korrekt funktionieren. 
+Ich verwende das MaterialDesign Script und CSS 2.x von @Uhula, hast Du zusätzlich den MaterialDesign Adapter installiert, kriegen die beiden sich in die Haare und keines von beiden wird mehr korrekt funktionieren. 
 
 **3. Warum sehen einige Sachen sporadisch/regelmäßig/dauernd anders aus als vorhin?**
 Die Anzeigen haben ein "Eigenleben", d.h. sie reagieren auf Statusänderungen mit Farbwechseln von grün(inaktiv) auf rot(aktiv). 
@@ -116,7 +133,6 @@ Bei Profiltyp "jeder Tag getrennt"
   
 
 **Card Räume Kopiervorlage**  
-
 * Dient als Layout Vorlage falls Du für jeden Raum die Basis Werte anzeigen möchtest. Muss komplett von Dir konfiguriert werden. Am besten gehst Du folgendermaßen vor:
 Markiere alle Widgets mit Strg-A, klicke auf Widgets exportieren und kopiere den angezeigten Code in die Zwischenablage (Strg-A / Strg-C).
 Nun legst Du einen neuen View an und nennst diesen z.B. cardHzngWohnzimmer. Du hast nun eine leere Seite, hier wählst Du Widgets importieren und fügst den Code aus der Zwischenablage via Strg-V ein. Nun hat diese Seite alle Elemente der Vorlagenseite. Diesen Vorgang wiederholst Du für jeden Raum.
@@ -157,16 +173,16 @@ Diese Schritte wiederholst Du für jeden Raum. Klingt aufwendiger als es ist, et
 
 * ![V2preview-8.png](/admin/V2preview-8.png)
 
-**5. Fertig** -  Viel Spaß.
+**5. Fertig**
+* 
+* Viel Spaß.
 
-## Changelog
-* #### Version 3.0 - Großes update des gesamten Projekts da sich durch die integration des Skriptes in den Adapter alle Grundpfade der Datenpunkte änderten.
-  
-* #### Scriptupdate > Version 1.0.5 - Bugfix bei "jeder Tag separat" Do und Fr wurden nicht gefunden.
-* #### Simple Vis updated > made prettyer.
-* #### Skriptupdate > Version 1.0.4 - Bugfix beim erstellen des Triggers für aktuelle Zeitperiode / corrected Syntax for TempDecreaseMode Trigger.
-* #### Version 2.0.3 - Bugfix im Vis, Raumname wird jetzt auch bei Profiltyp alle Tage separat angezeigt / Skript (1.0.2) Warnmeldung bei leerer MinimumTemperature vermieden (HC < 0.3.19).
-* #### Version 2.0.2 - Bugfix im Vis, nicht verwendete Perioden werden jetzt korrekt ausgeblendet.
-* #### Version 2.0.1 - Bugfix bei Anzeige der aktuellen Periode, Bugfix in der Card bei "jeder Tag separat". Anpassung des Skripts.
-* #### Version 2.0.0 - Init.
+# Changelog
+* ### Scriptupdate > Version 1.0.5 - Bugfix bei "jeder Tag separat" Do und Fr wurden nicht gefunden
+* ### Simple Vis updated > made prettyer
+* ### Skriptupdate > Version 1.0.4 - Bugfix beim erstellen des Triggers für aktuelle Zeitperiode / corrected Syntax for TempDecreaseMode Trigger
+* ### Version 2.0.3 - Bugfix im Vis, Raumname wird jetzt auch bei Profiltyp alle Tage separat angezeigt / Skript (1.0.2) Warnmeldung bei leerer MinimumTemperature vermieden (HC < 0.3.19)
+* ### Version 2.0.2 - Bugfix im Vis, nicht verwendete Perioden werden jetzt korrekt ausgeblendet.
+* ### Version 2.0.1 - Bugfix bei Anzeige der aktuellen Periode, Bugfix in der Card bei "jeder Tag separat". Anpassung des Skripts.
+* ### Version 2.0.0 - Init 
 
