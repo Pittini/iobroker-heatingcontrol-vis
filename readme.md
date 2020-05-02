@@ -1,6 +1,6 @@
 
 
-# View/Vis-Projekt Version 3.0 zum Adapter HeatingControl und Anleitung. 
+# View/Vis-Projekt Version 3.0.1 zum Adapter HeatingControl und Anleitung. 
 
 ## V3 Version ab HeatingControl 0.4.x benötigt KEIN separates Skript mehr, dieses wurde in den Adapter integriert!
 
@@ -8,13 +8,14 @@
 Wer bereits Version 2.x verwendet und evtl. viele Anpassungen gemacht hat, bzw. seine ganzen Thermostate mit der Kopiervorlage visualisiert, sollte nicht einfach diese neue Version "drüberbügeln" da dadurch alle bisherigen Änderungen verloren gehen würden. Im Vis selber gibt es zwar bisher keinerlei funktionale Änderungen (was aber durch die fortschreitende Adapterentwicklung absehbar ist), allerdings haben sich durch die Skriptintegration in den Adapter alle Pfade zu den Datenpunkten geändert. Um Euer schon bestehendes Projekt auf diesen Stand zu bringen, empfehle ich folgende Vorgehensweise:
 
 1. Du exportierst Dein gesamtes Projekt als zip Datei. Hierzu im Vis Editor Menüpunkt "Setup > Projekt-Export/import > Exportieren (normal)" auswählen. Nun wurde eine Zip Datei erstellt welche Dein ganzes Projekt beinhaltet.
-2. In dieser Zip-Datei findet sich eine Textdatei namens "vis-views.json". Diese öffnest Du mit dem Editor Deines Vertrauens, welcher eine "suchen & ersetzen" Funktionalität besitzen muß.
+2. In dieser Zip-Datei findet sich eine Textdatei namens "vis-views.json". Diese ziehst Du aus dem zip raus und öffnest sie Du mit dem Editor Deines Vertrauens, welcher eine "suchen & ersetzen" Funktionalität besitzen muß.
 3. Du läßt nach der Zeichenfolge "javascript.0.vis.HeatingControl" suchen, und ersetzt diese mit der Zeichenfolge "heatingcontrol.0.vis".
-4. Mit dieser Änderung aktualisierst Du nun die Zip Datei. (Am besten die geänderte vis-views.json irgendwohin speichern, dann das original aus der zip Datei mit dieser ersetzen.)
-5. 
+4. Du speicherst nun das ganze und schiebst die "vis-views.json wieder in das zip Archiv.
+5. Nun importierst Du die zip Datei wieder in Vis, via "Setup > Projekt-Export/import > Importieren". Willst Du auf Nummer sichergehen, kannst Du vorher das alte Projekt im Vis Dateimanager umbenennen, es liegt im Verzeichnis "vis.0"
+6. Es sollte nun alles laufen und aussehen wie vorher. Das in der V2 verwendete Skript wird nicht mehr benötigt, Du kannst es deaktivieren und löschen.
 
 ## ZusatzView:
-### Vis-Simple-HeatingControl.txt (Stand 19.4.2020) enthält alle relevanten Elemente, um die Funktionalität in eigene Projekte integrieren zu können. Es entfällt dadurch jedoch Responsive Design, Farbeinstellungen, klappbare Cards, etc. 
+### V3.0.1-Vis-Simple-HeatingControl.txt (Stand 19.4.2020) enthält alle relevanten Elemente, um die Funktionalität in eigene Projekte integrieren zu können. Es entfällt dadurch jedoch Responsive Design, Farbeinstellungen, klappbare Cards, etc. 
 Die einzelnen Element-Blöcke sind gruppiert und haben die gleiche Funktionalität wie das große Projekt, es wurden jedoch alle Verweise auf MaterialDesign und relative Größenangaben entfernt. **Um die Optik müßt Ihr Euch hier selber kümmern.** Die Textdatei ist via "Widgets Importieren" einzufügen. Wer das große Projekt verwendet, braucht diese Datei NICHT.
 
 ##  Ab hier nun die Infos zum Projekt:
