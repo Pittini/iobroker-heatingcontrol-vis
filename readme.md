@@ -23,7 +23,8 @@ Die einzelnen Element-Blöcke sind gruppiert und haben die gleiche Funktionalit�
 ![V2preview-2.png](/admin/V2preview-2.png)
 
 **Voraussetzungen um das Vis Projekt ohne Änderungen verwenden zu können sind:**
-1. Du verwendest **Version 0.4.x oder höher** des HeatingControl Adapters und hast diesen funktionsfähig konfiguriert.
+1. Du verwendest **Version 0.4.x oder höher** des HeatingControl Adapters, hast diesen funktionsfähig konfiguriert und die entsprechende Option ganz unten im Adapteradmin aktiviert.
+![V3Activation.jpg](/admin/V3Activation.jpg)
 2. **Du verwendest keinen MaterialDesign Adapter!**
 
 
