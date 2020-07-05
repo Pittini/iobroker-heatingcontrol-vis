@@ -4,6 +4,10 @@
 
 ## V3 Version ab HeatingControl 0.4.x benötigt KEIN separates Skript mehr, dieses wurde in den Adapter integriert!
 
+**If you like it, please consider a donation:**
+                                                                          
+[![paypal](https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GGF786JBJNYRN&source=url) 
+
 ## Update von Version 2.x auf die neue 3.x
 Wer bereits Version 2.x verwendet und evtl. viele Anpassungen gemacht hat, bzw. seine ganzen Thermostate mit der Kopiervorlage visualisiert, sollte nicht einfach diese neue Version "drüberbügeln" da dadurch alle bisherigen Änderungen verloren gehen würden. Im Vis selber gibt es zwar bisher keinerlei funktionale Änderungen (was aber durch die fortschreitende Adapterentwicklung absehbar ist), allerdings haben sich durch die Skriptintegration in den Adapter alle Pfade zu den Datenpunkten geändert. Um Euer schon bestehendes Projekt auf diesen Stand zu bringen, empfehle ich folgende Vorgehensweise:
 
