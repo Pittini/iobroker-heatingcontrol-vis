@@ -8315,7 +8315,7 @@
           "lc-border-color": "",
           "lc-border-radius": 10,
           "lc-zindex": 0,
-          "html": "Heizungsregler1",
+          "html": "Thermostat Küche",
           "class": "mdui-subtitle"
         },
         "style": {
@@ -8623,7 +8623,7 @@
         "data": {
           "g_fixed": false,
           "g_visibility": false,
-          "g_css_font_text": false,
+          "g_css_font_text": true,
           "g_css_background": false,
           "g_css_shadow_padding": false,
           "g_css_border": false,
@@ -8682,14 +8682,15 @@
           "left": "13px",
           "top": "166px",
           "width": "263px",
-          "height": "120px"
+          "height": "300px",
+          "font-size": "xx-small"
         },
         "widgetSet": "basic"
       }
     },
     "name": "cardHzngKueche",
     "activeWidgets": [
-      "w00483"
+      "w00475"
     ],
     "filterList": []
   },
@@ -16199,7 +16200,25 @@
     "name": "cardHzngMoFrSaSo",
     "filterList": [],
     "activeWidgets": [
-      "w00163"
+      "w00097",
+      "w00109",
+      "w00134",
+      "w00135",
+      "w00156",
+      "w00157",
+      "w00158",
+      "w00159",
+      "w00160",
+      "w00163",
+      "w00165",
+      "w00166",
+      "w00167",
+      "w00168",
+      "w00169",
+      "w00170",
+      "w00171",
+      "w00172",
+      "w00173"
     ]
   },
   "cardHzngMoSu": {
@@ -16281,10 +16300,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "70px",
-          "top": "265px",
-          "width": "50px",
-          "height": "26px",
+          "left": "7.14%",
+          "top": "86.05%",
+          "width": "35.71%",
+          "height": "12.09%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -16297,7 +16316,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00206": {
         "tpl": "tplJquiSelectList",
@@ -16360,15 +16380,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "125px",
-          "top": "234.984375px",
-          "width": "65px",
-          "height": "26px",
+          "left": "46.43%",
+          "top": "72.09%",
+          "width": "46.43%",
+          "height": "12.09%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00207": {
         "tpl": "tplJquiInputDatetime",
@@ -16436,10 +16457,10 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "70px",
-          "top": "143px",
-          "width": "50px",
-          "height": "26px",
+          "left": "7.14%",
+          "top": "29.31%",
+          "width": "35.71%",
+          "height": "12.09%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -16452,7 +16473,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00208": {
         "tpl": "tplJquiSelectList",
@@ -16517,15 +16539,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "125px",
-          "top": "143px",
-          "width": "65px",
-          "height": "26px",
+          "left": "46.43%",
+          "top": "29.31%",
+          "width": "46.43%",
+          "height": "12.09%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00209": {
         "tpl": "tplJquiInputDatetime",
@@ -16594,10 +16617,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "70px",
-          "top": "174px",
-          "width": "50px",
-          "height": "26px",
+          "left": "7.14%",
+          "top": "43.73%",
+          "width": "35.71%",
+          "height": "12.09%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -16610,7 +16633,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00210": {
         "tpl": "tplJquiSelectList",
@@ -16673,15 +16697,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "125px",
-          "top": "174px",
-          "width": "65px",
-          "height": "26px",
+          "left": "46.43%",
+          "top": "43.73%",
+          "width": "46.43%",
+          "height": "12.09%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00211": {
         "tpl": "tplJquiInputDatetime",
@@ -16749,10 +16774,10 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "70px",
-          "top": "204px",
-          "width": "50px",
-          "height": "26px",
+          "left": "7.14%",
+          "top": "57.68%",
+          "width": "35.71%",
+          "height": "12.09%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -16765,7 +16790,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00212": {
         "tpl": "tplJquiSelectList",
@@ -16827,15 +16853,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "125px",
-          "top": "203.984375px",
-          "width": "65px",
-          "height": "26px",
+          "left": "46.43%",
+          "top": "57.67%",
+          "width": "46.43%",
+          "height": "12.09%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00213": {
         "tpl": "tplJquiInputDatetime",
@@ -16904,10 +16931,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "70px",
-          "top": "235px",
-          "width": "50px",
-          "height": "26px",
+          "left": "7.14%",
+          "top": "72.1%",
+          "width": "35.71%",
+          "height": "12.09%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -16920,7 +16947,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00214": {
         "tpl": "tplJquiSelectList",
@@ -16983,15 +17011,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "125px",
-          "top": "265px",
-          "width": "65px",
-          "height": "26px",
+          "left": "46.43%",
+          "top": "86.05%",
+          "width": "46.43%",
+          "height": "12.09%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00215": {
         "tpl": "tplHtml",
@@ -17415,16 +17444,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "70px",
-          "top": "111.984375px",
-          "width": "49px",
-          "height": "26px",
+          "left": "7.14%",
+          "top": "14.88%",
+          "width": "35%",
+          "height": "12.09%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00221": {
         "tpl": "tplHtml",
@@ -17564,16 +17594,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "125px",
-          "top": "111.984375px",
-          "width": "30px",
-          "height": "26px",
+          "left": "46.43%",
+          "top": "14.88%",
+          "width": "21.43%",
+          "height": "12.09%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00223": {
         "tpl": "tplHtml",
@@ -17709,14 +17740,15 @@
           "name": ""
         },
         "style": {
-          "left": "60px",
-          "top": "142.984375px",
-          "width": "140px",
-          "height": "30px",
+          "left": "0%",
+          "top": "29.3%",
+          "width": "100%",
+          "height": "13.95%",
           "z-index": "2",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00226": {
         "tpl": "tplHtml",
@@ -17782,14 +17814,15 @@
           "name": ""
         },
         "style": {
-          "left": "60px",
-          "top": "174px",
-          "width": "140px",
-          "height": "30px",
+          "left": "0%",
+          "top": "43.73%",
+          "width": "100%",
+          "height": "13.95%",
           "z-index": "2",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00227": {
         "tpl": "tplHtml",
@@ -17855,14 +17888,15 @@
           "name": ""
         },
         "style": {
-          "left": "60px",
-          "top": "203.96875px",
-          "width": "140px",
-          "height": "30px",
+          "left": "0%",
+          "top": "57.67%",
+          "width": "100%",
+          "height": "13.95%",
           "z-index": "2",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00228": {
         "tpl": "tplHtml",
@@ -17928,14 +17962,15 @@
           "name": ""
         },
         "style": {
-          "left": "60px",
-          "top": "234.984375px",
-          "width": "140px",
-          "height": "30px",
+          "left": "0%",
+          "top": "72.09%",
+          "width": "100%",
+          "height": "13.95%",
           "z-index": "2",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00229": {
         "tpl": "tplHtml",
@@ -18001,14 +18036,15 @@
           "name": ""
         },
         "style": {
-          "left": "60px",
-          "top": "265px",
-          "width": "140px",
-          "height": "30px",
+          "left": "0%",
+          "top": "86.05%",
+          "width": "100%",
+          "height": "13.95%",
           "z-index": "2",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00231": {
         "tpl": "tplHtml",
@@ -18073,13 +18109,14 @@
           "name": ""
         },
         "style": {
-          "left": "60px",
-          "top": "79.984375px",
-          "width": "140px",
-          "height": "22px",
+          "left": "0%",
+          "top": "0%",
+          "width": "100%",
+          "height": "10.23%",
           "z-index": "2"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00232": {
         "tpl": "tplHtml",
@@ -18213,13 +18250,14 @@
           "name": ""
         },
         "style": {
-          "left": "69.984375px",
-          "top": "131.984375px",
-          "width": "123px",
-          "height": "10px",
+          "left": "7.13%",
+          "top": "24.19%",
+          "width": "87.86%",
+          "height": "4.65%",
           "z-index": "2"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00234": {
         "tpl": "tplHtml",
@@ -18496,29 +18534,90 @@
           "height": "40px"
         },
         "widgetSet": "basic"
+      },
+      "g00002": {
+        "tpl": "_tplGroup",
+        "data": {
+          "members": [
+            "w00205",
+            "w00206",
+            "w00207",
+            "w00208",
+            "w00209",
+            "w00210",
+            "w00211",
+            "w00212",
+            "w00213",
+            "w00214",
+            "w00220",
+            "w00222",
+            "w00225",
+            "w00226",
+            "w00227",
+            "w00228",
+            "w00229",
+            "w00231",
+            "w00233"
+          ],
+          "visibility-cond": "==",
+          "visibility-val": 1,
+          "visibility-groups-action": "hide",
+          "attrCount": "1",
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0
+        },
+        "widgetSet": null,
+        "style": {
+          "top": 79.98333740234375,
+          "left": "60px",
+          "width": "140px",
+          "height": "215px"
+        }
       }
     },
     "name": "cardHzngMoSu",
     "activeWidgets": [
-      "w00205",
-      "w00206",
-      "w00207",
-      "w00208",
-      "w00209",
-      "w00210",
-      "w00211",
-      "w00212",
-      "w00213",
-      "w00214",
-      "w00220",
-      "w00222",
-      "w00225",
-      "w00226",
-      "w00227",
-      "w00228",
-      "w00229",
-      "w00231",
-      "w00233"
+      "g00002"
     ],
     "filterList": []
   },
@@ -29983,7 +30082,25 @@
     },
     "name": "cardHzngMoSuSeparat",
     "activeWidgets": [
-      "w00241"
+      "w00358",
+      "w00360",
+      "w00361",
+      "w00362",
+      "w00363",
+      "w00364",
+      "w00365",
+      "w00366",
+      "w00367",
+      "w00368",
+      "w00369",
+      "w00370",
+      "w00371",
+      "w00372",
+      "w00373",
+      "w00374",
+      "w00375",
+      "w00376",
+      "w00377"
     ],
     "filterList": []
   },
@@ -30206,81 +30323,6 @@
         },
         "widgetSet": "basic"
       },
-      "w00392": {
-        "tpl": "tplValueBool",
-        "data": {
-          "oid": "heatingcontrol.0.Present",
-          "g_fixed": false,
-          "g_visibility": false,
-          "g_css_font_text": true,
-          "g_css_background": false,
-          "g_css_shadow_padding": false,
-          "g_css_border": false,
-          "g_gestures": false,
-          "g_signals": false,
-          "g_last_change": false,
-          "signals-cond-0": "==",
-          "signals-val-0": true,
-          "signals-icon-0": "/vis/signals/lowbattery.png",
-          "signals-icon-size-0": 0,
-          "signals-blink-0": false,
-          "signals-horz-0": 0,
-          "signals-vert-0": 0,
-          "signals-hide-edit-0": false,
-          "signals-cond-1": "==",
-          "signals-val-1": true,
-          "signals-icon-1": "/vis/signals/lowbattery.png",
-          "signals-icon-size-1": 0,
-          "signals-blink-1": false,
-          "signals-horz-1": 0,
-          "signals-vert-1": 0,
-          "signals-hide-edit-1": false,
-          "signals-cond-2": "==",
-          "signals-val-2": true,
-          "signals-icon-2": "/vis/signals/lowbattery.png",
-          "signals-icon-size-2": 0,
-          "signals-blink-2": false,
-          "signals-horz-2": 0,
-          "signals-vert-2": 0,
-          "signals-hide-edit-2": false,
-          "lc-type": "last-change",
-          "lc-is-interval": true,
-          "lc-is-moment": false,
-          "lc-format": "",
-          "lc-position-vert": "top",
-          "lc-position-horz": "right",
-          "lc-offset-vert": 0,
-          "lc-offset-horz": 0,
-          "lc-font-size": "12px",
-          "lc-font-family": "",
-          "lc-font-style": "",
-          "lc-bkg-color": "",
-          "lc-color": "",
-          "lc-border-width": "0",
-          "lc-border-style": "",
-          "lc-border-color": "",
-          "lc-border-radius": 10,
-          "lc-zindex": 0,
-          "html_false": "<div class=mdui-red>um",
-          "html_true": "<div class=mdui-green>um",
-          "class": "mdui-center-v mdui-label",
-          "visibility-cond": "==",
-          "visibility-val": 1,
-          "visibility-groups-action": "hide"
-        },
-        "style": {
-          "left": "16.75%",
-          "top": "73.21%",
-          "width": "3.16%",
-          "height": "12.44%",
-          "font-size": "",
-          "font-weight": "",
-          "z-index": "1",
-          "color": ""
-        },
-        "widgetSet": "basic",
-        "grouped": true
-      },
       "w00393": {
         "tpl": "tplValueBool",
         "data": {
@@ -30344,17 +30386,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "0%",
-          "top": "73.21%",
-          "width": "9.48%",
-          "height": "12.44%",
+          "left": "16px",
+          "top": "233px",
+          "width": "100px",
+          "height": "26px",
           "font-size": "",
           "font-weight": "",
           "z-index": "1",
           "color": ""
         },
-        "widgetSet": "basic",
-        "grouped": true
+        "widgetSet": "basic"
       },
       "w00394": {
         "tpl": "tplJquiInputDatetime",
@@ -30424,9 +30465,9 @@
           "showGrid": true
         },
         "style": {
-          "left": "107px",
+          "left": "120",
           "top": "233px",
-          "width": "59px",
+          "width": "60px",
           "height": "27px",
           "font-weight": "bold",
           "font-size": "small",
@@ -30446,8 +30487,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.RoomValues.TemperaturOverride",
-          "values": "{heatingcontrol.0.vis.TempValueListValue}",
-          "texts": "{heatingcontrol.0.vis.TempAddValueListText}",
+          "values": "{heatingcontrol.0.vis.OverrideTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.OverrideTempValueListText}",
           "height": "262",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -30501,165 +30542,15 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "calc(100% - 81px)",
+          "left": "300px",
           "top": "233px",
-          "width": "65px",
+          "width": "70px",
           "height": "26px",
           "z-index": 8,
           "font-size": "",
           "font-weight": ""
         },
         "widgetSet": "jqui"
-      },
-      "w00396": {
-        "tpl": "tplValueBool",
-        "data": {
-          "oid": "",
-          "g_fixed": false,
-          "g_visibility": false,
-          "g_css_font_text": true,
-          "g_css_background": false,
-          "g_css_shadow_padding": false,
-          "g_css_border": false,
-          "g_gestures": false,
-          "g_signals": false,
-          "g_last_change": false,
-          "signals-cond-0": "==",
-          "signals-val-0": true,
-          "signals-icon-0": "/vis/signals/lowbattery.png",
-          "signals-icon-size-0": 0,
-          "signals-blink-0": false,
-          "signals-horz-0": 0,
-          "signals-vert-0": 0,
-          "signals-hide-edit-0": false,
-          "signals-cond-1": "==",
-          "signals-val-1": true,
-          "signals-icon-1": "/vis/signals/lowbattery.png",
-          "signals-icon-size-1": 0,
-          "signals-blink-1": false,
-          "signals-horz-1": 0,
-          "signals-vert-1": 0,
-          "signals-hide-edit-1": false,
-          "signals-cond-2": "==",
-          "signals-val-2": true,
-          "signals-icon-2": "/vis/signals/lowbattery.png",
-          "signals-icon-size-2": 0,
-          "signals-blink-2": false,
-          "signals-horz-2": 0,
-          "signals-vert-2": 0,
-          "signals-hide-edit-2": false,
-          "lc-type": "last-change",
-          "lc-is-interval": true,
-          "lc-is-moment": false,
-          "lc-format": "",
-          "lc-position-vert": "top",
-          "lc-position-horz": "right",
-          "lc-offset-vert": 0,
-          "lc-offset-horz": 0,
-          "lc-font-size": "12px",
-          "lc-font-family": "",
-          "lc-font-style": "",
-          "lc-bkg-color": "",
-          "lc-color": "",
-          "lc-border-width": "0",
-          "lc-border-style": "",
-          "lc-border-color": "",
-          "lc-border-radius": 10,
-          "lc-zindex": 0,
-          "html_false": "<div class=mdui-green>Fenster offen Absenkung",
-          "html_true": "<div class=mdui-red>Fenster offen Absenkung",
-          "class": "mdui-center-v mdui-label",
-          "visibility-cond": "==",
-          "visibility-val": 1,
-          "visibility-groups-action": "hide"
-        },
-        "style": {
-          "left": "0%",
-          "top": "58.37%",
-          "width": "100%",
-          "height": "12.44%",
-          "font-size": "",
-          "font-weight": "",
-          "z-index": "1",
-          "color": ""
-        },
-        "widgetSet": "basic",
-        "grouped": true
-      },
-      "w00397": {
-        "tpl": "tplValueBool",
-        "data": {
-          "oid": "heatingcontrol.0.VacationAbsent",
-          "g_fixed": false,
-          "g_visibility": false,
-          "g_css_font_text": true,
-          "g_css_background": false,
-          "g_css_shadow_padding": false,
-          "g_css_border": false,
-          "g_gestures": false,
-          "g_signals": false,
-          "g_last_change": false,
-          "signals-cond-0": "==",
-          "signals-val-0": true,
-          "signals-icon-0": "/vis/signals/lowbattery.png",
-          "signals-icon-size-0": 0,
-          "signals-blink-0": false,
-          "signals-horz-0": 0,
-          "signals-vert-0": 0,
-          "signals-hide-edit-0": false,
-          "signals-cond-1": "==",
-          "signals-val-1": true,
-          "signals-icon-1": "/vis/signals/lowbattery.png",
-          "signals-icon-size-1": 0,
-          "signals-blink-1": false,
-          "signals-horz-1": 0,
-          "signals-vert-1": 0,
-          "signals-hide-edit-1": false,
-          "signals-cond-2": "==",
-          "signals-val-2": true,
-          "signals-icon-2": "/vis/signals/lowbattery.png",
-          "signals-icon-size-2": 0,
-          "signals-blink-2": false,
-          "signals-horz-2": 0,
-          "signals-vert-2": 0,
-          "signals-hide-edit-2": false,
-          "lc-type": "last-change",
-          "lc-is-interval": true,
-          "lc-is-moment": false,
-          "lc-format": "",
-          "lc-position-vert": "top",
-          "lc-position-horz": "right",
-          "lc-offset-vert": 0,
-          "lc-offset-horz": 0,
-          "lc-font-size": "12px",
-          "lc-font-family": "",
-          "lc-font-style": "",
-          "lc-bkg-color": "",
-          "lc-color": "",
-          "lc-border-width": "0",
-          "lc-border-style": "",
-          "lc-border-color": "",
-          "lc-border-radius": 10,
-          "lc-zindex": 0,
-          "html_false": "<div class=mdui-green>Urlaub abwesend Absenkung",
-          "html_true": "<div class=mdui-red>Urlaub abwesend Absenkung",
-          "class": "mdui-center-v mdui-label",
-          "visibility-cond": "==",
-          "visibility-val": 1,
-          "visibility-groups-action": "hide"
-        },
-        "style": {
-          "left": "0%",
-          "top": "44.02%",
-          "width": "100%",
-          "height": "12.44%",
-          "font-size": "",
-          "font-weight": "",
-          "z-index": "1",
-          "color": ""
-        },
-        "widgetSet": "basic",
-        "grouped": true
       },
       "w00398": {
         "tpl": "tplValueBool",
@@ -30724,17 +30615,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "0%",
-          "top": "29.19%",
-          "width": "100%",
-          "height": "12.44%",
+          "left": "16px",
+          "top": "141px",
+          "width": "476px",
+          "height": "26px",
           "font-size": "",
           "font-weight": "",
           "z-index": "1",
           "color": ""
         },
-        "widgetSet": "basic",
-        "grouped": true
+        "widgetSet": "basic"
       },
       "w00399": {
         "tpl": "tplValueBool",
@@ -30799,17 +30689,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "0%",
-          "top": "14.82%",
-          "width": "100%",
-          "height": "12.44%",
+          "left": "16px",
+          "top": "110",
+          "width": "476px",
+          "height": "26px",
           "font-size": "",
           "font-weight": "",
           "z-index": "1",
           "color": ""
         },
-        "widgetSet": "basic",
-        "grouped": true
+        "widgetSet": "basic"
       },
       "w00400": {
         "tpl": "tplValueBool",
@@ -30874,17 +30763,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "0%",
-          "top": "0%",
-          "width": "100%",
-          "height": "12.44%",
+          "left": "16px",
+          "top": "80px",
+          "width": "476px",
+          "height": "26px",
           "font-size": "",
           "font-weight": "",
           "z-index": "1",
           "color": ""
         },
-        "widgetSet": "basic",
-        "grouped": true
+        "widgetSet": "basic"
       },
       "w00401": {
         "tpl": "tplHtml",
@@ -30956,17 +30844,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "0%",
-          "top": "87.56%",
-          "width": "100%",
-          "height": "12.44%",
+          "left": "16px",
+          "top": "263px",
+          "width": "476px",
+          "height": "26px",
           "z-index": "1",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic",
-        "grouped": true
+        "widgetSet": "basic"
       },
       "w00402": {
         "tpl": "tplJquiSelectList",
@@ -31027,9 +30914,9 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "calc(100% - 81px)",
-          "top": "202px",
-          "width": "65px",
+          "left": "300px",
+          "top": "201.98333740234375px",
+          "width": "70px",
           "height": "26px",
           "z-index": 8,
           "font-size": "",
@@ -31096,9 +30983,9 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "calc(100% - 81px)",
+          "left": "300px",
           "top": "263px",
-          "width": "65px",
+          "width": "70px",
           "height": "26px",
           "z-index": 13,
           "font-size": "",
@@ -31166,9 +31053,9 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "calc(100% - 81px)",
+          "left": "300px",
           "top": "141px",
-          "width": "65px",
+          "width": "70px",
           "height": "26px",
           "z-index": 8,
           "font-size": "",
@@ -31235,9 +31122,9 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "calc(100% - 81px)",
+          "left": "300px",
           "top": "80px",
-          "width": "65px",
+          "width": "70px",
           "height": "26px",
           "z-index": 8,
           "font-size": "",
@@ -31304,9 +31191,9 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "calc(100% - 81px)",
-          "top": "111px",
-          "width": "65px",
+          "left": "300px",
+          "top": "110",
+          "width": "70px",
           "height": "26px",
           "z-index": 8,
           "font-size": "",
@@ -31373,9 +31260,9 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "calc(100% - 81px)",
+          "left": "300px",
           "top": "172px",
-          "width": "65px",
+          "width": "70px",
           "height": "26px",
           "z-index": 8,
           "font-size": "",
@@ -31453,17 +31340,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "0%",
-          "top": "87.56%",
-          "width": "100%",
-          "height": "12.44%",
+          "left": "16px",
+          "top": "263px",
+          "width": "476px",
+          "height": "26px",
           "z-index": "1",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic",
-        "grouped": true
+        "widgetSet": "basic"
       },
       "w00129": {
         "tpl": "tplValueBool",
@@ -31520,105 +31406,29 @@
           "lc-border-color": "",
           "lc-border-radius": 10,
           "lc-zindex": 0,
-          "html_false": "<div class=mdui-red>um",
-          "html_true": "<div class=mdui-green>um",
+          "html_false": "<div class=mdui-red>auf",
+          "html_true": "<div class=mdui-green>auf",
           "class": "mdui-center-v mdui-label",
           "visibility-cond": "==",
           "visibility-val": 1,
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "14.65%",
-          "top": "73.21%",
-          "width": "3.16%",
-          "height": "12.44%",
+          "left": "200px",
+          "top": "233px",
+          "width": "30px",
+          "height": "26px",
           "font-size": "",
           "font-weight": "",
           "z-index": "1",
           "color": ""
         },
-        "widgetSet": "basic",
-        "grouped": true
-      },
-      "w00161": {
-        "tpl": "tplValueBool",
-        "data": {
-          "oid": "heatingcontrol.0.Present",
-          "g_fixed": false,
-          "g_visibility": false,
-          "g_css_font_text": true,
-          "g_css_background": false,
-          "g_css_shadow_padding": false,
-          "g_css_border": false,
-          "g_gestures": false,
-          "g_signals": false,
-          "g_last_change": false,
-          "signals-cond-0": "==",
-          "signals-val-0": true,
-          "signals-icon-0": "/vis/signals/lowbattery.png",
-          "signals-icon-size-0": 0,
-          "signals-blink-0": false,
-          "signals-horz-0": 0,
-          "signals-vert-0": 0,
-          "signals-hide-edit-0": false,
-          "signals-cond-1": "==",
-          "signals-val-1": true,
-          "signals-icon-1": "/vis/signals/lowbattery.png",
-          "signals-icon-size-1": 0,
-          "signals-blink-1": false,
-          "signals-horz-1": 0,
-          "signals-vert-1": 0,
-          "signals-hide-edit-1": false,
-          "signals-cond-2": "==",
-          "signals-val-2": true,
-          "signals-icon-2": "/vis/signals/lowbattery.png",
-          "signals-icon-size-2": 0,
-          "signals-blink-2": false,
-          "signals-horz-2": 0,
-          "signals-vert-2": 0,
-          "signals-hide-edit-2": false,
-          "lc-type": "last-change",
-          "lc-is-interval": true,
-          "lc-is-moment": false,
-          "lc-format": "",
-          "lc-position-vert": "top",
-          "lc-position-horz": "right",
-          "lc-offset-vert": 0,
-          "lc-offset-horz": 0,
-          "lc-font-size": "12px",
-          "lc-font-family": "",
-          "lc-font-style": "",
-          "lc-bkg-color": "",
-          "lc-color": "",
-          "lc-border-width": "0",
-          "lc-border-style": "",
-          "lc-border-color": "",
-          "lc-border-radius": 10,
-          "lc-zindex": 0,
-          "html_false": "<div class=mdui-red>Override für",
-          "html_true": "<div class=mdui-green>Override für",
-          "class": "mdui-center-v mdui-label",
-          "visibility-cond": "==",
-          "visibility-val": 1,
-          "visibility-groups-action": "hide"
-        },
-        "style": {
-          "left": "0%",
-          "top": "73.21%",
-          "width": "9.48%",
-          "height": "12.44%",
-          "font-size": "",
-          "font-weight": "",
-          "z-index": "1",
-          "color": ""
-        },
-        "widgetSet": "basic",
-        "grouped": true
+        "widgetSet": "basic"
       },
       "w00162": {
         "tpl": "tplValueBool",
         "data": {
-          "oid": "",
+          "oid": "heatingcontrol.0.vis.RoomValues.WindowIsOpen",
           "g_fixed": false,
           "g_visibility": false,
           "g_css_font_text": true,
@@ -31670,25 +31480,24 @@
           "lc-border-color": "",
           "lc-border-radius": 10,
           "lc-zindex": 0,
-          "html_false": "<div class=mdui-green>Fenster offen Temperatur",
-          "html_true": "<div class=mdui-red>Fenster offen Temperatur",
+          "html_false": "<div class=mdui-green>Fenster offen Absenkung",
+          "html_true": "<div class=mdui-red>Fenster offen Absenkung",
           "class": "mdui-center-v mdui-label",
           "visibility-cond": "==",
           "visibility-val": 1,
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "0%",
-          "top": "58.37%",
-          "width": "100%",
-          "height": "12.44%",
+          "left": "16px",
+          "top": "201.98333740234375px",
+          "width": "476px",
+          "height": "26px",
           "font-size": "",
           "font-weight": "",
           "z-index": "1",
           "color": ""
         },
-        "widgetSet": "basic",
-        "grouped": true
+        "widgetSet": "basic"
       },
       "w00164": {
         "tpl": "tplValueBool",
@@ -31745,392 +31554,32 @@
           "lc-border-color": "",
           "lc-border-radius": 10,
           "lc-zindex": 0,
-          "html_false": "<div class=mdui-green>Urlaub abwesend Temperatur",
-          "html_true": "<div class=mdui-red>Urlaub abwesend. Temperatur",
+          "html_false": "<div class=mdui-green>Urlaub abwesend Absenkung",
+          "html_true": "<div class=mdui-red>Urlaub abwesend Absenkung",
           "class": "mdui-center-v mdui-label",
           "visibility-cond": "==",
           "visibility-val": 1,
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "0%",
-          "top": "44.02%",
-          "width": "100%",
-          "height": "12.44%",
-          "font-size": "",
-          "font-weight": "",
-          "z-index": "1",
-          "color": ""
-        },
-        "widgetSet": "basic",
-        "grouped": true
-      },
-      "w00408": {
-        "tpl": "tplValueBool",
-        "data": {
-          "oid": "heatingcontrol.0.Present",
-          "g_fixed": false,
-          "g_visibility": false,
-          "g_css_font_text": true,
-          "g_css_background": false,
-          "g_css_shadow_padding": false,
-          "g_css_border": false,
-          "g_gestures": false,
-          "g_signals": false,
-          "g_last_change": false,
-          "signals-cond-0": "==",
-          "signals-val-0": true,
-          "signals-icon-0": "/vis/signals/lowbattery.png",
-          "signals-icon-size-0": 0,
-          "signals-blink-0": false,
-          "signals-horz-0": 0,
-          "signals-vert-0": 0,
-          "signals-hide-edit-0": false,
-          "signals-cond-1": "==",
-          "signals-val-1": true,
-          "signals-icon-1": "/vis/signals/lowbattery.png",
-          "signals-icon-size-1": 0,
-          "signals-blink-1": false,
-          "signals-horz-1": 0,
-          "signals-vert-1": 0,
-          "signals-hide-edit-1": false,
-          "signals-cond-2": "==",
-          "signals-val-2": true,
-          "signals-icon-2": "/vis/signals/lowbattery.png",
-          "signals-icon-size-2": 0,
-          "signals-blink-2": false,
-          "signals-horz-2": 0,
-          "signals-vert-2": 0,
-          "signals-hide-edit-2": false,
-          "lc-type": "last-change",
-          "lc-is-interval": true,
-          "lc-is-moment": false,
-          "lc-format": "",
-          "lc-position-vert": "top",
-          "lc-position-horz": "right",
-          "lc-offset-vert": 0,
-          "lc-offset-horz": 0,
-          "lc-font-size": "12px",
-          "lc-font-family": "",
-          "lc-font-style": "",
-          "lc-bkg-color": "",
-          "lc-color": "",
-          "lc-border-width": "0",
-          "lc-border-style": "",
-          "lc-border-color": "",
-          "lc-border-radius": 10,
-          "lc-zindex": 0,
-          "html_false": "<div class=mdui-red>Abwesenheits Temperatur",
-          "html_true": "<div class=mdui-green>Abwesenheits Temperatur",
-          "class": "mdui-center-v mdui-label",
-          "visibility-cond": "==",
-          "visibility-val": 1,
-          "visibility-groups-action": "hide"
-        },
-        "style": {
-          "left": "0%",
-          "top": "29.19%",
-          "width": "100%",
-          "height": "12.44%",
-          "font-size": "",
-          "font-weight": "",
-          "z-index": "1",
-          "color": ""
-        },
-        "widgetSet": "basic",
-        "grouped": true
-      },
-      "w00409": {
-        "tpl": "tplValueBool",
-        "data": {
-          "oid": "heatingcontrol.0.PartyNow",
-          "g_fixed": false,
-          "g_visibility": false,
-          "g_css_font_text": true,
-          "g_css_background": false,
-          "g_css_shadow_padding": false,
-          "g_css_border": false,
-          "g_gestures": false,
-          "g_signals": false,
-          "g_last_change": false,
-          "signals-cond-0": "==",
-          "signals-val-0": true,
-          "signals-icon-0": "/vis/signals/lowbattery.png",
-          "signals-icon-size-0": 0,
-          "signals-blink-0": false,
-          "signals-horz-0": 0,
-          "signals-vert-0": 0,
-          "signals-hide-edit-0": false,
-          "signals-cond-1": "==",
-          "signals-val-1": true,
-          "signals-icon-1": "/vis/signals/lowbattery.png",
-          "signals-icon-size-1": 0,
-          "signals-blink-1": false,
-          "signals-horz-1": 0,
-          "signals-vert-1": 0,
-          "signals-hide-edit-1": false,
-          "signals-cond-2": "==",
-          "signals-val-2": true,
-          "signals-icon-2": "/vis/signals/lowbattery.png",
-          "signals-icon-size-2": 0,
-          "signals-blink-2": false,
-          "signals-horz-2": 0,
-          "signals-vert-2": 0,
-          "signals-hide-edit-2": false,
-          "lc-type": "last-change",
-          "lc-is-interval": true,
-          "lc-is-moment": false,
-          "lc-format": "",
-          "lc-position-vert": "top",
-          "lc-position-horz": "right",
-          "lc-offset-vert": 0,
-          "lc-offset-horz": 0,
-          "lc-font-size": "12px",
-          "lc-font-family": "",
-          "lc-font-style": "",
-          "lc-bkg-color": "",
-          "lc-color": "",
-          "lc-border-width": "0",
-          "lc-border-style": "",
-          "lc-border-color": "",
-          "lc-border-radius": 10,
-          "lc-zindex": 0,
-          "html_false": "<div class=mdui-green>Party Temperatur",
-          "html_true": "<div class=mdui-red>Party Temperatur",
-          "class": "mdui-center-v mdui-label",
-          "visibility-cond": "==",
-          "visibility-val": 1,
-          "visibility-groups-action": "hide"
-        },
-        "style": {
-          "left": "0%",
-          "top": "14.83%",
-          "width": "100%",
-          "height": "12.44%",
-          "font-size": "",
-          "font-weight": "",
-          "z-index": "1",
-          "color": ""
-        },
-        "widgetSet": "basic",
-        "grouped": true
-      },
-      "w00410": {
-        "tpl": "tplValueBool",
-        "data": {
-          "oid": "heatingcontrol.0.GuestsPresent",
-          "g_fixed": false,
-          "g_visibility": false,
-          "g_css_font_text": true,
-          "g_css_background": false,
-          "g_css_shadow_padding": false,
-          "g_css_border": false,
-          "g_gestures": false,
-          "g_signals": false,
-          "g_last_change": false,
-          "signals-cond-0": "==",
-          "signals-val-0": true,
-          "signals-icon-0": "/vis/signals/lowbattery.png",
-          "signals-icon-size-0": 0,
-          "signals-blink-0": false,
-          "signals-horz-0": 0,
-          "signals-vert-0": 0,
-          "signals-hide-edit-0": false,
-          "signals-cond-1": "==",
-          "signals-val-1": true,
-          "signals-icon-1": "/vis/signals/lowbattery.png",
-          "signals-icon-size-1": 0,
-          "signals-blink-1": false,
-          "signals-horz-1": 0,
-          "signals-vert-1": 0,
-          "signals-hide-edit-1": false,
-          "signals-cond-2": "==",
-          "signals-val-2": true,
-          "signals-icon-2": "/vis/signals/lowbattery.png",
-          "signals-icon-size-2": 0,
-          "signals-blink-2": false,
-          "signals-horz-2": 0,
-          "signals-vert-2": 0,
-          "signals-hide-edit-2": false,
-          "lc-type": "last-change",
-          "lc-is-interval": true,
-          "lc-is-moment": false,
-          "lc-format": "",
-          "lc-position-vert": "top",
-          "lc-position-horz": "right",
-          "lc-offset-vert": 0,
-          "lc-offset-horz": 0,
-          "lc-font-size": "12px",
-          "lc-font-family": "",
-          "lc-font-style": "",
-          "lc-bkg-color": "",
-          "lc-color": "",
-          "lc-border-width": "0",
-          "lc-border-style": "",
-          "lc-border-color": "",
-          "lc-border-radius": 10,
-          "lc-zindex": 0,
-          "html_false": "<div class=mdui-green>Gäste Temperatur",
-          "html_true": "<div class=mdui-red>Gäste Temperatur",
-          "class": "mdui-center-v mdui-label",
-          "visibility-cond": "==",
-          "visibility-val": 1,
-          "visibility-groups-action": "hide"
-        },
-        "style": {
-          "left": "0%",
-          "top": "0%",
-          "width": "100%",
-          "height": "12.44%",
-          "font-size": "",
-          "font-weight": "",
-          "z-index": "1",
-          "color": ""
-        },
-        "widgetSet": "basic",
-        "grouped": true
-      },
-      "g00014": {
-        "tpl": "_tplGroup",
-        "data": {
-          "members": [
-            "w00410",
-            "w00409",
-            "w00408",
-            "w00164",
-            "w00162",
-            "w00161",
-            "w00129",
-            "w00128"
-          ],
-          "visibility-cond": "==",
-          "visibility-val": "absolute",
-          "visibility-groups-action": "hide",
-          "attrCount": "1",
-          "signals-cond-0": "==",
-          "signals-val-0": true,
-          "signals-icon-0": "/vis/signals/lowbattery.png",
-          "signals-icon-size-0": 0,
-          "signals-blink-0": false,
-          "signals-horz-0": 0,
-          "signals-vert-0": 0,
-          "signals-hide-edit-0": false,
-          "signals-cond-1": "==",
-          "signals-val-1": true,
-          "signals-icon-1": "/vis/signals/lowbattery.png",
-          "signals-icon-size-1": 0,
-          "signals-blink-1": false,
-          "signals-horz-1": 0,
-          "signals-vert-1": 0,
-          "signals-hide-edit-1": false,
-          "signals-cond-2": "==",
-          "signals-val-2": true,
-          "signals-icon-2": "/vis/signals/lowbattery.png",
-          "signals-icon-size-2": 0,
-          "signals-blink-2": false,
-          "signals-horz-2": 0,
-          "signals-vert-2": 0,
-          "signals-hide-edit-2": false,
-          "lc-type": "last-change",
-          "lc-is-interval": true,
-          "lc-is-moment": false,
-          "lc-format": "",
-          "lc-position-vert": "top",
-          "lc-position-horz": "right",
-          "lc-offset-vert": 0,
-          "lc-offset-horz": 0,
-          "lc-font-size": "12px",
-          "lc-font-family": "",
-          "lc-font-style": "",
-          "lc-bkg-color": "",
-          "lc-color": "",
-          "lc-border-width": "0",
-          "lc-border-style": "",
-          "lc-border-color": "",
-          "lc-border-radius": 10,
-          "lc-zindex": 0,
-          "visibility-oid": "heatingcontrol.0.info.TemperatureDecreaseMode"
-        },
-        "style": {
-          "top": "80px",
           "left": "16px",
-          "width": "949px",
-          "height": "209px",
-          "z-index": "1"
+          "top": "172px",
+          "width": "476px",
+          "height": "26px",
+          "font-size": "",
+          "font-weight": "",
+          "z-index": "1",
+          "color": ""
         },
-        "widgetSet": null
-      },
-      "g00012": {
-        "tpl": "_tplGroup",
-        "data": {
-          "members": [
-            "w00401",
-            "w00392",
-            "w00393",
-            "w00396",
-            "w00397",
-            "w00398",
-            "w00399",
-            "w00400"
-          ],
-          "visibility-cond": "==",
-          "visibility-val": 1,
-          "visibility-groups-action": "hide",
-          "attrCount": "1",
-          "signals-cond-0": "==",
-          "signals-val-0": true,
-          "signals-icon-0": "/vis/signals/lowbattery.png",
-          "signals-icon-size-0": 0,
-          "signals-blink-0": false,
-          "signals-horz-0": 0,
-          "signals-vert-0": 0,
-          "signals-hide-edit-0": false,
-          "signals-cond-1": "==",
-          "signals-val-1": true,
-          "signals-icon-1": "/vis/signals/lowbattery.png",
-          "signals-icon-size-1": 0,
-          "signals-blink-1": false,
-          "signals-horz-1": 0,
-          "signals-vert-1": 0,
-          "signals-hide-edit-1": false,
-          "signals-cond-2": "==",
-          "signals-val-2": true,
-          "signals-icon-2": "/vis/signals/lowbattery.png",
-          "signals-icon-size-2": 0,
-          "signals-blink-2": false,
-          "signals-horz-2": 0,
-          "signals-vert-2": 0,
-          "signals-hide-edit-2": false,
-          "lc-type": "last-change",
-          "lc-is-interval": true,
-          "lc-is-moment": false,
-          "lc-format": "",
-          "lc-position-vert": "top",
-          "lc-position-horz": "right",
-          "lc-offset-vert": 0,
-          "lc-offset-horz": 0,
-          "lc-font-size": "12px",
-          "lc-font-family": "",
-          "lc-font-style": "",
-          "lc-bkg-color": "",
-          "lc-color": "",
-          "lc-border-width": "0",
-          "lc-border-style": "",
-          "lc-border-color": "",
-          "lc-border-radius": 10,
-          "lc-zindex": 0
-        },
-        "widgetSet": null,
-        "style": {
-          "top": "80px",
-          "left": "16px",
-          "width": "949px",
-          "height": "209px"
-        }
+        "widgetSet": "basic"
       }
     },
     "name": "cardHzngProfilParam",
-    "activeWidgets": [],
+    "activeWidgets": [
+      "w00403",
+      "w00401",
+      "w00128"
+    ],
     "filterList": []
   },
   "cardHzngRaumvorlage": {
@@ -32969,7 +32418,9 @@
   },
   "cardHzngWozi": {
     "settings": {
-      "style": {},
+      "style": {
+        "background_class": ""
+      },
       "theme": "redmond",
       "sizex": "",
       "sizey": "",
@@ -33639,7 +33090,7 @@
           "lc-border-color": "",
           "lc-border-radius": 10,
           "lc-zindex": 0,
-          "html": "Heizungsregler1",
+          "html": "Thermostat WoZi",
           "class": "mdui-subtitle"
         },
         "style": {
@@ -33708,7 +33159,7 @@
           "lc-border-color": "",
           "lc-border-radius": 10,
           "lc-zindex": 0,
-          "html": "Wozi",
+          "html": "WoZi",
           "class": "mdui-title mdui-{0_userdata.0.mdui.vis.card_title_color}"
         },
         "style": {
@@ -33862,7 +33313,7 @@
         "data": {
           "g_fixed": false,
           "g_visibility": false,
-          "g_css_font_text": false,
+          "g_css_font_text": true,
           "g_css_background": false,
           "g_css_shadow_padding": false,
           "g_css_border": false,
@@ -33921,7 +33372,8 @@
           "left": "13px",
           "top": "166px",
           "width": "263px",
-          "height": "120px"
+          "height": "300px",
+          "font-size": "x-small"
         },
         "widgetSet": "basic"
       },
@@ -34013,7 +33465,7 @@
     },
     "name": "cardHzngWozi",
     "activeWidgets": [
-      "w00459"
+      "w00462"
     ],
     "filterList": []
   },
