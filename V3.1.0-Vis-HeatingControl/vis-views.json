@@ -6144,7 +6144,9 @@
   },
   "cardHzngFenster": {
     "settings": {
-      "style": {},
+      "style": {
+        "background_class": ""
+      },
       "theme": "redmond",
       "sizex": "",
       "sizey": "",
@@ -6433,7 +6435,9 @@
       }
     },
     "name": "cardHzngFenster",
-    "activeWidgets": [],
+    "activeWidgets": [
+      "w00431"
+    ],
     "filterList": []
   },
   "cardHzngGlobals": {
@@ -7638,7 +7642,9 @@
       }
     },
     "name": "cardHzngGlobals",
-    "activeWidgets": [],
+    "activeWidgets": [
+      "w00031"
+    ],
     "filterList": []
   },
   "cardHzngKueche": {
@@ -13063,8 +13069,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-So.Periods.5.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12°C;12,5°C;13°C;13,5°C;14°C;14,5°C;15°C;15,5°C;16°C;16,5°C;17°C;17,5°C;18°C;18,5°C;19°C;19,5°C;20°C;20,5°C;21°C;21,5°C;22°C;22,5°C;23°C;23,5°C;24°C;24,5°C;25°C;25,5°C;26°C;26,5°C;27°C;27,5°C;28°C;28,5°C;29°C;29,5°C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -13219,8 +13225,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-So.Periods.3.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12°C;12,5°C;13°C;13,5°C;14°C;14,5°C;15°C;15,5°C;16°C;16,5°C;17°C;17,5°C;18°C;18,5°C;19°C;19,5°C;20°C;20,5°C;21°C;21,5°C;22°C;22,5°C;23°C;23,5°C;24°C;24,5°C;25°C;25,5°C;26°C;26,5°C;27°C;27,5°C;28°C;28,5°C;29°C;29,5°C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -13375,8 +13381,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-So.Periods.2.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12°C;12,5°C;13°C;13,5°C;14°C;14,5°C;15°C;15,5°C;16°C;16,5°C;17°C;17,5°C;18°C;18,5°C;19°C;19,5°C;20°C;20,5°C;21°C;21,5°C;22°C;22,5°C;23°C;23,5°C;24°C;24,5°C;25°C;25,5°C;26°C;26,5°C;27°C;27,5°C;28°C;28,5°C;29°C;29,5°C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -13531,8 +13537,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-So.Periods.1.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12°C;12,5°C;13°C;13,5°C;14°C;14,5°C;15°C;15,5°C;16°C;16,5°C;17°C;17,5°C;18°C;18,5°C;19°C;19,5°C;20°C;20,5°C;21°C;21,5°C;22°C;22,5°C;23°C;23,5°C;24°C;24,5°C;25°C;25,5°C;26°C;26,5°C;27°C;27,5°C;28°C;28,5°C;29°C;29,5°C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "class": "mdui-select ",
           "open": false,
@@ -13689,8 +13695,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-So.Periods.4.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12°C;12,5°C;13°C;13,5°C;14°C;14,5°C;15°C;15,5°C;16°C;16,5°C;17°C;17,5°C;18°C;18,5°C;19°C;19,5°C;20°C;20,5°C;21°C;21,5°C;22°C;22,5°C;23°C;23,5°C;24°C;24,5°C;25°C;25,5°C;26°C;26,5°C;27°C;27,5°C;28°C;28,5°C;29°C;29,5°C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -14578,8 +14584,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Mo-Fr.Periods.5.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -14734,8 +14740,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Mo-Fr.Periods.3.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -14890,8 +14896,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Mo-Fr.Periods.2.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -15046,8 +15052,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Mo-Fr.Periods.1.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "class": "mdui-select ",
           "open": false,
@@ -15203,8 +15209,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Mo-Fr.Periods.4.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -16201,6 +16207,7 @@
     "filterList": [],
     "activeWidgets": [
       "w00097",
+      "w00098",
       "w00109",
       "w00134",
       "w00135",
@@ -16300,7 +16307,7 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "7.14%",
+          "left": "7.13%",
           "top": "86.05%",
           "width": "35.71%",
           "height": "12.09%",
@@ -16323,8 +16330,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Mo-Su.Periods.4.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -16457,8 +16464,8 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "7.14%",
-          "top": "29.31%",
+          "left": "7.13%",
+          "top": "29.3%",
           "width": "35.71%",
           "height": "12.09%",
           "font-weight": "",
@@ -16480,8 +16487,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Mo-Su.Periods.1.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "class": "mdui-select",
           "open": false,
@@ -16540,7 +16547,7 @@
         },
         "style": {
           "left": "46.43%",
-          "top": "29.31%",
+          "top": "29.3%",
           "width": "46.43%",
           "height": "12.09%",
           "z-index": "2",
@@ -16617,7 +16624,7 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "7.14%",
+          "left": "7.13%",
           "top": "43.73%",
           "width": "35.71%",
           "height": "12.09%",
@@ -16640,8 +16647,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Mo-Su.Periods.2.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -16774,8 +16781,8 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "7.14%",
-          "top": "57.68%",
+          "left": "7.13%",
+          "top": "57.67%",
           "width": "35.71%",
           "height": "12.09%",
           "font-weight": "",
@@ -16797,8 +16804,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Mo-Su.Periods.3.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -16931,8 +16938,8 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "7.14%",
-          "top": "72.1%",
+          "left": "7.13%",
+          "top": "72.09%",
           "width": "35.71%",
           "height": "12.09%",
           "font-weight": "",
@@ -16954,8 +16961,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Mo-Su.Periods.5.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -17444,7 +17451,7 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "7.14%",
+          "left": "7.13%",
           "top": "14.88%",
           "width": "35%",
           "height": "12.09%",
@@ -17741,7 +17748,7 @@
         },
         "style": {
           "left": "0%",
-          "top": "29.3%",
+          "top": "29.29%",
           "width": "100%",
           "height": "13.95%",
           "z-index": "2",
@@ -18250,7 +18257,7 @@
           "name": ""
         },
         "style": {
-          "left": "7.13%",
+          "left": "7.12%",
           "top": "24.19%",
           "width": "87.86%",
           "height": "4.65%",
@@ -18535,7 +18542,7 @@
         },
         "widgetSet": "basic"
       },
-      "g00002": {
+      "g00001": {
         "tpl": "_tplGroup",
         "data": {
           "members": [
@@ -18617,7 +18624,7 @@
     },
     "name": "cardHzngMoSu",
     "activeWidgets": [
-      "g00002"
+      "g00001"
     ],
     "filterList": []
   },
@@ -19371,8 +19378,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Sun.Periods.5.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -19527,8 +19534,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Sun.Periods.3.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -19683,8 +19690,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Sun.Periods.2.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -19839,8 +19846,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Sun.Periods.1.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "class": "mdui-select ",
           "open": false,
@@ -19996,8 +20003,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Sun.Periods.4.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -20886,8 +20893,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Sat.Periods.5.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -21042,8 +21049,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Sat.Periods.3.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -21198,8 +21205,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Sat.Periods.2.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -21354,8 +21361,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Sat.Periods.1.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "class": "mdui-select ",
           "open": false,
@@ -21511,8 +21518,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Sat.Periods.4.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -22401,8 +22408,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Fri.Periods.5.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -22557,8 +22564,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Fri.Periods.3.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -22713,8 +22720,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Fri.Periods.2.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -22869,8 +22876,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Fri.Periods.1.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "class": "mdui-select ",
           "open": false,
@@ -23026,8 +23033,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Fri.Periods.4.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -23916,8 +23923,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Tue.Periods.5.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -24072,8 +24079,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Tue.Periods.3.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -24228,8 +24235,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Tue.Periods.2.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -24384,8 +24391,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Tue.Periods.1.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "class": "mdui-select ",
           "open": false,
@@ -24541,8 +24548,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Tue.Periods.4.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -25431,8 +25438,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Wed.Periods.5.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -25587,8 +25594,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Wed.Periods.3.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -25743,8 +25750,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Wed.Periods.2.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -25899,8 +25906,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Wed.Periods.1.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "class": "mdui-select ",
           "open": false,
@@ -26056,8 +26063,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Wed.Periods.4.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -26946,8 +26953,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Thu.Periods.5.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -27102,8 +27109,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Thu.Periods.3.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -27258,8 +27265,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Thu.Periods.2.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -27414,8 +27421,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Thu.Periods.1.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "class": "mdui-select ",
           "open": false,
@@ -27571,8 +27578,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Thu.Periods.4.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -28461,8 +28468,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Mon.Periods.5.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -28617,8 +28624,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Mon.Periods.3.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -28773,8 +28780,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Mon.Periods.2.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -28929,8 +28936,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Mon.Periods.1.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "class": "mdui-select ",
           "open": false,
@@ -29086,8 +29093,8 @@
         "tpl": "tplJquiSelectList",
         "data": {
           "oid": "heatingcontrol.0.vis.ProfileTypes.Mon.Periods.4.Temperature",
-          "values": "12;12.5;13;13.5;14;14.5;15;15.5;16;16.5;17;17.5;18;18.5;19;19.5;20;20.5;21;21.5;22;22.5;23;23.5;24;24.5;25;25.5;26;26.5;27;27.5;28;28.5;29;29.5;30",
-          "texts": "12 °C;12,5 °C;13 °C;13,5 °C;14 °C;14,5 °C;15 °C;15,5 °C;16 °C;16,5 °C;17 °C;17,5 °C;18 °C;18,5 °C;19 °C;19,5 °C;20 °C;20,5 °C;21 °C;21,5 °C;22 °C;22,5 °C;23 °C;23,5 °C;24 °C;24,5 °C;25 °C;25,5 °C;26 °C;26,5 °C;27 °C;27,5 °C;28 °C;28,5 °C;29 °C;29,5 °C;30",
+          "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
+          "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
           "signals-cond-0": "==",
           "signals-val-0": true,
@@ -30082,25 +30089,7 @@
     },
     "name": "cardHzngMoSuSeparat",
     "activeWidgets": [
-      "w00358",
-      "w00360",
-      "w00361",
-      "w00362",
-      "w00363",
-      "w00364",
-      "w00365",
-      "w00366",
-      "w00367",
-      "w00368",
-      "w00369",
-      "w00370",
-      "w00371",
-      "w00372",
-      "w00373",
-      "w00374",
-      "w00375",
-      "w00376",
-      "w00377"
+      "w00248"
     ],
     "filterList": []
   },
@@ -30465,7 +30454,7 @@
           "showGrid": true
         },
         "style": {
-          "left": "120",
+          "left": "120px",
           "top": "233px",
           "width": "60px",
           "height": "27px",
@@ -30690,7 +30679,7 @@
         },
         "style": {
           "left": "16px",
-          "top": "110",
+          "top": "110px",
           "width": "476px",
           "height": "26px",
           "font-size": "",
@@ -31192,7 +31181,7 @@
         },
         "style": {
           "left": "300px",
-          "top": "110",
+          "top": "110px",
           "width": "70px",
           "height": "26px",
           "z-index": 8,
@@ -31576,9 +31565,7 @@
     },
     "name": "cardHzngProfilParam",
     "activeWidgets": [
-      "w00403",
-      "w00401",
-      "w00128"
+      "w00402"
     ],
     "filterList": []
   },
@@ -33465,7 +33452,7 @@
     },
     "name": "cardHzngWozi",
     "activeWidgets": [
-      "w00462"
+      "w00459"
     ],
     "filterList": []
   },
