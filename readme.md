@@ -25,12 +25,19 @@ Zusätzlich muss der grüne Balken noch angepasst werden. Für jedes widget muss
 ### News in 3.1.0
 
 * limits für Temperatureinstellungen aus dem admin konfigurierbar:
+Im admin von HeatingControl kann man Minimum, Maximum und Schrittweite konfigurieren. Damit das in der vis verwendet werden kann,
+muss das für alle Profil-Temperatur-Widgets konfiguriert werden
+
 ![news_V3.1_profile_value_list.PNG](/admin/news_V3.1_profile_value_list.PNG)
 
-* einfache Raum-Status-Liste (widget HTML)
+* einfache Raum-Status-Liste (widget HTML):
+es gibt nun einen Datenpunkt, der der HTML-Liste zur Verfügung stellt, in der alle Räume mit Soll, Ist und Status aufgelistet werden.
+
 ![news_V3.1_room_state_list.PNG](/admin/news_V3.1_room_state_list.PNG)
 
 * neue Raum-Vorlage
+Die neue Raum-Vorlage enthält einen Status-Log und einen Button, zum Rücksetzen des Manual-Modus 
+
 ![news_V3.1_room_template.PNG](/admin/news_V3.1_room_template.PNG)
 
 
