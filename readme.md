@@ -1,12 +1,41 @@
 
 
-# View/Vis-Projekt Version 3.0.1 zum Adapter HeatingControl und Anleitung. 
+# View/Vis-Projekt Version 3.1.0 zum Adapter HeatingControl und Anleitung. 
 
 ## V3 Version ab HeatingControl 0.4.x benötigt KEIN separates Skript mehr, dieses wurde in den Adapter integriert!
+
+## HeatingControl 2.x benötigt V3.1 der vis, da hier die Profile und Perioden mit Index 1 starten 
+
 
 **If you like it, please consider a donation:**
                                                                           
 [![paypal](https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GGF786JBJNYRN&source=url) 
+
+## Update von Version 3.0.1 auf die neue 3.1.0
+Wer bereits die 3.0.1 nutzt und gegebenenfalls eigene Anpassungen realisiert hat, möchte vielleicht nicht einfach die 3.1.0 installieren.
+Folgende Anpassungen *müssen* in der 3.0.1 gemacht werden, damit die vis kompatibel zu HeatingControl 2.x wird:
+
+in den views cardHzngMoSu, cardHzngMoSuSeparat und cardHzngMoFrSaSo müssen in allen Zeiten und Temperatur-widgets die Object-ID's jeweils um eins erhöht werden.
+Aus z.Bsp. heatingcontrol.0.vis.ProfileTypes.Mon.Periods.0.time wird heatingcontrol.0.vis.ProfileTypes.Mon.Periods.1.time usw. 
+![ChangeV3.1_1.PNG](/admin/ChangeV3.1_1.PNG)
+
+Zusätzlich muss der grüne Balken noch angepasst werden. Für jedes widget muss der Wert für die Sichtbarkeit um eins erhöht werden
+![ChangeV3.1_2.PNG](/admin/ChangeV3.1_2.PNG)
+
+### News in 3.1.0
+
+* limits für Temperatureinstellungen aus dem admin konfigurierbar:
+![news_V3.1_profile_value_list.PNG](/admin/news_V3.1_profile_value_list.PNG)
+
+* einfache Raum-Status-Liste (widget HTML)
+![news_V3.1_room_state_list.PNG](/admin/news_V3.1_room_state_list.PNG)
+
+* neue Raum-Vorlage
+![news_V3.1_room_template.PNG](/admin/news_V3.1_room_template.PNG)
+
+
+
+
 
 ## Update von Version 2.x auf die neue 3.x
 Wer bereits Version 2.x verwendet und evtl. viele Anpassungen gemacht hat, bzw. seine ganzen Thermostate mit der Kopiervorlage visualisiert, sollte nicht einfach diese neue Version "drüberbügeln" da dadurch alle bisherigen Änderungen verloren gehen würden. Im Vis selber gibt es zwar bisher keinerlei funktionale Änderungen (was aber durch die fortschreitende Adapterentwicklung absehbar ist), allerdings haben sich durch die Skriptintegration in den Adapter alle Pfade zu den Datenpunkten geändert. Um Euer schon bestehendes Projekt auf diesen Stand zu bringen, empfehle ich folgende Vorgehensweise:
@@ -19,7 +48,7 @@ Wer bereits Version 2.x verwendet und evtl. viele Anpassungen gemacht hat, bzw. 
 6. Es sollte nun alles laufen und aussehen wie vorher. Das in der V2 verwendete Skript wird nicht mehr benötigt, Du kannst es deaktivieren und löschen.
 
 ## ZusatzView:
-### V3.0.1-Vis-Simple-HeatingControl.txt (Stand 19.4.2020) enthält alle relevanten Elemente, um die Funktionalität in eigene Projekte integrieren zu können. Es entfällt dadurch jedoch Responsive Design, Farbeinstellungen, klappbare Cards, etc. 
+### V3.1.0-Vis-Simple-HeatingControl.txt (Stand 29.12.2020) enthält alle relevanten Elemente, um die Funktionalität in eigene Projekte integrieren zu können. Es entfällt dadurch jedoch Responsive Design, Farbeinstellungen, klappbare Cards, etc. 
 Die einzelnen Element-Blöcke sind gruppiert und haben die gleiche Funktionalität wie das große Projekt, es wurden jedoch alle Verweise auf MaterialDesign und relative Größenangaben entfernt. **Um die Optik müßt Ihr Euch hier selber kümmern.** Die Textdatei ist via "Widgets Importieren" einzufügen. Wer das große Projekt verwendet, braucht diese Datei NICHT.
 
 ##  Ab hier nun die Infos zum Projekt:
@@ -166,8 +195,9 @@ Diese Schritte wiederholst Du für jeden Raum. Klingt aufwendiger als es ist, et
 **5. Fertig** -  Viel Spaß.
 
 ## Changelog
+
+* #### Version 3.1 - Anpassung an HeatingControl 2.x
 * #### Version 3.0 - Großes update des gesamten Projekts da sich durch die integration des Skriptes in den Adapter alle Grundpfade der Datenpunkte änderten.
-  
 * #### Scriptupdate > Version 1.0.5 - Bugfix bei "jeder Tag separat" Do und Fr wurden nicht gefunden.
 * #### Simple Vis updated > made prettyer.
 * #### Skriptupdate > Version 1.0.4 - Bugfix beim erstellen des Triggers für aktuelle Zeitperiode / corrected Syntax for TempDecreaseMode Trigger.
