@@ -57,6 +57,13 @@ Das Verhalten schaltet man im admin durch "einfache Version nutzen" ein. Das erz
 ![news_V3.1_simple_window_state.PNG](/admin/news_V3.1_simple_window_state.PNG)
 
 
+* zwei neue Raum-Vorlagen zum Kopieren
+
+![news_V3.1_Kueche.PNG](/admin/news_V3.1_Kueche.PNG)
+
+![news_V3.1_WoZi.PNG](/admin/news_V3.1_WoZi.PNG)
+
+
 ## Update von Version 2.x auf die neue 3.x
 Wer bereits Version 2.x verwendet und evtl. viele Anpassungen gemacht hat, bzw. seine ganzen Thermostate mit der Kopiervorlage visualisiert, sollte nicht einfach diese neue Version "drüberbügeln" da dadurch alle bisherigen Änderungen verloren gehen würden. Im Vis selber gibt es zwar bisher keinerlei funktionale Änderungen (was aber durch die fortschreitende Adapterentwicklung absehbar ist), allerdings haben sich durch die Skriptintegration in den Adapter alle Pfade zu den Datenpunkten geändert. Um Euer schon bestehendes Projekt auf diesen Stand zu bringen, empfehle ich folgende Vorgehensweise:
 
