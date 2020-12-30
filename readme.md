@@ -17,12 +17,16 @@ Folgende Anpassungen *müssen* in der 3.0.1 gemacht werden, damit die vis kompat
 
 in den views cardHzngMoSu, cardHzngMoSuSeparat und cardHzngMoFrSaSo müssen in allen Zeiten und Temperatur-widgets die Object-ID's jeweils um eins erhöht werden.
 Aus z.Bsp. heatingcontrol.0.vis.ProfileTypes.Mon.Periods.0.time wird heatingcontrol.0.vis.ProfileTypes.Mon.Periods.1.time usw. 
+
 ![ChangeV3.1_1.PNG](/admin/ChangeV3.1_1.PNG)
 
 Zusätzlich muss der grüne Balken noch angepasst werden. Für jedes widget muss der Wert für die Sichtbarkeit um eins erhöht werden
+
 ![ChangeV3.1_2.PNG](/admin/ChangeV3.1_2.PNG)
 
-Im Profile Mo-Fr / Sa-So muss jetzt noch in Schreibfehler in allen widgets (Temperatur und Zeit) ausgebessert werden: aus Sa-So wird Sa-Su
+Im Profile Mo-Fr / Sa-So muss jetzt noch ein Schreibfehler in allen widgets, die heatingcontrol.0.vis.ProfileTypes.Sa-So enthalten (Temperatur und Zeit) ausgebessert werden: 
+aus heatingcontrol.0.vis.ProfileTypes.Sa-So wird heatingcontrol.0.vis.ProfileTypes.Sa-Su
+**ACHTUNG:** ab Periode 2 wird die Sichtbarkeit gesteuert. Der defür genutzte Datenpunkt heatingcontrol.0.info.NumberOfPeriods darf nicht geändert werden!
 
 ![ChangeV3.1_3.PNG](/admin/ChangeV3.1_3.PNG)
 
