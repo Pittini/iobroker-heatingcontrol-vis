@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{c18cee6f-ec46-4299-99e5-d6f853cdc67b}</ProjectGuid>
+    <ProjectHome>
+    </ProjectHome>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <StartupFile>myhomecontrol.js</StartupFile>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{3AF33F2E-1136-4D97-BBB7-1795711AC8B8};{349c5851-65df-11da-9384-00065b846f21};{9092AA53-FB77-4645-B42D-1CCCA6BD08BD}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">11.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <LastActiveSolutionConfig>Debug|Any CPU</LastActiveSolutionConfig>
+    <StartWebBrowser>True</StartWebBrowser>
+    <SaveNodeJsSettingsInProjectFile>True</SaveNodeJsSettingsInProjectFile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <ItemGroup>
+    <Content Include="admin\ChangeV3.1_1.PNG" />
+    <Content Include="admin\ChangeV3.1_2.PNG" />
+    <Content Include="admin\news_V3.1_profile_value_list.PNG" />
+    <Content Include="admin\news_V3.1_room_state_list.PNG" />
+    <Content Include="admin\news_V3.1_room_template.PNG" />
+    <Content Include="admin\news_V3.1_simple_window_state.PNG" />
+    <Content Include="admin\preview.png" />
+    <Content Include="admin\V2preview-1.png" />
+    <Content Include="admin\V2preview-2.png" />
+    <Content Include="admin\V2preview-3.png" />
+    <Content Include="admin\V2preview-4.png" />
+    <Content Include="admin\V2preview-5.png" />
+    <Content Include="admin\V2preview-6.png" />
+    <Content Include="admin\V2preview-7.jpg" />
+    <Content Include="admin\V2preview-8.png" />
+    <Content Include="admin\V2preview-9.jpg" />
+    <Content Include="admin\V2VisInstall-1.jpg" />
+    <Content Include="admin\V2VisInstall-2.jpg" />
+    <Content Include="admin\V3Activation.jpg" />
+    <Content Include="admin\watchout1.jpg" />
+    <Content Include="admin\watchout2.jpg" />
+    <Content Include="LICENSE" />
+    <Content Include="README.md" />
+    <Content Include="tsconfig.json" />
+    <Content Include="V2.0.4.solo.stable\admin\preview.png" />
+    <Content Include="V2.0.4.solo.stable\admin\V2JsInstall-1.jpg" />
+    <Content Include="V2.0.4.solo.stable\admin\V2JsInstall-2.jpg" />
+    <Content Include="V2.0.4.solo.stable\admin\V2JsInstall-3.jpg" />
+    <Content Include="V2.0.4.solo.stable\admin\V2JsInstall-4.jpg" />
+    <Content Include="V2.0.4.solo.stable\admin\V2preview-1.png" />
+    <Content Include="V2.0.4.solo.stable\admin\V2preview-2.png" />
+    <Content Include="V2.0.4.solo.stable\admin\V2preview-3.png" />
+    <Content Include="V2.0.4.solo.stable\admin\V2preview-4.png" />
+    <Content Include="V2.0.4.solo.stable\admin\V2preview-5.png" />
+    <Content Include="V2.0.4.solo.stable\admin\V2preview-6.png" />
+    <Content Include="V2.0.4.solo.stable\admin\V2preview-7.jpg" />
+    <Content Include="V2.0.4.solo.stable\admin\V2preview-8.png" />
+    <Content Include="V2.0.4.solo.stable\admin\V2preview-9.jpg" />
+    <Content Include="V2.0.4.solo.stable\admin\V2VisInstall-1.jpg" />
+    <Content Include="V2.0.4.solo.stable\admin\V2VisInstall-2.jpg" />
+    <Content Include="V2.0.4.solo.stable\admin\watchout1.jpg" />
+    <Content Include="V2.0.4.solo.stable\admin\watchout2.jpg" />
+    <Content Include="V2.0.4.solo.stable\readme.md" />
+    <Content Include="V2.0.4.solo.stable\V1-0-5-HeatingControlMapper.js" />
+    <Content Include="V2.0.4.solo.stable\V2-0-4-Vis-HeatingControl.zip" />
+    <Content Include="V2.0.4.solo.stable\Vis-Simple-HeatingControl.txt" />
+    <Content Include="V3.0.1-Vis-HeatingControl.zip" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\fts_window_1w.svg" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\fts_window_1w_open.svg" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\heatingcontrol.png" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\ioBrokerLogo-blau-128x128.png" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\ioBrokerLogo-blau-512x512.png" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\ioBrokerLogo-gelb-128x128.png" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\ioBrokerLogo-gelb-512x512.png" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\ioBrokerLogo-grau-128x128.png" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\ioBrokerLogo-grau-512x512.png" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\ioBrokerLogo-gruen-128x128.png" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\ioBrokerLogo-gruen-512x512.png" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\ioBrokerLogo-rot-128x128.png" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\ioBrokerLogo-rot-512x512.png" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\ioBrokerLogo-weiss-128x128.png" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\ioBrokerLogo-weiss-512x512.png" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\it_wifi.svg" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\MaterialIcons-Regular %281%29.woff" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\MaterialIcons-Regular.eot" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\MaterialIcons-Regular.ttf" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\MaterialIcons-Regular.woff" />
+    <Content Include="V3.0.1-Vis-HeatingControl\images\MaterialIcons-Regular.woff2" />
+    <Content Include="V3.0.1-Vis-HeatingControl\vis-user.css" />
+    <Content Include="V3.0.1-Vis-HeatingControl\vis-views.json" />
+    <Content Include="V3.1.0-Vis-Simple-HeatingControl.txt" />
+    <Content Include="V3.0.1-Vis-Simple-HeatingControl.txt" />
+    <Content Include="V3.1.0-Vis-HeatingControl.zip" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\fts_window_1w.svg" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\fts_window_1w_open.svg" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\heatingcontrol.png" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\ioBrokerLogo-blau-128x128.png" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\ioBrokerLogo-blau-512x512.png" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\ioBrokerLogo-gelb-128x128.png" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\ioBrokerLogo-gelb-512x512.png" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\ioBrokerLogo-grau-128x128.png" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\ioBrokerLogo-grau-512x512.png" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\ioBrokerLogo-gruen-128x128.png" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\ioBrokerLogo-gruen-512x512.png" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\ioBrokerLogo-rot-128x128.png" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\ioBrokerLogo-rot-512x512.png" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\ioBrokerLogo-weiss-128x128.png" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\ioBrokerLogo-weiss-512x512.png" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\it_wifi.svg" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\MaterialIcons-Regular %281%29.woff" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\MaterialIcons-Regular.eot" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\MaterialIcons-Regular.ttf" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\MaterialIcons-Regular.woff" />
+    <Content Include="V3.1.0-Vis-HeatingControl\images\MaterialIcons-Regular.woff2" />
+    <Content Include="V3.1.0-Vis-HeatingControl\vis-user.css" />
+    <Content Include="V3.1.0-Vis-HeatingControl\vis-views.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="admin\" />
+    <Folder Include="V2.0.4.solo.stable\" />
+    <Folder Include="V2.0.4.solo.stable\admin\" />
+    <Folder Include="V3.0.1-Vis-HeatingControl\" />
+    <Folder Include="V3.0.1-Vis-HeatingControl\images\" />
+    <Folder Include="V3.1.0-Vis-HeatingControl\" />
+    <Folder Include="V3.1.0-Vis-HeatingControl\images\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <!--Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them.-->
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />
+  <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsTools.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:48022/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost:1337</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

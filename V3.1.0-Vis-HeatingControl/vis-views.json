@@ -7881,7 +7881,7 @@
           "html_prepend": "Temperatur am Regler "
         },
         "style": {
-          "left": "15px",
+          "left": "16px",
           "top": "84px",
           "width": "300px",
           "text-align": "",
@@ -8401,75 +8401,6 @@
         },
         "widgetSet": "basic"
       },
-      "w00480": {
-        "tpl": "tplValueString",
-        "data": {
-          "oid": "javascript.0.Actor2",
-          "g_fixed": true,
-          "g_visibility": false,
-          "g_css_font_text": false,
-          "g_css_background": false,
-          "g_css_shadow_padding": false,
-          "g_css_border": false,
-          "g_gestures": false,
-          "g_signals": false,
-          "g_last_change": false,
-          "visibility-cond": "==",
-          "visibility-val": 1,
-          "visibility-groups-action": "hide",
-          "signals-cond-0": "==",
-          "signals-val-0": true,
-          "signals-icon-0": "/vis/signals/lowbattery.png",
-          "signals-icon-size-0": 0,
-          "signals-blink-0": false,
-          "signals-horz-0": 0,
-          "signals-vert-0": 0,
-          "signals-hide-edit-0": false,
-          "signals-cond-1": "==",
-          "signals-val-1": true,
-          "signals-icon-1": "/vis/signals/lowbattery.png",
-          "signals-icon-size-1": 0,
-          "signals-blink-1": false,
-          "signals-horz-1": 0,
-          "signals-vert-1": 0,
-          "signals-hide-edit-1": false,
-          "signals-cond-2": "==",
-          "signals-val-2": true,
-          "signals-icon-2": "/vis/signals/lowbattery.png",
-          "signals-icon-size-2": 0,
-          "signals-blink-2": false,
-          "signals-horz-2": 0,
-          "signals-vert-2": 0,
-          "signals-hide-edit-2": false,
-          "lc-type": "last-change",
-          "lc-is-interval": true,
-          "lc-is-moment": false,
-          "lc-format": "",
-          "lc-position-vert": "top",
-          "lc-position-horz": "right",
-          "lc-offset-vert": 0,
-          "lc-offset-horz": 0,
-          "lc-font-size": "12px",
-          "lc-font-family": "",
-          "lc-font-style": "",
-          "lc-bkg-color": "",
-          "lc-color": "",
-          "lc-border-width": "0",
-          "lc-border-style": "",
-          "lc-border-color": "",
-          "lc-border-radius": 10,
-          "lc-zindex": 0,
-          "html_prepend": "Aktor: ",
-          "class": "mdui-value"
-        },
-        "style": {
-          "left": "15px",
-          "top": "122px",
-          "width": "300px",
-          "height": "18px"
-        },
-        "widgetSet": "basic"
-      },
       "w00481": {
         "tpl": "tplValueString",
         "data": {
@@ -8532,7 +8463,7 @@
           "class": "mdui-value"
         },
         "style": {
-          "left": "15px",
+          "left": "16px",
           "top": "141px",
           "width": "300px",
           "height": "18px"
@@ -8692,11 +8623,87 @@
           "font-size": "xx-small"
         },
         "widgetSet": "basic"
+      },
+      "w00408": {
+        "tpl": "tplValueFloat",
+        "data": {
+          "oid": "hm-rpc.0.PEQ1315641.4.VALVE_STATE",
+          "g_fixed": true,
+          "g_visibility": false,
+          "g_css_font_text": true,
+          "g_css_background": false,
+          "g_css_shadow_padding": false,
+          "g_css_border": false,
+          "g_gestures": false,
+          "g_signals": false,
+          "g_last_change": false,
+          "visibility-cond": "==",
+          "visibility-val": 1,
+          "visibility-groups-action": "hide",
+          "is_comma": "true",
+          "factor": "1",
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0,
+          "class": "mdui-value",
+          "html_append_singular": "",
+          "html_append_plural": " %",
+          "html_prepend": "Ventilstellung "
+        },
+        "style": {
+          "left": "16px",
+          "top": "16.16%",
+          "width": "300px",
+          "text-align": "",
+          "height": "19px",
+          "z-index": "2",
+          "font-size": ""
+        },
+        "widgetSet": "basic"
       }
     },
     "name": "cardHzngKueche",
     "activeWidgets": [
-      "w00475"
+      "w00408"
     ],
     "filterList": []
   },
@@ -13068,7 +13075,7 @@
       "w00163": {
         "tpl": "tplJquiSelectList",
         "data": {
-          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-So.Periods.5.Temperature",
+          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-Su.Periods.5.Temperature",
           "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
           "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
@@ -13139,7 +13146,7 @@
       "w00165": {
         "tpl": "tplJquiInputDatetime",
         "data": {
-          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-So.Periods.4.time",
+          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-Su.Periods.4.time",
           "g_fixed": true,
           "g_visibility": true,
           "g_css_font_text": true,
@@ -13224,7 +13231,7 @@
       "w00166": {
         "tpl": "tplJquiSelectList",
         "data": {
-          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-So.Periods.3.Temperature",
+          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-Su.Periods.3.Temperature",
           "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
           "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
@@ -13295,7 +13302,7 @@
       "w00167": {
         "tpl": "tplJquiInputDatetime",
         "data": {
-          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-So.Periods.3.time",
+          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-Su.Periods.3.time",
           "g_fixed": true,
           "g_visibility": true,
           "g_css_font_text": true,
@@ -13380,7 +13387,7 @@
       "w00168": {
         "tpl": "tplJquiSelectList",
         "data": {
-          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-So.Periods.2.Temperature",
+          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-Su.Periods.2.Temperature",
           "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
           "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
@@ -13451,7 +13458,7 @@
       "w00169": {
         "tpl": "tplJquiInputDatetime",
         "data": {
-          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-So.Periods.2.time",
+          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-Su.Periods.2.time",
           "g_fixed": true,
           "g_visibility": true,
           "g_css_font_text": true,
@@ -13536,7 +13543,7 @@
       "w00170": {
         "tpl": "tplJquiSelectList",
         "data": {
-          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-So.Periods.1.Temperature",
+          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-Su.Periods.1.Temperature",
           "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
           "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
@@ -13609,7 +13616,7 @@
       "w00171": {
         "tpl": "tplJquiInputDatetime",
         "data": {
-          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-So.Periods.1.time",
+          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-Su.Periods.1.time",
           "g_fixed": true,
           "g_visibility": false,
           "g_css_font_text": true,
@@ -13694,7 +13701,7 @@
       "w00172": {
         "tpl": "tplJquiSelectList",
         "data": {
-          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-So.Periods.4.Temperature",
+          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-Su.Periods.4.Temperature",
           "values": "{heatingcontrol.0.vis.ProfileTempValueListValue}",
           "texts": "{heatingcontrol.0.vis.ProfileTempValueListText}",
           "height": "100",
@@ -13765,7 +13772,7 @@
       "w00173": {
         "tpl": "tplJquiInputDatetime",
         "data": {
-          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-So.Periods.5.time",
+          "oid": "heatingcontrol.0.vis.ProfileTypes.Sa-Su.Periods.5.time",
           "g_fixed": true,
           "g_visibility": true,
           "g_css_font_text": true,
@@ -16205,28 +16212,7 @@
     },
     "name": "cardHzngMoFrSaSo",
     "filterList": [],
-    "activeWidgets": [
-      "w00097",
-      "w00098",
-      "w00109",
-      "w00134",
-      "w00135",
-      "w00156",
-      "w00157",
-      "w00158",
-      "w00159",
-      "w00160",
-      "w00163",
-      "w00165",
-      "w00166",
-      "w00167",
-      "w00168",
-      "w00169",
-      "w00170",
-      "w00171",
-      "w00172",
-      "w00173"
-    ]
+    "activeWidgets": []
   },
   "cardHzngMoSu": {
     "settings": {
@@ -18623,9 +18609,7 @@
       }
     },
     "name": "cardHzngMoSu",
-    "activeWidgets": [
-      "g00001"
-    ],
+    "activeWidgets": [],
     "filterList": []
   },
   "cardHzngMoSuSeparat": {
@@ -30089,7 +30073,7 @@
     },
     "name": "cardHzngMoSuSeparat",
     "activeWidgets": [
-      "w00248"
+      "w00365"
     ],
     "filterList": []
   },
