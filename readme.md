@@ -22,6 +22,11 @@ Aus z.Bsp. heatingcontrol.0.vis.ProfileTypes.Mon.Periods.0.time wird heatingcont
 Zusätzlich muss der grüne Balken noch angepasst werden. Für jedes widget muss der Wert für die Sichtbarkeit um eins erhöht werden
 ![ChangeV3.1_2.PNG](/admin/ChangeV3.1_2.PNG)
 
+Im Profile Mo-Fr / Sa-So muss jetzt noch in Schreibfehler in allen widgets (Temperatur und Zeit) ausgebessert werden: aus Sa-So wird Sa-Su
+
+![ChangeV3.1_3.PNG](/admin/ChangeV3.1_3.PNG)
+
+
 ### News in 3.1.0
 
 * limits für Temperatureinstellungen aus dem admin konfigurierbar:
