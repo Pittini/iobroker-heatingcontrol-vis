@@ -12477,12 +12477,13 @@
           "name": ""
         },
         "style": {
-          "left": "240px",
-          "top": "128px",
-          "width": "123px",
-          "height": "10px"
+          "left": "14.04%",
+          "top": "26.02%",
+          "width": "71.93%",
+          "height": "4.07%"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00098": {
         "tpl": "tplHtml",
@@ -12545,13 +12546,14 @@
           "class": "mdui-card-outlined"
         },
         "style": {
-          "left": "216px",
-          "top": "64px",
-          "width": "171px",
-          "height": "246px",
+          "left": "0%",
+          "top": "0%",
+          "width": "100%",
+          "height": "100%",
           "z-index": "0"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00109": {
         "tpl": "tplHtml",
@@ -12615,13 +12617,14 @@
           "class": "mdui-label mdui-center mdui-darkgrey-bg"
         },
         "style": {
-          "left": "232px",
-          "top": "80px",
-          "width": "140px",
-          "height": "22px",
+          "left": "9.36%",
+          "top": "6.5%",
+          "width": "81.87%",
+          "height": "8.94%",
           "z-index": "2"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00134": {
         "tpl": "tplHtml",
@@ -12687,14 +12690,15 @@
           "name": ""
         },
         "style": {
-          "left": "232px",
-          "top": "264px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.36%",
+          "top": "81.3%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00135": {
         "tpl": "tplHtml",
@@ -12760,14 +12764,15 @@
           "name": ""
         },
         "style": {
-          "left": "232px",
-          "top": "234px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.36%",
+          "top": "69.11%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00156": {
         "tpl": "tplHtml",
@@ -12833,14 +12838,15 @@
           "name": ""
         },
         "style": {
-          "left": "232px",
-          "top": "204px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.36%",
+          "top": "56.91%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00157": {
         "tpl": "tplHtml",
@@ -12906,14 +12912,15 @@
           "name": ""
         },
         "style": {
-          "left": "232px",
-          "top": "174px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.36%",
+          "top": "44.72%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00158": {
         "tpl": "tplHtml",
@@ -12979,14 +12986,15 @@
           "name": ""
         },
         "style": {
-          "left": "232px",
-          "top": "144px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.36%",
+          "top": "32.52%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00159": {
         "tpl": "tplHtml",
@@ -13057,16 +13065,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "296px",
-          "top": "112px",
-          "width": "30px",
-          "height": "26px",
+          "left": "46.78%",
+          "top": "19.51%",
+          "width": "17.54%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00160": {
         "tpl": "tplHtml",
@@ -13137,16 +13146,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "240px",
-          "top": "112px",
-          "width": "50px",
-          "height": "26px",
+          "left": "14.04%",
+          "top": "19.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00163": {
         "tpl": "tplJquiSelectList",
@@ -13209,15 +13219,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "296px",
-          "top": "264px",
-          "width": "65px",
-          "height": "26px",
+          "left": "46.78%",
+          "top": "81.3%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00165": {
         "tpl": "tplJquiInputDatetime",
@@ -13286,10 +13297,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "240px",
-          "top": "234px",
-          "width": "50px",
-          "height": "26px",
+          "left": "14.04%",
+          "top": "69.11%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -13302,7 +13313,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00166": {
         "tpl": "tplJquiSelectList",
@@ -13365,15 +13377,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "296px",
-          "top": "204px",
-          "width": "65px",
-          "height": "26px",
+          "left": "46.78%",
+          "top": "56.91%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00167": {
         "tpl": "tplJquiInputDatetime",
@@ -13442,10 +13455,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "240px",
-          "top": "204px",
-          "width": "50px",
-          "height": "26px",
+          "left": "14.04%",
+          "top": "56.91%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -13458,7 +13471,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00168": {
         "tpl": "tplJquiSelectList",
@@ -13521,15 +13535,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "296px",
-          "top": "174px",
-          "width": "65px",
-          "height": "26px",
+          "left": "46.78%",
+          "top": "44.72%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00169": {
         "tpl": "tplJquiInputDatetime",
@@ -13598,10 +13613,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "240px",
-          "top": "174px",
-          "width": "50px",
-          "height": "26px",
+          "left": "14.04%",
+          "top": "44.72%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -13614,7 +13629,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00170": {
         "tpl": "tplJquiSelectList",
@@ -13679,15 +13695,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "296px",
-          "top": "144px",
-          "width": "65px",
-          "height": "26px",
+          "left": "46.78%",
+          "top": "32.52%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00171": {
         "tpl": "tplJquiInputDatetime",
@@ -13756,10 +13773,10 @@
           "comment": ""
         },
         "style": {
-          "left": "240px",
-          "top": "144px",
-          "width": "50px",
-          "height": "26px",
+          "left": "14.04%",
+          "top": "32.52%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -13772,7 +13789,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00172": {
         "tpl": "tplJquiSelectList",
@@ -13835,15 +13853,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "296px",
-          "top": "234px",
-          "width": "65px",
-          "height": "26px",
+          "left": "46.78%",
+          "top": "69.11%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00173": {
         "tpl": "tplJquiInputDatetime",
@@ -13912,10 +13931,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "240px",
-          "top": "264px",
-          "width": "50px",
-          "height": "26px",
+          "left": "14.04%",
+          "top": "81.3%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -13928,7 +13947,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00174": {
         "tpl": "tplHtml",
@@ -13992,12 +14012,13 @@
           "name": ""
         },
         "style": {
-          "left": "80px",
-          "top": "128px",
-          "width": "123px",
-          "height": "10px"
+          "left": "14.04%",
+          "top": "26.02%",
+          "width": "71.93%",
+          "height": "4.07%"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00175": {
         "tpl": "tplHtml",
@@ -14060,13 +14081,14 @@
           "class": "mdui-card-outlined"
         },
         "style": {
-          "left": "56px",
-          "top": "64px",
-          "width": "171px",
-          "height": "246px",
+          "left": "0%",
+          "top": "0%",
+          "width": "100%",
+          "height": "100%",
           "z-index": "0"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00176": {
         "tpl": "tplHtml",
@@ -14130,13 +14152,14 @@
           "class": "mdui-label mdui-center mdui-darkgrey-bg"
         },
         "style": {
-          "left": "72px",
-          "top": "80px",
-          "width": "140px",
-          "height": "22px",
+          "left": "9.36%",
+          "top": "6.5%",
+          "width": "81.87%",
+          "height": "8.94%",
           "z-index": "2"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00177": {
         "tpl": "tplHtml",
@@ -14202,14 +14225,15 @@
           "name": ""
         },
         "style": {
-          "left": "72px",
-          "top": "264px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.36%",
+          "top": "81.3%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00178": {
         "tpl": "tplHtml",
@@ -14275,14 +14299,15 @@
           "name": ""
         },
         "style": {
-          "left": "72px",
-          "top": "234px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.36%",
+          "top": "69.11%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00179": {
         "tpl": "tplHtml",
@@ -14348,14 +14373,15 @@
           "name": ""
         },
         "style": {
-          "left": "72px",
-          "top": "204px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.36%",
+          "top": "56.91%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00180": {
         "tpl": "tplHtml",
@@ -14421,14 +14447,15 @@
           "name": ""
         },
         "style": {
-          "left": "72px",
-          "top": "174px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.36%",
+          "top": "44.72%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00181": {
         "tpl": "tplHtml",
@@ -14494,14 +14521,15 @@
           "name": ""
         },
         "style": {
-          "left": "72px",
-          "top": "144px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.36%",
+          "top": "32.52%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00182": {
         "tpl": "tplHtml",
@@ -14572,16 +14600,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "136px",
-          "top": "112px",
-          "width": "30px",
-          "height": "26px",
+          "left": "46.78%",
+          "top": "19.51%",
+          "width": "17.54%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00183": {
         "tpl": "tplHtml",
@@ -14652,16 +14681,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "80px",
-          "top": "112px",
-          "width": "50px",
-          "height": "26px",
+          "left": "14.04%",
+          "top": "19.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00184": {
         "tpl": "tplJquiSelectList",
@@ -14724,15 +14754,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "136px",
-          "top": "264px",
-          "width": "65px",
-          "height": "26px",
+          "left": "46.78%",
+          "top": "81.3%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00185": {
         "tpl": "tplJquiInputDatetime",
@@ -14801,10 +14832,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "80px",
-          "top": "234px",
-          "width": "50px",
-          "height": "26px",
+          "left": "14.04%",
+          "top": "69.11%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -14817,7 +14848,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00186": {
         "tpl": "tplJquiSelectList",
@@ -14880,15 +14912,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "136px",
-          "top": "204px",
-          "width": "65px",
-          "height": "26px",
+          "left": "46.78%",
+          "top": "56.91%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00187": {
         "tpl": "tplJquiInputDatetime",
@@ -14957,10 +14990,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "80px",
-          "top": "204px",
-          "width": "50px",
-          "height": "26px",
+          "left": "14.04%",
+          "top": "56.91%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -14973,7 +15006,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00188": {
         "tpl": "tplJquiSelectList",
@@ -15036,15 +15070,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "136px",
-          "top": "174px",
-          "width": "65px",
-          "height": "26px",
+          "left": "46.78%",
+          "top": "44.72%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00189": {
         "tpl": "tplJquiInputDatetime",
@@ -15113,10 +15148,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "80px",
-          "top": "174px",
-          "width": "50px",
-          "height": "26px",
+          "left": "14.04%",
+          "top": "44.72%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -15129,7 +15164,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00190": {
         "tpl": "tplJquiSelectList",
@@ -15194,15 +15230,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "136px",
-          "top": "144px",
-          "width": "65px",
-          "height": "26px",
+          "left": "46.78%",
+          "top": "32.52%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00191": {
         "tpl": "tplJquiInputDatetime",
@@ -15270,10 +15307,10 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "80px",
-          "top": "144px",
-          "width": "50px",
-          "height": "26px",
+          "left": "14.04%",
+          "top": "32.52%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -15286,7 +15323,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00192": {
         "tpl": "tplJquiSelectList",
@@ -15349,15 +15387,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "136px",
-          "top": "234px",
-          "width": "65px",
-          "height": "26px",
+          "left": "46.78%",
+          "top": "69.11%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00193": {
         "tpl": "tplJquiInputDatetime",
@@ -15426,10 +15465,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "80px",
-          "top": "264px",
-          "width": "50px",
-          "height": "26px",
+          "left": "14.04%",
+          "top": "81.3%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -15442,7 +15481,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00194": {
         "tpl": "tplHtml",
@@ -16284,11 +16324,173 @@
           "height": "40px"
         },
         "widgetSet": "basic"
+      },
+      "g00002": {
+        "tpl": "_tplGroup",
+        "data": {
+          "members": [
+            "w00097",
+            "w00098",
+            "w00109",
+            "w00134",
+            "w00135",
+            "w00156",
+            "w00157",
+            "w00158",
+            "w00159",
+            "w00160",
+            "w00163",
+            "w00165",
+            "w00166",
+            "w00167",
+            "w00168",
+            "w00169",
+            "w00170",
+            "w00171",
+            "w00172",
+            "w00173"
+          ],
+          "visibility-cond": "==",
+          "visibility-val": 1,
+          "visibility-groups-action": "hide",
+          "attrCount": "1",
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0
+        },
+        "widgetSet": null,
+        "style": {
+          "top": "64px",
+          "left": "216px",
+          "width": "171px",
+          "height": "246px"
+        }
+      },
+      "g00004": {
+        "tpl": "_tplGroup",
+        "data": {
+          "members": [
+            "w00174",
+            "w00175",
+            "w00176",
+            "w00177",
+            "w00178",
+            "w00179",
+            "w00180",
+            "w00181",
+            "w00182",
+            "w00183",
+            "w00184",
+            "w00185",
+            "w00186",
+            "w00187",
+            "w00188",
+            "w00189",
+            "w00190",
+            "w00191",
+            "w00192",
+            "w00193"
+          ],
+          "visibility-cond": "==",
+          "visibility-val": 1,
+          "visibility-groups-action": "hide",
+          "attrCount": "1",
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0
+        },
+        "widgetSet": null,
+        "style": {
+          "top": "64px",
+          "left": "56px",
+          "width": "171px",
+          "height": "246px"
+        }
       }
     },
     "name": "cardHzngMoFrSaSo",
     "filterList": [],
-    "activeWidgets": []
+    "activeWidgets": [
+      "g00004"
+    ]
   },
   "cardHzngMoSu": {
     "settings": {
@@ -18762,12 +18964,13 @@
           "name": ""
         },
         "style": {
-          "left": "1052.9833984375px",
-          "top": "131.9833221435547px",
-          "width": "123px",
-          "height": "10px"
+          "left": "15.19%",
+          "top": "27.64%",
+          "width": "71.93%",
+          "height": "4.07%"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00239": {
         "tpl": "tplHtml",
@@ -18830,13 +19033,14 @@
           "class": "mdui-card-outlined"
         },
         "style": {
-          "left": "1027px",
-          "top": "64px",
-          "width": "171px",
-          "height": "246px",
+          "left": "0%",
+          "top": "0%",
+          "width": "100%",
+          "height": "100%",
           "z-index": "0"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00240": {
         "tpl": "tplHtml",
@@ -18901,13 +19105,14 @@
           "name": ""
         },
         "style": {
-          "left": "1042.9833984375px",
-          "top": "79.98333740234375px",
-          "width": "140px",
-          "height": "22px",
+          "left": "9.35%",
+          "top": "6.5%",
+          "width": "81.87%",
+          "height": "8.94%",
           "z-index": "2"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00241": {
         "tpl": "tplHtml",
@@ -18973,14 +19178,15 @@
           "name": ""
         },
         "style": {
-          "left": "1042.9833984375px",
-          "top": "264.99998474121094px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "81.71%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00242": {
         "tpl": "tplHtml",
@@ -19046,14 +19252,15 @@
           "name": ""
         },
         "style": {
-          "left": "1042.9833984375px",
-          "top": "234.9833221435547px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "69.51%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00243": {
         "tpl": "tplHtml",
@@ -19119,14 +19326,15 @@
           "name": ""
         },
         "style": {
-          "left": "1042.9833984375px",
-          "top": "203.96665954589844px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "56.9%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00244": {
         "tpl": "tplHtml",
@@ -19192,14 +19400,15 @@
           "name": ""
         },
         "style": {
-          "left": "1042.9833984375px",
-          "top": "173.99998474121094px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "44.72%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00245": {
         "tpl": "tplHtml",
@@ -19265,14 +19474,15 @@
           "name": ""
         },
         "style": {
-          "left": "1042.9833984375px",
-          "top": "142.9833221435547px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "32.11%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00246": {
         "tpl": "tplHtml",
@@ -19343,16 +19553,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "1108px",
-          "top": "111.98333740234375px",
-          "width": "30px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "19.51%",
+          "width": "17.54%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00247": {
         "tpl": "tplHtml",
@@ -19423,16 +19634,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "1052.9833984375px",
-          "top": "111.98333740234375px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "19.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00248": {
         "tpl": "tplJquiSelectList",
@@ -19495,15 +19707,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "1108px",
-          "top": "264.99998474121094px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "81.71%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00249": {
         "tpl": "tplJquiInputDatetime",
@@ -19572,10 +19785,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "1052.9833984375px",
-          "top": "235.99998474121094px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "69.92%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -19588,7 +19801,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00250": {
         "tpl": "tplJquiSelectList",
@@ -19651,15 +19865,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "1108px",
-          "top": "203.96665954589844px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "56.9%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00251": {
         "tpl": "tplJquiInputDatetime",
@@ -19728,10 +19943,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "1052.9833984375px",
-          "top": "203.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "56.9%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -19744,7 +19959,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00252": {
         "tpl": "tplJquiSelectList",
@@ -19807,15 +20023,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "1108px",
-          "top": "173.99998474121094px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "44.72%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00253": {
         "tpl": "tplJquiInputDatetime",
@@ -19884,10 +20101,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "1052.9833984375px",
-          "top": "174.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "45.12%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -19900,7 +20117,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00254": {
         "tpl": "tplJquiSelectList",
@@ -19965,15 +20183,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "1108px",
-          "top": "142.9833221435547px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "32.11%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00255": {
         "tpl": "tplJquiInputDatetime",
@@ -20041,10 +20260,10 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "1052.9833984375px",
-          "top": "143.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "32.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -20057,7 +20276,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00256": {
         "tpl": "tplJquiSelectList",
@@ -20120,15 +20340,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "1108px",
-          "top": "234.9833221435547px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "69.51%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00257": {
         "tpl": "tplJquiInputDatetime",
@@ -20197,10 +20418,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "1052.9833984375px",
-          "top": "264.99998474121094px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "81.71%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -20213,7 +20434,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00258": {
         "tpl": "tplHtml",
@@ -20277,12 +20499,13 @@
           "name": ""
         },
         "style": {
-          "left": "889.9833984375px",
-          "top": "131.9833221435547px",
-          "width": "123px",
-          "height": "10px"
+          "left": "15.19%",
+          "top": "27.64%",
+          "width": "71.93%",
+          "height": "4.07%"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00259": {
         "tpl": "tplHtml",
@@ -20345,13 +20568,14 @@
           "class": "mdui-card-outlined"
         },
         "style": {
-          "left": "864px",
-          "top": "64px",
-          "width": "171px",
-          "height": "246px",
+          "left": "0%",
+          "top": "0%",
+          "width": "100%",
+          "height": "100%",
           "z-index": "0"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00260": {
         "tpl": "tplHtml",
@@ -20416,13 +20640,14 @@
           "name": ""
         },
         "style": {
-          "left": "879.9833984375px",
-          "top": "79.98333740234375px",
-          "width": "140px",
-          "height": "22px",
+          "left": "9.35%",
+          "top": "6.5%",
+          "width": "81.87%",
+          "height": "8.94%",
           "z-index": "2"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00261": {
         "tpl": "tplHtml",
@@ -20488,14 +20713,15 @@
           "name": ""
         },
         "style": {
-          "left": "879.9833984375px",
-          "top": "264.99998474121094px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "81.71%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00262": {
         "tpl": "tplHtml",
@@ -20561,14 +20787,15 @@
           "name": ""
         },
         "style": {
-          "left": "879.9833984375px",
-          "top": "234.9833221435547px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "69.51%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00263": {
         "tpl": "tplHtml",
@@ -20634,14 +20861,15 @@
           "name": ""
         },
         "style": {
-          "left": "879.9833984375px",
-          "top": "203.96665954589844px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "56.9%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00264": {
         "tpl": "tplHtml",
@@ -20707,14 +20935,15 @@
           "name": ""
         },
         "style": {
-          "left": "879.9833984375px",
-          "top": "173.99998474121094px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "44.72%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00265": {
         "tpl": "tplHtml",
@@ -20780,14 +21009,15 @@
           "name": ""
         },
         "style": {
-          "left": "879.9833984375px",
-          "top": "142.9833221435547px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "32.11%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00266": {
         "tpl": "tplHtml",
@@ -20858,16 +21088,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "945px",
-          "top": "111.98333740234375px",
-          "width": "30px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "19.51%",
+          "width": "17.54%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00267": {
         "tpl": "tplHtml",
@@ -20938,16 +21169,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "889.9833984375px",
-          "top": "111.98333740234375px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "19.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00268": {
         "tpl": "tplJquiSelectList",
@@ -21010,15 +21242,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "945px",
-          "top": "264.99998474121094px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "81.71%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00269": {
         "tpl": "tplJquiInputDatetime",
@@ -21087,10 +21320,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "889.9833984375px",
-          "top": "235.99998474121094px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "69.92%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -21103,7 +21336,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00270": {
         "tpl": "tplJquiSelectList",
@@ -21166,15 +21400,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "945px",
-          "top": "203.96665954589844px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "56.9%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00271": {
         "tpl": "tplJquiInputDatetime",
@@ -21243,10 +21478,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "889.9833984375px",
-          "top": "203.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "56.9%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -21259,7 +21494,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00272": {
         "tpl": "tplJquiSelectList",
@@ -21322,15 +21558,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "945px",
-          "top": "173.99998474121094px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "44.72%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00273": {
         "tpl": "tplJquiInputDatetime",
@@ -21399,10 +21636,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "889.9833984375px",
-          "top": "174.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "45.12%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -21415,7 +21652,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00274": {
         "tpl": "tplJquiSelectList",
@@ -21480,15 +21718,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "945px",
-          "top": "142.9833221435547px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "32.11%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00275": {
         "tpl": "tplJquiInputDatetime",
@@ -21556,10 +21795,10 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "889.9833984375px",
-          "top": "143.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "32.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -21572,7 +21811,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00276": {
         "tpl": "tplJquiSelectList",
@@ -21635,15 +21875,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "945px",
-          "top": "234.9833221435547px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "69.51%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00277": {
         "tpl": "tplJquiInputDatetime",
@@ -21712,10 +21953,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "889.9833984375px",
-          "top": "264.99998474121094px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "81.71%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -21728,7 +21969,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00278": {
         "tpl": "tplHtml",
@@ -21792,12 +22034,13 @@
           "name": ""
         },
         "style": {
-          "left": "726.9833374023438px",
-          "top": "131.9833221435547px",
-          "width": "123px",
-          "height": "10px"
+          "left": "15.19%",
+          "top": "27.64%",
+          "width": "71.93%",
+          "height": "4.07%"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00279": {
         "tpl": "tplHtml",
@@ -21860,13 +22103,14 @@
           "class": "mdui-card-outlined"
         },
         "style": {
-          "left": "701px",
-          "top": "64px",
-          "width": "171px",
-          "height": "246px",
+          "left": "0%",
+          "top": "0%",
+          "width": "100%",
+          "height": "100%",
           "z-index": "0"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00280": {
         "tpl": "tplHtml",
@@ -21931,13 +22175,14 @@
           "name": ""
         },
         "style": {
-          "left": "716.9833374023438px",
-          "top": "79.98333740234375px",
-          "width": "140px",
-          "height": "22px",
+          "left": "9.35%",
+          "top": "6.5%",
+          "width": "81.87%",
+          "height": "8.94%",
           "z-index": "2"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00281": {
         "tpl": "tplHtml",
@@ -22003,14 +22248,15 @@
           "name": ""
         },
         "style": {
-          "left": "716.9833374023438px",
-          "top": "264.99998474121094px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "81.71%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00282": {
         "tpl": "tplHtml",
@@ -22076,14 +22322,15 @@
           "name": ""
         },
         "style": {
-          "left": "716.9833374023438px",
-          "top": "234.9833221435547px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "69.51%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00283": {
         "tpl": "tplHtml",
@@ -22149,14 +22396,15 @@
           "name": ""
         },
         "style": {
-          "left": "716.9833374023438px",
-          "top": "203.96665954589844px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "56.9%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00284": {
         "tpl": "tplHtml",
@@ -22222,14 +22470,15 @@
           "name": ""
         },
         "style": {
-          "left": "716.9833374023438px",
-          "top": "173.99998474121094px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "44.72%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00285": {
         "tpl": "tplHtml",
@@ -22295,14 +22544,15 @@
           "name": ""
         },
         "style": {
-          "left": "716.9833374023438px",
-          "top": "142.9833221435547px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "32.11%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00286": {
         "tpl": "tplHtml",
@@ -22373,16 +22623,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "782px",
-          "top": "111.98333740234375px",
-          "width": "30px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "19.51%",
+          "width": "17.54%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00287": {
         "tpl": "tplHtml",
@@ -22453,16 +22704,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "726.9833374023438px",
-          "top": "111.98333740234375px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "19.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00288": {
         "tpl": "tplJquiSelectList",
@@ -22525,15 +22777,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "782px",
-          "top": "264.99998474121094px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "81.71%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00289": {
         "tpl": "tplJquiInputDatetime",
@@ -22602,10 +22855,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "726.9833374023438px",
-          "top": "235.99998474121094px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "69.92%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -22618,7 +22871,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00290": {
         "tpl": "tplJquiSelectList",
@@ -22681,15 +22935,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "782px",
-          "top": "203.96665954589844px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "56.9%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00291": {
         "tpl": "tplJquiInputDatetime",
@@ -22758,10 +23013,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "726.9833374023438px",
-          "top": "203.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "56.9%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -22774,7 +23029,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00292": {
         "tpl": "tplJquiSelectList",
@@ -22837,15 +23093,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "782px",
-          "top": "173.99998474121094px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "44.72%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00293": {
         "tpl": "tplJquiInputDatetime",
@@ -22914,10 +23171,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "726.9833374023438px",
-          "top": "174.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "45.12%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -22930,7 +23187,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00294": {
         "tpl": "tplJquiSelectList",
@@ -22995,15 +23253,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "782px",
-          "top": "142.9833221435547px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "32.11%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00295": {
         "tpl": "tplJquiInputDatetime",
@@ -23071,10 +23330,10 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "726.9833374023438px",
-          "top": "143.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "32.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -23087,7 +23346,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00296": {
         "tpl": "tplJquiSelectList",
@@ -23150,15 +23410,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "782px",
-          "top": "234.9833221435547px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "69.51%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00297": {
         "tpl": "tplJquiInputDatetime",
@@ -23227,10 +23488,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "726.9833374023438px",
-          "top": "264.99998474121094px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "81.71%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -23243,7 +23504,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00298": {
         "tpl": "tplHtml",
@@ -23307,12 +23569,13 @@
           "name": ""
         },
         "style": {
-          "left": "237.98333740234375px",
-          "top": "131.9833221435547px",
-          "width": "123px",
-          "height": "10px"
+          "left": "15.19%",
+          "top": "27.64%",
+          "width": "71.93%",
+          "height": "4.07%"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00299": {
         "tpl": "tplHtml",
@@ -23375,13 +23638,14 @@
           "class": "mdui-card-outlined"
         },
         "style": {
-          "left": "212px",
-          "top": "64px",
-          "width": "171px",
-          "height": "246px",
+          "left": "0%",
+          "top": "0%",
+          "width": "100%",
+          "height": "100%",
           "z-index": "0"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00300": {
         "tpl": "tplHtml",
@@ -23446,13 +23710,14 @@
           "name": ""
         },
         "style": {
-          "left": "227.98333740234375px",
-          "top": "79.98333740234375px",
-          "width": "140px",
-          "height": "22px",
+          "left": "9.35%",
+          "top": "6.5%",
+          "width": "81.87%",
+          "height": "8.94%",
           "z-index": "2"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00301": {
         "tpl": "tplHtml",
@@ -23518,14 +23783,15 @@
           "name": ""
         },
         "style": {
-          "left": "227.98333740234375px",
-          "top": "264.99998474121094px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "81.71%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00302": {
         "tpl": "tplHtml",
@@ -23591,14 +23857,15 @@
           "name": ""
         },
         "style": {
-          "left": "227.98333740234375px",
-          "top": "234.9833221435547px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "69.51%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00303": {
         "tpl": "tplHtml",
@@ -23664,14 +23931,15 @@
           "name": ""
         },
         "style": {
-          "left": "227.98333740234375px",
-          "top": "203.96665954589844px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "56.9%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00304": {
         "tpl": "tplHtml",
@@ -23737,14 +24005,15 @@
           "name": ""
         },
         "style": {
-          "left": "227.98333740234375px",
-          "top": "173.99998474121094px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "44.72%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00305": {
         "tpl": "tplHtml",
@@ -23810,14 +24079,15 @@
           "name": ""
         },
         "style": {
-          "left": "227.98333740234375px",
-          "top": "142.9833221435547px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "32.11%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00306": {
         "tpl": "tplHtml",
@@ -23888,16 +24158,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "293px",
-          "top": "111.98333740234375px",
-          "width": "30px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "19.51%",
+          "width": "17.54%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00307": {
         "tpl": "tplHtml",
@@ -23968,16 +24239,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "237.98333740234375px",
-          "top": "111.98333740234375px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "19.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00308": {
         "tpl": "tplJquiSelectList",
@@ -24040,15 +24312,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "293px",
-          "top": "264.99998474121094px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "81.71%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00309": {
         "tpl": "tplJquiInputDatetime",
@@ -24117,10 +24390,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "237.98333740234375px",
-          "top": "235.99998474121094px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "69.92%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -24133,7 +24406,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00310": {
         "tpl": "tplJquiSelectList",
@@ -24196,15 +24470,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "293px",
-          "top": "203.96665954589844px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "56.9%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00311": {
         "tpl": "tplJquiInputDatetime",
@@ -24273,10 +24548,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "237.98333740234375px",
-          "top": "203.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "56.9%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -24289,7 +24564,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00312": {
         "tpl": "tplJquiSelectList",
@@ -24352,15 +24628,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "293px",
-          "top": "173.99998474121094px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "44.72%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00313": {
         "tpl": "tplJquiInputDatetime",
@@ -24429,10 +24706,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "237.98333740234375px",
-          "top": "174.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "45.12%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -24445,7 +24722,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00314": {
         "tpl": "tplJquiSelectList",
@@ -24510,15 +24788,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "293px",
-          "top": "142.9833221435547px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "32.11%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00315": {
         "tpl": "tplJquiInputDatetime",
@@ -24586,10 +24865,10 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "237.98333740234375px",
-          "top": "143.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "32.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -24602,7 +24881,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00316": {
         "tpl": "tplJquiSelectList",
@@ -24665,15 +24945,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "293px",
-          "top": "234.9833221435547px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "69.51%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00317": {
         "tpl": "tplJquiInputDatetime",
@@ -24742,10 +25023,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "237.98333740234375px",
-          "top": "264.99998474121094px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "81.71%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -24758,7 +25039,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00318": {
         "tpl": "tplHtml",
@@ -24822,12 +25104,13 @@
           "name": ""
         },
         "style": {
-          "left": "400.98333740234375px",
-          "top": "131.9833221435547px",
-          "width": "123px",
-          "height": "10px"
+          "left": "15.19%",
+          "top": "27.64%",
+          "width": "71.93%",
+          "height": "4.07%"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00319": {
         "tpl": "tplHtml",
@@ -24890,13 +25173,14 @@
           "class": "mdui-card-outlined"
         },
         "style": {
-          "left": "375px",
-          "top": "64px",
-          "width": "171px",
-          "height": "246px",
+          "left": "0%",
+          "top": "0%",
+          "width": "100%",
+          "height": "100%",
           "z-index": "0"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00320": {
         "tpl": "tplHtml",
@@ -24961,13 +25245,14 @@
           "name": ""
         },
         "style": {
-          "left": "390.98333740234375px",
-          "top": "79.98333740234375px",
-          "width": "140px",
-          "height": "22px",
+          "left": "9.35%",
+          "top": "6.5%",
+          "width": "81.87%",
+          "height": "8.94%",
           "z-index": "2"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00321": {
         "tpl": "tplHtml",
@@ -25033,14 +25318,15 @@
           "name": ""
         },
         "style": {
-          "left": "390.98333740234375px",
-          "top": "264.99998474121094px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "81.71%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00322": {
         "tpl": "tplHtml",
@@ -25106,14 +25392,15 @@
           "name": ""
         },
         "style": {
-          "left": "390.98333740234375px",
-          "top": "234.9833221435547px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "69.51%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00323": {
         "tpl": "tplHtml",
@@ -25179,14 +25466,15 @@
           "name": ""
         },
         "style": {
-          "left": "390.98333740234375px",
-          "top": "203.96665954589844px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "56.9%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00324": {
         "tpl": "tplHtml",
@@ -25252,14 +25540,15 @@
           "name": ""
         },
         "style": {
-          "left": "390.98333740234375px",
-          "top": "173.99998474121094px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "44.72%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00325": {
         "tpl": "tplHtml",
@@ -25325,14 +25614,15 @@
           "name": ""
         },
         "style": {
-          "left": "390.98333740234375px",
-          "top": "142.9833221435547px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "32.11%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00326": {
         "tpl": "tplHtml",
@@ -25403,16 +25693,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "456px",
-          "top": "111.98333740234375px",
-          "width": "30px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "19.51%",
+          "width": "17.54%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00327": {
         "tpl": "tplHtml",
@@ -25483,16 +25774,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "400.98333740234375px",
-          "top": "111.98333740234375px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "19.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00328": {
         "tpl": "tplJquiSelectList",
@@ -25555,15 +25847,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "456px",
-          "top": "264.99998474121094px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "81.71%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00329": {
         "tpl": "tplJquiInputDatetime",
@@ -25632,10 +25925,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "400.98333740234375px",
-          "top": "235.99998474121094px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "69.92%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -25648,7 +25941,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00330": {
         "tpl": "tplJquiSelectList",
@@ -25711,15 +26005,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "456px",
-          "top": "203.96665954589844px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "56.9%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00331": {
         "tpl": "tplJquiInputDatetime",
@@ -25788,10 +26083,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "400.98333740234375px",
-          "top": "203.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "56.9%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -25804,7 +26099,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00332": {
         "tpl": "tplJquiSelectList",
@@ -25867,15 +26163,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "456px",
-          "top": "173.99998474121094px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "44.72%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00333": {
         "tpl": "tplJquiInputDatetime",
@@ -25944,10 +26241,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "400.98333740234375px",
-          "top": "174.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "45.12%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -25960,7 +26257,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00334": {
         "tpl": "tplJquiSelectList",
@@ -26025,15 +26323,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "456px",
-          "top": "142.9833221435547px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "32.11%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00335": {
         "tpl": "tplJquiInputDatetime",
@@ -26101,10 +26400,10 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "400.98333740234375px",
-          "top": "143.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "32.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -26117,7 +26416,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00336": {
         "tpl": "tplJquiSelectList",
@@ -26180,15 +26480,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "456px",
-          "top": "234.9833221435547px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "69.51%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00337": {
         "tpl": "tplJquiInputDatetime",
@@ -26257,10 +26558,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "400.98333740234375px",
-          "top": "264.99998474121094px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "81.71%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -26273,7 +26574,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00338": {
         "tpl": "tplHtml",
@@ -26337,12 +26639,13 @@
           "name": ""
         },
         "style": {
-          "left": "563.9833374023438px",
-          "top": "131.9833221435547px",
-          "width": "123px",
-          "height": "10px"
+          "left": "15.19%",
+          "top": "27.64%",
+          "width": "71.93%",
+          "height": "4.07%"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00339": {
         "tpl": "tplHtml",
@@ -26405,13 +26708,14 @@
           "class": "mdui-card-outlined"
         },
         "style": {
-          "left": "538px",
-          "top": "64px",
-          "width": "171px",
-          "height": "246px",
+          "left": "0%",
+          "top": "0%",
+          "width": "100%",
+          "height": "100%",
           "z-index": "0"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00340": {
         "tpl": "tplHtml",
@@ -26476,13 +26780,14 @@
           "name": ""
         },
         "style": {
-          "left": "553.9833374023438px",
-          "top": "79.98333740234375px",
-          "width": "140px",
-          "height": "22px",
+          "left": "9.35%",
+          "top": "6.5%",
+          "width": "81.87%",
+          "height": "8.94%",
           "z-index": "2"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00341": {
         "tpl": "tplHtml",
@@ -26548,14 +26853,15 @@
           "name": ""
         },
         "style": {
-          "left": "553.9833374023438px",
-          "top": "264.99998474121094px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "81.71%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00342": {
         "tpl": "tplHtml",
@@ -26621,14 +26927,15 @@
           "name": ""
         },
         "style": {
-          "left": "553.9833374023438px",
-          "top": "234.9833221435547px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "69.51%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00343": {
         "tpl": "tplHtml",
@@ -26694,14 +27001,15 @@
           "name": ""
         },
         "style": {
-          "left": "553.9833374023438px",
-          "top": "203.96665954589844px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "56.9%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00344": {
         "tpl": "tplHtml",
@@ -26767,14 +27075,15 @@
           "name": ""
         },
         "style": {
-          "left": "553.9833374023438px",
-          "top": "173.99998474121094px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "44.72%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00345": {
         "tpl": "tplHtml",
@@ -26840,14 +27149,15 @@
           "name": ""
         },
         "style": {
-          "left": "553.9833374023438px",
-          "top": "142.9833221435547px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "32.11%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00346": {
         "tpl": "tplHtml",
@@ -26918,16 +27228,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "619px",
-          "top": "111.98333740234375px",
-          "width": "30px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "19.51%",
+          "width": "17.54%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00347": {
         "tpl": "tplHtml",
@@ -26998,16 +27309,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "563.9833374023438px",
-          "top": "111.98333740234375px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "19.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00348": {
         "tpl": "tplJquiSelectList",
@@ -27070,15 +27382,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "619px",
-          "top": "264.99998474121094px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "81.71%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00349": {
         "tpl": "tplJquiInputDatetime",
@@ -27147,10 +27460,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "563.9833374023438px",
-          "top": "235.99998474121094px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "69.92%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -27163,7 +27476,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00350": {
         "tpl": "tplJquiSelectList",
@@ -27226,15 +27540,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "619px",
-          "top": "203.96665954589844px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "56.9%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00351": {
         "tpl": "tplJquiInputDatetime",
@@ -27303,10 +27618,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "563.9833374023438px",
-          "top": "203.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "56.9%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -27319,7 +27634,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00352": {
         "tpl": "tplJquiSelectList",
@@ -27382,15 +27698,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "619px",
-          "top": "173.99998474121094px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "44.72%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00353": {
         "tpl": "tplJquiInputDatetime",
@@ -27459,10 +27776,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "563.9833374023438px",
-          "top": "174.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "45.12%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -27475,7 +27792,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00354": {
         "tpl": "tplJquiSelectList",
@@ -27540,15 +27858,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "619px",
-          "top": "142.9833221435547px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "32.11%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00355": {
         "tpl": "tplJquiInputDatetime",
@@ -27616,10 +27935,10 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "563.9833374023438px",
-          "top": "143.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "32.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -27632,7 +27951,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00356": {
         "tpl": "tplJquiSelectList",
@@ -27695,15 +28015,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "619px",
-          "top": "234.9833221435547px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "69.51%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00357": {
         "tpl": "tplJquiInputDatetime",
@@ -27772,10 +28093,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "563.9833374023438px",
-          "top": "264.99998474121094px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "81.71%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -27788,7 +28109,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00358": {
         "tpl": "tplHtml",
@@ -27852,12 +28174,13 @@
           "name": ""
         },
         "style": {
-          "left": "74.98333740234375px",
-          "top": "131.9833221435547px",
-          "width": "123px",
-          "height": "10px"
+          "left": "15.19%",
+          "top": "27.64%",
+          "width": "71.93%",
+          "height": "4.07%"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00359": {
         "tpl": "tplHtml",
@@ -27920,13 +28243,14 @@
           "class": "mdui-card-outlined"
         },
         "style": {
-          "left": "49px",
-          "top": "64px",
-          "width": "171px",
-          "height": "246px",
+          "left": "0%",
+          "top": "0%",
+          "width": "100%",
+          "height": "100%",
           "z-index": "0"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00360": {
         "tpl": "tplHtml",
@@ -27991,13 +28315,14 @@
           "name": ""
         },
         "style": {
-          "left": "64.98333740234375px",
-          "top": "79.98333740234375px",
-          "width": "140px",
-          "height": "22px",
+          "left": "9.35%",
+          "top": "6.5%",
+          "width": "81.87%",
+          "height": "8.94%",
           "z-index": "2"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00361": {
         "tpl": "tplHtml",
@@ -28063,14 +28388,15 @@
           "name": ""
         },
         "style": {
-          "left": "64.98333740234375px",
-          "top": "264.99998474121094px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "81.71%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00362": {
         "tpl": "tplHtml",
@@ -28136,14 +28462,15 @@
           "name": ""
         },
         "style": {
-          "left": "64.98333740234375px",
-          "top": "234.9833221435547px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "69.51%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00363": {
         "tpl": "tplHtml",
@@ -28209,14 +28536,15 @@
           "name": ""
         },
         "style": {
-          "left": "64.98333740234375px",
-          "top": "203.96665954589844px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "56.9%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00364": {
         "tpl": "tplHtml",
@@ -28282,14 +28610,15 @@
           "name": ""
         },
         "style": {
-          "left": "64.98333740234375px",
-          "top": "173.99998474121094px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "44.72%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00365": {
         "tpl": "tplHtml",
@@ -28355,14 +28684,15 @@
           "name": ""
         },
         "style": {
-          "left": "64.98333740234375px",
-          "top": "142.9833221435547px",
-          "width": "140px",
-          "height": "30px",
+          "left": "9.35%",
+          "top": "32.11%",
+          "width": "81.87%",
+          "height": "12.2%",
           "z-index": "1",
           "opacity": "0.4"
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00366": {
         "tpl": "tplHtml",
@@ -28433,16 +28763,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "130px",
-          "top": "111.98333740234375px",
-          "width": "30px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "19.51%",
+          "width": "17.54%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00367": {
         "tpl": "tplHtml",
@@ -28513,16 +28844,17 @@
           "class": "mdui-label mdui-center-v"
         },
         "style": {
-          "left": "74.98333740234375px",
-          "top": "111.98333740234375px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "19.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "color": "",
           "font-weight": ""
         },
-        "widgetSet": "basic"
+        "widgetSet": "basic",
+        "grouped": true
       },
       "w00368": {
         "tpl": "tplJquiSelectList",
@@ -28585,15 +28917,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "130px",
-          "top": "264.99998474121094px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "81.71%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00369": {
         "tpl": "tplJquiInputDatetime",
@@ -28662,10 +28995,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "74.98333740234375px",
-          "top": "235.99998474121094px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "69.92%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -28678,7 +29011,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00370": {
         "tpl": "tplJquiSelectList",
@@ -28741,15 +29075,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "130px",
-          "top": "203.96665954589844px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "56.9%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00371": {
         "tpl": "tplJquiInputDatetime",
@@ -28818,10 +29153,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "74.98333740234375px",
-          "top": "203.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "56.9%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -28834,7 +29169,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00372": {
         "tpl": "tplJquiSelectList",
@@ -28897,15 +29233,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "130px",
-          "top": "173.99998474121094px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "44.72%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00373": {
         "tpl": "tplJquiInputDatetime",
@@ -28974,10 +29311,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "74.98333740234375px",
-          "top": "174.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "45.12%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -28990,7 +29327,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00374": {
         "tpl": "tplJquiSelectList",
@@ -29055,15 +29393,16 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "130px",
-          "top": "142.9833221435547px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "32.11%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00375": {
         "tpl": "tplJquiInputDatetime",
@@ -29131,10 +29470,10 @@
           "visibility-groups-action": "hide"
         },
         "style": {
-          "left": "74.98333740234375px",
-          "top": "143.9833221435547px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "32.51%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -29147,7 +29486,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00376": {
         "tpl": "tplJquiSelectList",
@@ -29210,15 +29550,16 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "130px",
-          "top": "234.9833221435547px",
-          "width": "65px",
-          "height": "26px",
+          "left": "47.37%",
+          "top": "69.51%",
+          "width": "38.01%",
+          "height": "10.57%",
           "z-index": "2",
           "font-size": "",
           "font-weight": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00377": {
         "tpl": "tplJquiInputDatetime",
@@ -29287,10 +29628,10 @@
           "visibility-oid": "heatingcontrol.0.info.NumberOfPeriods"
         },
         "style": {
-          "left": "74.98333740234375px",
-          "top": "264.99998474121094px",
-          "width": "50px",
-          "height": "26px",
+          "left": "15.19%",
+          "top": "81.71%",
+          "width": "29.24%",
+          "height": "10.57%",
           "font-weight": "",
           "font-size": "",
           "border-radius": "",
@@ -29303,7 +29644,8 @@
           "color": "",
           "background": ""
         },
-        "widgetSet": "jqui"
+        "widgetSet": "jqui",
+        "grouped": true
       },
       "w00378": {
         "tpl": "tplHtml",
@@ -30145,11 +30487,571 @@
           "height": "40px"
         },
         "widgetSet": "basic"
+      },
+      "g00005": {
+        "tpl": "_tplGroup",
+        "data": {
+          "members": [
+            "w00238",
+            "w00239",
+            "w00240",
+            "w00241",
+            "w00242",
+            "w00243",
+            "w00244",
+            "w00245",
+            "w00246",
+            "w00247",
+            "w00248",
+            "w00249",
+            "w00250",
+            "w00251",
+            "w00252",
+            "w00253",
+            "w00254",
+            "w00255",
+            "w00256",
+            "w00257"
+          ],
+          "visibility-cond": "==",
+          "visibility-val": 1,
+          "visibility-groups-action": "hide",
+          "attrCount": "1",
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0
+        },
+        "widgetSet": null,
+        "style": {
+          "top": "64px",
+          "left": 1027.0000610351562,
+          "width": "171px",
+          "height": "246px"
+        }
+      },
+      "g00006": {
+        "tpl": "_tplGroup",
+        "data": {
+          "members": [
+            "w00258",
+            "w00259",
+            "w00260",
+            "w00261",
+            "w00262",
+            "w00263",
+            "w00264",
+            "w00265",
+            "w00266",
+            "w00267",
+            "w00268",
+            "w00269",
+            "w00270",
+            "w00271",
+            "w00272",
+            "w00273",
+            "w00274",
+            "w00275",
+            "w00276",
+            "w00277"
+          ],
+          "visibility-cond": "==",
+          "visibility-val": 1,
+          "visibility-groups-action": "hide",
+          "attrCount": "1",
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0
+        },
+        "widgetSet": null,
+        "style": {
+          "top": "64px",
+          "left": 864.0000610351562,
+          "width": "171px",
+          "height": "246px"
+        }
+      },
+      "g00007": {
+        "tpl": "_tplGroup",
+        "data": {
+          "members": [
+            "w00278",
+            "w00279",
+            "w00280",
+            "w00281",
+            "w00282",
+            "w00283",
+            "w00284",
+            "w00285",
+            "w00286",
+            "w00287",
+            "w00288",
+            "w00289",
+            "w00290",
+            "w00291",
+            "w00292",
+            "w00293",
+            "w00294",
+            "w00295",
+            "w00296",
+            "w00297"
+          ],
+          "visibility-cond": "==",
+          "visibility-val": 1,
+          "visibility-groups-action": "hide",
+          "attrCount": "1",
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0
+        },
+        "widgetSet": null,
+        "style": {
+          "top": "64px",
+          "left": "701px",
+          "width": "171px",
+          "height": "246px"
+        }
+      },
+      "g00008": {
+        "tpl": "_tplGroup",
+        "data": {
+          "members": [
+            "w00338",
+            "w00339",
+            "w00340",
+            "w00341",
+            "w00342",
+            "w00343",
+            "w00344",
+            "w00345",
+            "w00346",
+            "w00347",
+            "w00348",
+            "w00349",
+            "w00350",
+            "w00351",
+            "w00352",
+            "w00353",
+            "w00354",
+            "w00355",
+            "w00356",
+            "w00357"
+          ],
+          "visibility-cond": "==",
+          "visibility-val": 1,
+          "visibility-groups-action": "hide",
+          "attrCount": "1",
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0
+        },
+        "widgetSet": null,
+        "style": {
+          "top": "64px",
+          "left": "538px",
+          "width": "171px",
+          "height": "246px"
+        }
+      },
+      "g00009": {
+        "tpl": "_tplGroup",
+        "data": {
+          "members": [
+            "w00318",
+            "w00319",
+            "w00320",
+            "w00321",
+            "w00322",
+            "w00323",
+            "w00324",
+            "w00325",
+            "w00326",
+            "w00327",
+            "w00328",
+            "w00329",
+            "w00330",
+            "w00331",
+            "w00332",
+            "w00333",
+            "w00334",
+            "w00335",
+            "w00336",
+            "w00337"
+          ],
+          "visibility-cond": "==",
+          "visibility-val": 1,
+          "visibility-groups-action": "hide",
+          "attrCount": "1",
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0
+        },
+        "widgetSet": null,
+        "style": {
+          "top": "64px",
+          "left": "375px",
+          "width": "171px",
+          "height": "246px"
+        }
+      },
+      "g00010": {
+        "tpl": "_tplGroup",
+        "data": {
+          "members": [
+            "w00298",
+            "w00299",
+            "w00300",
+            "w00301",
+            "w00302",
+            "w00303",
+            "w00304",
+            "w00305",
+            "w00306",
+            "w00307",
+            "w00308",
+            "w00309",
+            "w00310",
+            "w00311",
+            "w00312",
+            "w00313",
+            "w00314",
+            "w00315",
+            "w00316",
+            "w00317"
+          ],
+          "visibility-cond": "==",
+          "visibility-val": 1,
+          "visibility-groups-action": "hide",
+          "attrCount": "1",
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0
+        },
+        "widgetSet": null,
+        "style": {
+          "top": "64px",
+          "left": "212px",
+          "width": "171px",
+          "height": "246px"
+        }
+      },
+      "g00012": {
+        "tpl": "_tplGroup",
+        "data": {
+          "members": [
+            "w00358",
+            "w00359",
+            "w00360",
+            "w00361",
+            "w00362",
+            "w00363",
+            "w00364",
+            "w00365",
+            "w00366",
+            "w00367",
+            "w00368",
+            "w00369",
+            "w00370",
+            "w00371",
+            "w00372",
+            "w00373",
+            "w00374",
+            "w00375",
+            "w00376",
+            "w00377"
+          ],
+          "visibility-cond": "==",
+          "visibility-val": 1,
+          "visibility-groups-action": "hide",
+          "attrCount": "1",
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0
+        },
+        "widgetSet": null,
+        "style": {
+          "top": "64px",
+          "left": "49px",
+          "width": "171px",
+          "height": "246px"
+        }
       }
     },
     "name": "cardHzngMoSuSeparat",
     "activeWidgets": [
-      "w00365"
+      "g00012"
     ],
     "filterList": []
   },
@@ -30162,7 +31064,8 @@
       "sizex": "",
       "sizey": "",
       "gridSize": "",
-      "useBackground": false
+      "useBackground": false,
+      "snapType": null
     },
     "widgets": {
       "w00389": {
@@ -30660,8 +31563,9 @@
           "html_true": "<div class=mdui-green>Abwesenheits Absenkung",
           "class": "mdui-center-v mdui-label",
           "visibility-cond": "==",
-          "visibility-val": 1,
-          "visibility-groups-action": "hide"
+          "visibility-val": "relative",
+          "visibility-groups-action": "hide",
+          "visibility-oid": "heatingcontrol.0.info.TemperatureDecreaseMode"
         },
         "style": {
           "left": "16px",
@@ -30680,7 +31584,7 @@
         "data": {
           "oid": "heatingcontrol.0.PartyNow",
           "g_fixed": false,
-          "g_visibility": false,
+          "g_visibility": true,
           "g_css_font_text": true,
           "g_css_background": false,
           "g_css_shadow_padding": false,
@@ -30734,8 +31638,9 @@
           "html_true": "<div class=mdui-red>Party Absenkung",
           "class": "mdui-center-v mdui-label",
           "visibility-cond": "==",
-          "visibility-val": 1,
-          "visibility-groups-action": "hide"
+          "visibility-val": "relative",
+          "visibility-groups-action": "hide",
+          "visibility-oid": "heatingcontrol.0.info.TemperatureDecreaseMode"
         },
         "style": {
           "left": "16px",
@@ -30754,7 +31659,7 @@
         "data": {
           "oid": "heatingcontrol.0.GuestsPresent",
           "g_fixed": false,
-          "g_visibility": false,
+          "g_visibility": true,
           "g_css_font_text": true,
           "g_css_background": false,
           "g_css_shadow_padding": false,
@@ -30808,8 +31713,9 @@
           "html_true": "<div class=mdui-red>Gäste Anhebung",
           "class": "mdui-center-v mdui-label",
           "visibility-cond": "==",
-          "visibility-val": 1,
-          "visibility-groups-action": "hide"
+          "visibility-val": "relative",
+          "visibility-groups-action": "hide",
+          "visibility-oid": "heatingcontrol.0.info.TemperatureDecreaseMode"
         },
         "style": {
           "left": "16px",
@@ -30868,7 +31774,7 @@
           "signals-horz-2": 0,
           "signals-vert-2": 0,
           "signals-hide-edit-2": false,
-          "g_visibility": false,
+          "g_visibility": true,
           "lc-type": "last-change",
           "lc-is-interval": true,
           "lc-is-moment": false,
@@ -31319,87 +32225,6 @@
         },
         "widgetSet": "jqui"
       },
-      "w00128": {
-        "tpl": "tplHtml",
-        "data": {
-          "hm_id": 65535,
-          "digits": "",
-          "factor": 1,
-          "min": 0,
-          "max": 1,
-          "step": 0.01,
-          "html": "Minimal Temperatur",
-          "views": [
-            "DemoView",
-            "UG",
-            "Sonos",
-            "Set",
-            "KG"
-          ],
-          "refreshInterval": "0",
-          "name": "Text Aktives Profil",
-          "gestures-offsetX": 0,
-          "gestures-offsetY": 0,
-          "signals-cond-0": "==",
-          "signals-val-0": true,
-          "signals-icon-0": "/vis/signals/lowbattery.png",
-          "signals-icon-size-0": 0,
-          "signals-blink-0": false,
-          "signals-horz-0": 0,
-          "signals-vert-0": 0,
-          "signals-hide-edit-0": false,
-          "signals-cond-1": "==",
-          "signals-val-1": true,
-          "signals-icon-1": "/vis/signals/lowbattery.png",
-          "signals-icon-size-1": 0,
-          "signals-blink-1": false,
-          "signals-horz-1": 0,
-          "signals-vert-1": 0,
-          "signals-hide-edit-1": false,
-          "signals-cond-2": "==",
-          "signals-val-2": true,
-          "signals-icon-2": "/vis/signals/lowbattery.png",
-          "signals-icon-size-2": 0,
-          "signals-blink-2": false,
-          "signals-horz-2": 0,
-          "signals-vert-2": 0,
-          "signals-hide-edit-2": false,
-          "g_visibility": false,
-          "lc-type": "last-change",
-          "lc-is-interval": true,
-          "lc-is-moment": false,
-          "lc-format": "",
-          "lc-position-vert": "top",
-          "lc-position-horz": "right",
-          "lc-offset-vert": 0,
-          "lc-offset-horz": 0,
-          "lc-font-size": "12px",
-          "lc-font-family": "",
-          "lc-font-style": "",
-          "lc-bkg-color": "",
-          "lc-color": "",
-          "lc-border-width": "0",
-          "lc-border-style": "",
-          "lc-border-color": "",
-          "lc-border-radius": 10,
-          "lc-zindex": 0,
-          "class": "mdui-center-v mdui-label mdui-green",
-          "visibility-cond": "==",
-          "visibility-val": 1,
-          "visibility-groups-action": "hide"
-        },
-        "style": {
-          "left": "16px",
-          "top": "263px",
-          "width": "476px",
-          "height": "26px",
-          "z-index": "1",
-          "font-size": "",
-          "color": "",
-          "font-weight": ""
-        },
-        "widgetSet": "basic"
-      },
       "w00129": {
         "tpl": "tplValueBool",
         "data": {
@@ -31479,7 +32304,7 @@
         "data": {
           "oid": "heatingcontrol.0.vis.RoomValues.WindowIsOpen",
           "g_fixed": false,
-          "g_visibility": false,
+          "g_visibility": true,
           "g_css_font_text": true,
           "g_css_background": false,
           "g_css_shadow_padding": false,
@@ -31533,12 +32358,13 @@
           "html_true": "<div class=mdui-red>Fenster offen Absenkung",
           "class": "mdui-center-v mdui-label",
           "visibility-cond": "==",
-          "visibility-val": 1,
-          "visibility-groups-action": "hide"
+          "visibility-val": "relative",
+          "visibility-groups-action": "hide",
+          "visibility-oid": "heatingcontrol.0.info.TemperatureDecreaseMode"
         },
         "style": {
           "left": "16px",
-          "top": "201.98333740234375px",
+          "top": "202px",
           "width": "476px",
           "height": "26px",
           "font-size": "",
@@ -31607,8 +32433,9 @@
           "html_true": "<div class=mdui-red>Urlaub abwesend Absenkung",
           "class": "mdui-center-v mdui-label",
           "visibility-cond": "==",
-          "visibility-val": 1,
-          "visibility-groups-action": "hide"
+          "visibility-val": "relative",
+          "visibility-groups-action": "hide",
+          "visibility-oid": "heatingcontrol.0.info.TemperatureDecreaseMode"
         },
         "style": {
           "left": "16px",
@@ -31621,11 +32448,392 @@
           "color": ""
         },
         "widgetSet": "basic"
+      },
+      "w00484": {
+        "tpl": "tplValueBool",
+        "data": {
+          "oid": "heatingcontrol.0.GuestsPresent",
+          "g_fixed": false,
+          "g_visibility": true,
+          "g_css_font_text": true,
+          "g_css_background": false,
+          "g_css_shadow_padding": false,
+          "g_css_border": false,
+          "g_gestures": false,
+          "g_signals": false,
+          "g_last_change": false,
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0,
+          "html_false": "<div class=mdui-green>Gäste Temperatur",
+          "html_true": "<div class=mdui-red>Gäste Temperatur",
+          "class": "mdui-center-v mdui-label",
+          "visibility-cond": "==",
+          "visibility-val": "absolute",
+          "visibility-groups-action": "hide",
+          "visibility-oid": "heatingcontrol.0.info.TemperatureDecreaseMode"
+        },
+        "style": {
+          "left": "16px",
+          "top": "80px",
+          "width": "476px",
+          "height": "26px",
+          "font-size": "",
+          "font-weight": "",
+          "z-index": "1",
+          "color": ""
+        },
+        "widgetSet": "basic"
+      },
+      "w00485": {
+        "tpl": "tplValueBool",
+        "data": {
+          "oid": "heatingcontrol.0.PartyNow",
+          "g_fixed": false,
+          "g_visibility": true,
+          "g_css_font_text": true,
+          "g_css_background": false,
+          "g_css_shadow_padding": false,
+          "g_css_border": false,
+          "g_gestures": false,
+          "g_signals": false,
+          "g_last_change": false,
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0,
+          "html_false": "<div class=mdui-green>Party Temperatur",
+          "html_true": "<div class=mdui-red>Party Temperatur",
+          "class": "mdui-center-v mdui-label",
+          "visibility-cond": "==",
+          "visibility-val": "absolute",
+          "visibility-groups-action": "hide",
+          "visibility-oid": "heatingcontrol.0.info.TemperatureDecreaseMode"
+        },
+        "style": {
+          "left": "16px",
+          "top": "110px",
+          "width": "476px",
+          "height": "26px",
+          "font-size": "",
+          "font-weight": "",
+          "z-index": "1",
+          "color": ""
+        },
+        "widgetSet": "basic"
+      },
+      "w00486": {
+        "tpl": "tplValueBool",
+        "data": {
+          "oid": "heatingcontrol.0.Present",
+          "g_fixed": false,
+          "g_visibility": false,
+          "g_css_font_text": true,
+          "g_css_background": false,
+          "g_css_shadow_padding": false,
+          "g_css_border": false,
+          "g_gestures": false,
+          "g_signals": false,
+          "g_last_change": false,
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0,
+          "html_false": "<div class=mdui-red>Abwesenheits Temperatur",
+          "html_true": "<div class=mdui-green>Abwesenheits Temperatur",
+          "class": "mdui-center-v mdui-label",
+          "visibility-cond": "==",
+          "visibility-val": "absolute",
+          "visibility-groups-action": "hide",
+          "visibility-oid": "heatingcontrol.0.info.TemperatureDecreaseMode"
+        },
+        "style": {
+          "left": "16px",
+          "top": "141px",
+          "width": "476px",
+          "height": "26px",
+          "font-size": "",
+          "font-weight": "",
+          "z-index": "1",
+          "color": ""
+        },
+        "widgetSet": "basic"
+      },
+      "w00487": {
+        "tpl": "tplValueBool",
+        "data": {
+          "oid": "heatingcontrol.0.VacationAbsent",
+          "g_fixed": false,
+          "g_visibility": false,
+          "g_css_font_text": true,
+          "g_css_background": false,
+          "g_css_shadow_padding": false,
+          "g_css_border": false,
+          "g_gestures": false,
+          "g_signals": false,
+          "g_last_change": false,
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0,
+          "html_false": "<div class=mdui-green>Urlaub abwesend Temperatur",
+          "html_true": "<div class=mdui-red>Urlaub abwesend Temperatur",
+          "class": "mdui-center-v mdui-label",
+          "visibility-cond": "==",
+          "visibility-val": "absolute",
+          "visibility-groups-action": "hide",
+          "visibility-oid": "heatingcontrol.0.info.TemperatureDecreaseMode"
+        },
+        "style": {
+          "left": "16px",
+          "top": "172px",
+          "width": "476px",
+          "height": "26px",
+          "font-size": "",
+          "font-weight": "",
+          "z-index": "1",
+          "color": ""
+        },
+        "widgetSet": "basic"
+      },
+      "w00488": {
+        "tpl": "tplValueBool",
+        "data": {
+          "oid": "heatingcontrol.0.vis.RoomValues.WindowIsOpen",
+          "g_fixed": false,
+          "g_visibility": true,
+          "g_css_font_text": true,
+          "g_css_background": false,
+          "g_css_shadow_padding": false,
+          "g_css_border": false,
+          "g_gestures": false,
+          "g_signals": false,
+          "g_last_change": false,
+          "signals-cond-0": "==",
+          "signals-val-0": true,
+          "signals-icon-0": "/vis/signals/lowbattery.png",
+          "signals-icon-size-0": 0,
+          "signals-blink-0": false,
+          "signals-horz-0": 0,
+          "signals-vert-0": 0,
+          "signals-hide-edit-0": false,
+          "signals-cond-1": "==",
+          "signals-val-1": true,
+          "signals-icon-1": "/vis/signals/lowbattery.png",
+          "signals-icon-size-1": 0,
+          "signals-blink-1": false,
+          "signals-horz-1": 0,
+          "signals-vert-1": 0,
+          "signals-hide-edit-1": false,
+          "signals-cond-2": "==",
+          "signals-val-2": true,
+          "signals-icon-2": "/vis/signals/lowbattery.png",
+          "signals-icon-size-2": 0,
+          "signals-blink-2": false,
+          "signals-horz-2": 0,
+          "signals-vert-2": 0,
+          "signals-hide-edit-2": false,
+          "lc-type": "last-change",
+          "lc-is-interval": true,
+          "lc-is-moment": false,
+          "lc-format": "",
+          "lc-position-vert": "top",
+          "lc-position-horz": "right",
+          "lc-offset-vert": 0,
+          "lc-offset-horz": 0,
+          "lc-font-size": "12px",
+          "lc-font-family": "",
+          "lc-font-style": "",
+          "lc-bkg-color": "",
+          "lc-color": "",
+          "lc-border-width": "0",
+          "lc-border-style": "",
+          "lc-border-color": "",
+          "lc-border-radius": 10,
+          "lc-zindex": 0,
+          "html_false": "<div class=mdui-green>Fenster offen Temperatur",
+          "html_true": "<div class=mdui-red>Fenster offen Temperatur",
+          "class": "mdui-center-v mdui-label",
+          "visibility-cond": "==",
+          "visibility-val": "absolute",
+          "visibility-groups-action": "hide",
+          "visibility-oid": "heatingcontrol.0.info.TemperatureDecreaseMode"
+        },
+        "style": {
+          "left": "16px",
+          "top": "202px",
+          "width": "476px",
+          "height": "26px",
+          "font-size": "",
+          "font-weight": "",
+          "z-index": "1",
+          "color": ""
+        },
+        "widgetSet": "basic"
       }
     },
     "name": "cardHzngProfilParam",
     "activeWidgets": [
-      "w00402"
+      "w00395",
+      "w00402",
+      "w00403",
+      "w00404",
+      "w00405",
+      "w00406",
+      "w00407"
     ],
     "filterList": []
   },
