@@ -1,10 +1,10 @@
 
 
-# View/Vis-Projekt Version 3.1.0 zum Adapter HeatingControl und Anleitung. 
+# View/Vis-Projekt Version 3.1.1 zum Adapter HeatingControl und Anleitung. 
 
 ## V3 Version ab HeatingControl 0.4.x benötigt KEIN separates Skript mehr, dieses wurde in den Adapter integriert!
 
-## HeatingControl 2.x benötigt V3.1 der vis, da hier die Profile und Perioden mit Index 1 starten 
+## HeatingControl 2.x benötigt V3.1 (oder höher) der vis, da hier die Profile und Perioden mit Index 1 starten 
 
 
 **If you like it, please consider a donation:**
