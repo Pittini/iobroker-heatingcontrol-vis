@@ -11,8 +11,8 @@
                                                                           
 [![paypal](https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GGF786JBJNYRN&source=url) 
 
-## Update von Version 3.0.1 auf die neue 3.1.0
-Wer bereits die 3.0.1 nutzt und gegebenenfalls eigene Anpassungen realisiert hat, möchte vielleicht nicht einfach die 3.1.0 installieren.
+## Update von Version 3.0.1 auf die neue 3.1.x
+Wer bereits die 3.0.1 nutzt und gegebenenfalls eigene Anpassungen realisiert hat, möchte vielleicht nicht einfach die 3.1.x installieren.
 Folgende Anpassungen *müssen* in der 3.0.1 gemacht werden, damit die vis kompatibel zu HeatingControl 2.x wird:
 
 in den views cardHzngMoSu, cardHzngMoSuSeparat und cardHzngMoFrSaSo müssen in allen Zeiten und Temperatur-widgets die Object-ID's jeweils um eins erhöht werden.
@@ -44,13 +44,13 @@ muss das für alle Profil-Temperatur-Widgets konfiguriert werden
 
 es gibt nun einen Datenpunkt, der der HTML-Liste zur Verfügung stellt, in der alle Räume mit Soll, Ist und Status aufgelistet werden.
 
-![news_V3.1_room_state_list.PNG](/admin/news_V3.1_room_state_list.PNG)
+![news_V3.11_room_state_list.PNG](/admin/news_V3.11_room_state_list.PNG)
 
 * neue Raum-Vorlage
 
 Die neue Raum-Vorlage enthält einen Status-Log und einen Button, zum Rücksetzen des Manual-Modus 
 
-![news_V3.1_room_template.PNG](/admin/news_V3.1_room_template.PNG)
+![news_V3.11_room_template.PNG](/admin/news_V3.11_room_template.PNG)
 
 
 * einfache Fenster-Status-Anzeige
@@ -84,10 +84,10 @@ Die einzelnen Element-Blöcke sind gruppiert und haben die gleiche Funktionalit�
 
 ##  Ab hier nun die Infos zum Projekt:
 
-![V2preview-2.png](/admin/V2preview-2.png)
+![V3preview-2.png](/admin/V3preview-2.png)
 
 **Voraussetzungen um das Vis Projekt ohne Änderungen verwenden zu können sind:**
-1. Du verwendest **Version 0.4.x oder höher** des HeatingControl Adapters, hast diesen funktionsfähig konfiguriert und die entsprechende Option ganz unten im Adapteradmin aktiviert.
+1. Du verwendest **Version 2.x oder höher** des HeatingControl Adapters, hast diesen funktionsfähig konfiguriert und die entsprechende Option ganz unten im Adapteradmin aktiviert.
 ![V3Activation.jpg](/admin/V3Activation.jpg)
 2. **Du verwendest keinen MaterialDesign Adapter!**
 
@@ -129,7 +129,7 @@ Nun solltest Du die Startseite mit dem rotierenden HeatingControl Logo sehen:
 Sobald Du auf Start oder das rotierende Logo klickst, gelangst Du auf die eigentliche Seite.
 Diese kann beispielsweise so aussehen, möglicherweise aber auch etwas anders, dies ist abhängig davon welche Optionen Du im HeatingControl Adapter gewählt hast
 
-![V2preview-2.png](/admin/V2preview-2.png)
+![V3preview-2.png](/admin/V3preview-2.png)
 
 **2. Warum schaut das bei mir so scheisse aus und gar nicht wie auf dem Screenshot?**
 Das Projekt verwendet das MaterialDesign Script und CSS 2.x von @Uhula, hast Du zusätzlich einen MaterialDesign Adapter installiert, kriegen die beiden sich in die Haare und keines von beiden wird mehr korrekt funktionieren. 
@@ -227,7 +227,8 @@ Diese Schritte wiederholst Du für jeden Raum. Klingt aufwendiger als es ist, et
 
 ## Changelog
 
-* #### Version 3.1 - Anpassung an HeatingControl 2.x
+* #### Version 3.11 - Optische und funktionale Anpassung der 3.1 Anpassung
+* #### Version 3.1 - Anpassung an HeatingControl 2.x (rg-engineering)
 * #### Version 3.0 - Großes update des gesamten Projekts da sich durch die integration des Skriptes in den Adapter alle Grundpfade der Datenpunkte änderten.
 * #### Scriptupdate > Version 1.0.5 - Bugfix bei "jeder Tag separat" Do und Fr wurden nicht gefunden.
 * #### Simple Vis updated > made prettyer.
