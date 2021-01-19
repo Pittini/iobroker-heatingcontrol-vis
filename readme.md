@@ -195,7 +195,7 @@ Hast Du alle Seiten angelegt, gehst Du sie wieder reihum durch und passt die Obj
 * Ändere die ObjekID beim Fenstersymbol auf den Datenpunkt des HeatingControl Adapters welcher den Fensterstatus des Raumes anzeigt (WindowIsOpen).
 * Ändere die ObjekID beim Wifi-Symbol auf den Datenpunkt Deines Thermostats (oder CCU) welcher den Connetion Status anzeigt.
 * Ändere die ObjekID beim Empfangsbalken auf den Datenpunkt welcher die Empfangsstärke (RSSI) des Thermostats anzeigt. 
-* Ändere die ObjekID bei der Batterieanzeig auf den Datenpunkt Deines Thermostats welcher die Batteriespannung anzeigt.
+* Ändere die ObjekID bei der Batterieanzeige auf den Datenpunkt Deines Thermostats welcher die Batteriespannung anzeigt.
 * Ändere die ObjekID bei "vor ... Minuten" auf den Datenpunkt Deines Thermostates welcher die gesetzte Temperatur anzeigt. (Damit hast Du einen Überblick ob die Regelung auch regelt).
 * Ändere die ObjekID bei "Temperatur am Regler" auf den Datenpunkt Deines Thermostates welcher die Ist Temperatur anzeigt.
 * Ändere die ObjekID bei "Ventilstellung" auf den Datenpunkt Deines Thermostates welcher die Ventilstellung anzeigt.
@@ -227,6 +227,7 @@ Diese Schritte wiederholst Du für jeden Raum. Klingt aufwendiger als es ist, et
 
 ## Changelog
 
+* #### Version 3.12 - Z-Order Problem bei cardHzngMoSu behoben; Problem nicht angezeigter Fenstersymbole behoben; Tooltips integriert;
 * #### Version 3.11 - Optische und funktionale Anpassung der 3.1 Anpassung
 * #### Version 3.1 - Anpassung an HeatingControl 2.x (rg-engineering)
 * #### Version 3.0 - Großes update des gesamten Projekts da sich durch die integration des Skriptes in den Adapter alle Grundpfade der Datenpunkte änderten.
