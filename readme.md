@@ -226,7 +226,7 @@ Diese Schritte wiederholst Du für jeden Raum. Klingt aufwendiger als es ist, et
 **5. Fertig** -  Viel Spaß.
 
 ## Changelog
-
+* #### Version 3.2.0 - Copy Buttons für Profil und Perioden hinzugefügt. Multi Language Support integriert.
 * #### Version 3.12 - Z-Order Problem bei cardHzngMoSu behoben; Problem nicht angezeigter Fenstersymbole behoben; Tooltips integriert;
 * #### Version 3.11 - Optische und funktionale Anpassung der 3.1 Anpassung
 * #### Version 3.1 - Anpassung an HeatingControl 2.x (rg-engineering)
