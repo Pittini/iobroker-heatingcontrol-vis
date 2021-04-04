@@ -1,6 +1,6 @@
 
 
-# View/Vis-Projekt Version 3.1.1 zum Adapter HeatingControl und Anleitung. 
+# View/Vis-Projekt Version 3.2.0 zum Adapter HeatingControl und Anleitung. 
 
 ## V3 Version ab HeatingControl 0.4.x benötigt KEIN separates Skript mehr, dieses wurde in den Adapter integriert!
 
