@@ -10,6 +10,12 @@
 **If you like it, please consider a donation:**
                                                                           
 [![paypal](https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GGF786JBJNYRN&source=url) 
+## Update von Version 3.1.x auf 3.2.0 (benötigt HeatingControl V 2.3.1 oder höher)
+Wer bereits die 3.1.x nutzt und gegebenenfalls eigene Anpassungen realisiert hat, möchte vielleicht nicht einfach die 3.2.x installieren.
+Folgende Anpassungen *müssen* in der 3.2.0 gemacht werden, damit die vis kompatibel zu HeatingControl 2.3.1 wird:
+
+Es müssen ALLE Texte durch Bindings ersetzt werden, welche auf heatingcontrol.0.vis.translations... weisen. Jeder Text hat dort eine Entsprechung.
+Der Profil Copy button gehört in die tnav und hat oid "heatingcontrol.0.vis.ProfileTypes.CopyProfile" und ist als Pushbutton mit Steuerwert 1 anzulegen. Dies gilt analog für die Perioden Copybuttons, diese haben oid "heatingcontrol.0.vis.ProfileTypes.Mon.CopyPeriods" als Bsp. wenn alle Tage separat gewählt und Montag den Button kriegen soll.
 
 ## Update von Version 3.0.1 auf die neue 3.1.x
 Wer bereits die 3.0.1 nutzt und gegebenenfalls eigene Anpassungen realisiert hat, möchte vielleicht nicht einfach die 3.1.x installieren.
@@ -226,7 +232,7 @@ Diese Schritte wiederholst Du für jeden Raum. Klingt aufwendiger als es ist, et
 **5. Fertig** -  Viel Spaß.
 
 ## Changelog
-* #### Version 3.2.0 - Copy Buttons für Profil und Perioden hinzugefügt. Multi Language Support integriert.
+* #### Version 3.2.0 - Copy Buttons für Profil und Perioden hinzugefügt. Multi Language Support integriert. (benötigt HeatingControl V 2.3.1 oder höher)
 * #### Version 3.12 - Z-Order Problem bei cardHzngMoSu behoben; Problem nicht angezeigter Fenstersymbole behoben; Tooltips integriert;
 * #### Version 3.11 - Optische und funktionale Anpassung der 3.1 Anpassung
 * #### Version 3.1 - Anpassung an HeatingControl 2.x (rg-engineering)
