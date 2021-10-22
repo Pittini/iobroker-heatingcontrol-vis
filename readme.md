@@ -1,8 +1,7 @@
 
 
-# View/Vis-Projekt Version 3.2.0 zum Adapter HeatingControl und Anleitung. 
+# View/Vis-Projekt Version 3.3.0 zum Adapter HeatingControl (ab V.2.7) und Anleitung. 
 
-## V3 Version ab HeatingControl 0.4.x benötigt KEIN separates Skript mehr, dieses wurde in den Adapter integriert!
 
 ## HeatingControl 2.x benötigt V3.1 (oder höher) der vis, da hier die Profile und Perioden mit Index 1 starten 
 
@@ -10,14 +9,27 @@
 **If you like it, please consider a donation:**
                                                                           
 [![paypal](https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=GGF786JBJNYRN&source=url) 
-## Update von Version 3.1.x auf 3.2.0 (benötigt HeatingControl V 2.3.1 oder höher)
+
+![V3preview-1.png](/admin/V3preview-1.png)
+
+## Update von Version 3.2.x auf 3.3.0 (benötigt HeatingControl V.2.7.0 oder höher)
+Wer bereits die 3.2.x nutzt und gegebenenfalls eigene Anpassungen realisiert hat, möchte vielleicht nicht einfach die 3.3.x  drüber installieren.
+Folgende Anpassungen wurden in der 3.3.0 gemacht, damit die vis kompatibel zu HeatingControl 2.7.x ist:
+1. Neuer Button in der tnav um Räume aktivieren/deaktivieren zu können. ObjektId zeigt auf *heatingcontrol.0.vis.isActive*
+2. Neuer Button in cardHzngGlobals für Wartungsmodus. ObjektId zeigt auf *heatingcontrol.0.MaintenanceActive*
+3. Neuer Schalter in cardHzngGlobals für Kaminmodus, Abstandsanpassung aller anderen Schalter um Platz dafür zu schaffen. ObjektId zeigt auf *heatingcontrol.0.FireplaceModeActive*
+4. Neuer Text und neues Temperaturauswahl DropDownfeld für Kaminmodus in cardHzngProfilParam. Anpassung der Abstände aller anderen Widgets um Platz dafür zu schaffen. ObjektId des DropDowns zeigt auf *heatingcontrol.0.vis.TempDecreaseValues.FireplaceModeDecrease*
+  
+###  Übersicht der Änderungen:
+![V33changespreview.jpg](/admin/V33changespreview.jpg)
+## Update von Version 3.1.x auf 3.2.0 (benötigt HeatingControl V.2.3.1 oder höher)
 Wer bereits die 3.1.x nutzt und gegebenenfalls eigene Anpassungen realisiert hat, möchte vielleicht nicht einfach die 3.2.x installieren.
 Folgende Anpassungen *müssen* in der 3.2.0 gemacht werden, damit die vis kompatibel zu HeatingControl 2.3.1 wird:
 
 Es müssen ALLE Texte durch Bindings ersetzt werden, welche auf heatingcontrol.0.vis.translations... weisen. Jeder Text hat dort eine Entsprechung.
 Der Profil Copy button gehört in die tnav und hat oid "heatingcontrol.0.vis.ProfileTypes.CopyProfile" und ist als Pushbutton mit Steuerwert 1 anzulegen. Dies gilt analog für die Perioden Copybuttons, diese haben oid "heatingcontrol.0.vis.ProfileTypes.Mon.CopyPeriods" als Bsp. wenn alle Tage separat gewählt und Montag den Button kriegen soll.
 
-## Update von Version 3.0.1 auf die neue 3.1.x
+## Update von Version 3.0.1 auf 3.1.x
 Wer bereits die 3.0.1 nutzt und gegebenenfalls eigene Anpassungen realisiert hat, möchte vielleicht nicht einfach die 3.1.x installieren.
 Folgende Anpassungen *müssen* in der 3.0.1 gemacht werden, damit die vis kompatibel zu HeatingControl 2.x wird:
 
@@ -85,15 +97,15 @@ Wer bereits Version 2.x verwendet und evtl. viele Anpassungen gemacht hat, bzw. 
 6. Es sollte nun alles laufen und aussehen wie vorher. Das in der V2 verwendete Skript wird nicht mehr benötigt, Du kannst es deaktivieren und löschen.
 
 ## ZusatzView:
-### V3.1.0-Vis-Simple-HeatingControl.txt (Stand 29.12.2020) enthält alle relevanten Elemente, um die Funktionalität in eigene Projekte integrieren zu können. Es entfällt dadurch jedoch Responsive Design, Farbeinstellungen, klappbare Cards, etc. 
+### V3.3.0-Vis-Simple-HeatingControl.txt (Stand 20.10.2021) enthält alle relevanten Elemente, um die Funktionalität in eigene Projekte integrieren zu können. Es entfällt dadurch jedoch Responsive Design, Farbeinstellungen, klappbare Cards, etc. 
 Die einzelnen Element-Blöcke sind gruppiert und haben die gleiche Funktionalität wie das große Projekt, es wurden jedoch alle Verweise auf MaterialDesign und relative Größenangaben entfernt. **Um die Optik müßt Ihr Euch hier selber kümmern.** Die Textdatei ist via "Widgets Importieren" einzufügen. Wer das große Projekt verwendet, braucht diese Datei NICHT.
 
 ##  Ab hier nun die Infos zum Projekt:
 
-![V3preview-2.png](/admin/V3preview-2.png)
+![V3preview-1.png](/admin/V3preview-1.png)
 
 **Voraussetzungen um das Vis Projekt ohne Änderungen verwenden zu können sind:**
-1. Du verwendest **Version 2.x oder höher** des HeatingControl Adapters, hast diesen funktionsfähig konfiguriert und die entsprechende Option ganz unten im Adapteradmin aktiviert.
+1. Du verwendest **Version 2.7 oder höher** des HeatingControl Adapters, hast diesen funktionsfähig konfiguriert und die entsprechende Option ganz unten im Adapteradmin aktiviert.
 ![V3Activation.jpg](/admin/V3Activation.jpg)
 2. **Du verwendest keinen MaterialDesign Adapter!**
 
@@ -135,7 +147,7 @@ Nun solltest Du die Startseite mit dem rotierenden HeatingControl Logo sehen:
 Sobald Du auf Start oder das rotierende Logo klickst, gelangst Du auf die eigentliche Seite.
 Diese kann beispielsweise so aussehen, möglicherweise aber auch etwas anders, dies ist abhängig davon welche Optionen Du im HeatingControl Adapter gewählt hast
 
-![V3preview-2.png](/admin/V3preview-2.png)
+![V3preview-1.png](/admin/V3preview-1.png)
 
 **2. Warum schaut das bei mir so scheisse aus und gar nicht wie auf dem Screenshot?**
 Das Projekt verwendet das MaterialDesign Script und CSS 2.x von @Uhula, hast Du zusätzlich einen MaterialDesign Adapter installiert, kriegen die beiden sich in die Haare und keines von beiden wird mehr korrekt funktionieren. 
@@ -232,6 +244,7 @@ Diese Schritte wiederholst Du für jeden Raum. Klingt aufwendiger als es ist, et
 **5. Fertig** -  Viel Spaß.
 
 ## Changelog
+* #### Version 3.3.0 - Raum De/Aktivierungsbutton in tnav hinzugefügt. Schalter bzw. Button für Kaminmodus und Wartungsmodus hinzugefügt. Zeilenabstände in cardGlobals und cardProfilparameter angepasst.
 * #### Version 3.2.0 - Copy Buttons für Profil und Perioden hinzugefügt. Multi Language Support integriert. (benötigt HeatingControl V 2.3.1 oder höher)
 * #### Version 3.12 - Z-Order Problem bei cardHzngMoSu behoben; Problem nicht angezeigter Fenstersymbole behoben; Tooltips integriert;
 * #### Version 3.11 - Optische und funktionale Anpassung der 3.1 Anpassung
